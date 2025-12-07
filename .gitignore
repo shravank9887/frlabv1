@@ -1,0 +1,185 @@
+# ============================================
+# Git Ignore for ForgeRock Docker Project
+# ============================================
+
+# ============================================
+# Docker Volumes and Data
+# ============================================
+# Don't commit Docker volume data
+docker-volumes/
+**/docker-volumes/
+ds/
+
+# Docker data directories
+**/pingds-data/
+**/pingam-config/
+**/pingam-logs/
+
+# ============================================
+# Sensitive Information
+# ============================================
+# Passwords, keys, certificates
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+*.truststore
+*.crt
+*.cer
+**/keystores/
+**/truststore/
+**/keystore/
+
+# Environment files with secrets
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+
+# Credential files
+credentials.json
+secrets.json
+password.txt
+**/passwords/
+
+# ============================================
+# ForgeRock Specific
+# ============================================
+# AM WAR files (large binaries)
+**/software/*.war
+**/software/AM-*.war
+
+# DS backup files
+**/backups/*.zip
+**/backups/*.gz
+**/backups/*.tar
+
+# Large installation files
+**/installfiles/*.zip
+**/installfiles/*.tar.gz
+**/installfiles/*.war
+
+# AM configuration exports
+**/am-config-export/
+**/config-export/
+
+# ============================================
+# Logs
+# ============================================
+*.log
+*.log.*
+logs/
+**/*.log
+**/logs/*.log
+**/tomcat/logs/
+**/opendj/logs/
+
+# ============================================
+# OS Specific
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============================================
+# IDE and Editor
+# ============================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================
+# Temporary Files
+# ============================================
+*.tmp
+*.temp
+*.cache
+tmp/
+temp/
+cache/
+
+# ============================================
+# Build Artifacts
+# ============================================
+target/
+build/
+dist/
+out/
+*.class
+
+# ============================================
+# What TO COMMIT
+# ============================================
+# Keep these files (override ignore rules above)
+!.gitignore
+!README.md
+!docker-compose.yaml
+!**/Dockerfile
+!**/*.sh
+!**/*.md
+!**/*.ldif
+!**/*.json
+!**/*.yaml
+!**/*.yml
+
+# Keep example/template files
+!**/*.example
+!**/*.template
+!**/.env.template
+
+# ============================================
+# Project Specific Exceptions
+# ============================================
+# Keep small reference files even if they match patterns above
+!**/SAMPLE_DATA_GUIDE.md
+!**/LDAP_STRUCTURE_GUIDE.md
+
+# Keep scripts
+!**/scripts/*.sh
+!**/scripts/*.bash
+
+# ============================================
+# Notes
+# ============================================
+# Documentation and notes should be committed
+!**/notes/*.md
+!**/Notes/*.md
+!**/*.md

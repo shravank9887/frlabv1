@@ -1,0 +1,77 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json
+
+services:
+  pingds:
+    build:
+      context: ./pingds
+      dockerfile: Dockerfile
+    image: pingds:latest
+    container_name: pingds
+    hostname: pingds
+    networks:
+      fr-net:
+        aliases:
+          - pingds
+          - ds.example.com
+    ports:
+      - "1389:1389"   # LDAP
+      - "1636:1636"   # LDAPS
+      - "4444:4444"   # Admin connector
+      - "8080:8080"   # HTTP
+      - "8443:8443"   # HTTPS
+    environment:
+      # DS Configuration
+      - DS_HOSTNAME=pingds
+      - DS_SERVER_ID=ds-server-01
+      - DS_DEPLOYMENT_ID=forgerock-eval
+      - DS_DEPLOYMENT_PASSWORD=Passw0rd123
+
+      # Root credentials
+      - DS_ROOT_PASSWORD=Passw0rd123
+      - DS_MONITOR_PASSWORD=Passw0rd123
+
+      # AM integration passwords
+      - AM_CONFIG_PASSWORD=Passw0rd123
+      - AM_IDENTITY_PASSWORD=Passw0rd123
+
+      # Java options
+      - OPENDJ_JAVA_ARGS=-server -Xmx1g -XX:+UseG1GC
+
+    volumes:
+      # Persistent data
+      - pingds-data:/opt/pingds-data
+
+      # Certificates (shared with other services)
+      - shared-certs:/opt/certs
+
+      # Backups
+      - pingds-backups:/opt/backups
+
+    restart: unless-stopped
+
+    healthcheck:
+      test: ["CMD", "/opt/opendj/bin/status", "--hostname", "pingds", "--port", "4444", "--bindDN", "cn=Directory Manager", "--bindPassword", "Passw0rd123", "--trustAll"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 90s
+
+# Named volumes for data persistence
+volumes:
+  pingds-data:
+    name: forgerock_pingds_data
+    driver: local
+
+  shared-certs:
+    name: forgerock_shared_certs
+    driver: local
+
+  pingds-backups:
+    name: forgerock_pingds_backups
+    driver: local
+
+# External network (already created)
+networks:
+  fr-net:
+    external: true
+    name: fr-net

@@ -1,0 +1,129 @@
+# ========================================
+# Sample Groups for ou=identities
+# ========================================
+#
+# This LDIF file contains sample groups for testing
+# Location: ou=groups,ou=identities
+#
+# To import this file:
+#   docker cp sample-groups.ldif pingds:/tmp/
+#   docker exec pingds /opt/opendj/bin/ldapmodify \
+#     --hostname pingds \
+#     --port 1636 \
+#     --useSSL \
+#     --trustAll \
+#     --bindDN "cn=Directory Manager" \
+#     --bindPassword "Passw0rd123" \
+#     --filename /tmp/sample-groups.ldif
+#
+# Note: Import sample-users.ldif FIRST before importing this file
+# ========================================
+
+# Group 1: Engineering Department
+dn: cn=Engineering,ou=groups,ou=identities
+changetype: add
+objectClass: top
+objectClass: groupOfUniqueNames
+cn: Engineering
+description: Engineering Department - All Engineers
+uniqueMember: uid=jdoe,ou=people,ou=identities
+uniqueMember: uid=jsmith,ou=people,ou=identities
+uniqueMember: uid=bjohnson,ou=people,ou=identities
+uniqueMember: uid=gwilson,ou=people,ou=identities
+
+# Group 2: Developers
+dn: cn=Developers,ou=groups,ou=identities
+changetype: add
+objectClass: top
+objectClass: groupOfUniqueNames
+cn: Developers
+description: Software Developers
+uniqueMember: uid=jsmith,ou=people,ou=identities
+uniqueMember: uid=gwilson,ou=people,ou=identities
+
+# Group 3: DevOps Team
+dn: cn=DevOps,ou=groups,ou=identities
+changetype: add
+objectClass: top
+objectClass: groupOfUniqueNames
+cn: DevOps
+description: DevOps and Infrastructure Team
+uniqueMember: uid=bjohnson,ou=people,ou=identities
+uniqueMember: uid=edavis,ou=people,ou=identities
+
+# Group 4: QA Team
+dn: cn=QA,ou=groups,ou=identities
+changetype: add
+objectClass: top
+objectClass: groupOfUniqueNames
+cn: QA
+description: Quality Assurance Team
+uniqueMember: uid=awilliams,ou=people,ou=identities
+
+# Group 5: Product Team
+dn: cn=Product,ou=groups,ou=identities
+changetype: add
+objectClass: top
+objectClass: groupOfUniqueNames
+cn: Product
+description: Product Management and Design
+uniqueMember: uid=cbrown,ou=people,ou=identities
+uniqueMember: uid=dmartinez,ou=people,ou=identities
+
+# Group 6: IT Operations
+dn: cn=ITOps,ou=groups,ou=identities
+changetype: add
+objectClass: top
+objectClass: groupOfUniqueNames
+cn: ITOps
+description: IT Operations Team
+uniqueMember: uid=edavis,ou=people,ou=identities
+uniqueMember: uid=handerson,ou=people,ou=identities
+
+# Group 7: Security Team
+dn: cn=Security,ou=groups,ou=identities
+changetype: add
+objectClass: top
+objectClass: groupOfUniqueNames
+cn: Security
+description: Security and Compliance Team
+uniqueMember: uid=handerson,ou=people,ou=identities
+
+# Group 8: Managers
+dn: cn=Managers,ou=groups,ou=identities
+changetype: add
+objectClass: top
+objectClass: groupOfUniqueNames
+cn: Managers
+description: All Managers
+uniqueMember: uid=jdoe,ou=people,ou=identities
+uniqueMember: uid=awilliams,ou=people,ou=identities
+uniqueMember: uid=cbrown,ou=people,ou=identities
+uniqueMember: uid=fgarcia,ou=people,ou=identities
+
+# Group 9: Full-Time Employees
+dn: cn=FullTime,ou=groups,ou=identities
+changetype: add
+objectClass: top
+objectClass: groupOfUniqueNames
+cn: FullTime
+description: Full-Time Employees
+uniqueMember: uid=jdoe,ou=people,ou=identities
+uniqueMember: uid=jsmith,ou=people,ou=identities
+uniqueMember: uid=bjohnson,ou=people,ou=identities
+uniqueMember: uid=awilliams,ou=people,ou=identities
+uniqueMember: uid=cbrown,ou=people,ou=identities
+uniqueMember: uid=dmartinez,ou=people,ou=identities
+uniqueMember: uid=edavis,ou=people,ou=identities
+uniqueMember: uid=fgarcia,ou=people,ou=identities
+uniqueMember: uid=handerson,ou=people,ou=identities
+
+# Group 10: Admins (Example administrative group)
+dn: cn=Admins,ou=groups,ou=identities
+changetype: add
+objectClass: top
+objectClass: groupOfUniqueNames
+cn: Admins
+description: System Administrators with elevated privileges
+uniqueMember: uid=edavis,ou=people,ou=identities
+uniqueMember: uid=handerson,ou=people,ou=identities

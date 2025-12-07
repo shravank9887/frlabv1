@@ -1,0 +1,58 @@
+# ========================================
+# Access Control Instructions (ACIs)
+# ========================================
+#
+# This file configures access control for the ou=identities branch
+# allowing users to:
+# - Read their own entries
+# - Search and read other user entries
+# - Update their own passwords
+#
+# To import this file:
+#   docker cp access-control.ldif pingds:/tmp/
+#   docker exec pingds /opt/opendj/bin/ldapmodify \
+#     --hostname pingds \
+#     --port 1636 \
+#     --useSSL \
+#     --trustAll \
+#     --bindDN "cn=Directory Manager" \
+#     --bindPassword "Passw0rd123" \
+#     --filename /tmp/access-control.ldif
+# ========================================
+
+# Apply ACIs to the ou=identities base
+dn: ou=identities
+changetype: modify
+add: aci
+# ACI 1: Allow users to read their own entry (self-read)
+aci: (target="ldap:///uid=*,ou=people,ou=identities")
+  (targetattr="*")
+  (version 3.0; acl "Self read access";
+  allow (read,search,compare) userdn="ldap:///self";)
+-
+add: aci
+# ACI 2: Allow users to modify their own password
+aci: (target="ldap:///uid=*,ou=people,ou=identities")
+  (targetattr="userPassword")
+  (version 3.0; acl "Self password modification";
+  allow (write) userdn="ldap:///self";)
+-
+add: aci
+# ACI 3: Allow authenticated users to read and search all user entries
+aci: (target="ldap:///ou=people,ou=identities")
+  (targetattr="uid || cn || sn || givenName || displayName || mail || telephoneNumber || mobile || title || departmentNumber || employeeNumber || employeeType || description || manager")
+  (version 3.0; acl "Authenticated users read access";
+  allow (read,search,compare) userdn="ldap:///all";)
+-
+add: aci
+# ACI 4: Allow authenticated users to read group information
+aci: (target="ldap:///ou=groups,ou=identities")
+  (targetattr="cn || description || uniqueMember || member")
+  (version 3.0; acl "Group read access";
+  allow (read,search,compare) userdn="ldap:///all";)
+-
+add: aci
+# ACI 5: Allow anonymous bind for authentication (read only cn and userPassword for bind)
+aci: (targetattr="cn || userPassword")
+  (version 3.0; acl "Anonymous bind access";
+  allow (read,search,compare) userdn="ldap:///anyone";)

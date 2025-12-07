@@ -1,0 +1,244 @@
+# ========================================
+# Sample Users for ou=identities
+# ========================================
+#
+# This LDIF file contains sample user accounts for testing
+# Location: ou=people,ou=identities
+#
+# To import this file:
+#   docker cp sample-users.ldif pingds:/tmp/
+#   docker exec pingds /opt/opendj/bin/ldapmodify \
+#     --hostname pingds \
+#     --port 1636 \
+#     --useSSL \
+#     --trustAll \
+#     --bindDN "cn=Directory Manager" \
+#     --bindPassword "TestUser@2024" \
+#     --filename /tmp/sample-users.ldif
+#
+# Default password for all users: TestUser@2024
+# ========================================
+
+# User 1: John Doe - Engineering Manager
+dn: uid=jdoe,ou=people,ou=identities
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: jdoe
+cn: John Doe
+sn: Doe
+givenName: John
+displayName: John Doe
+mail: jdoe@example.com
+telephoneNumber: +1-555-0100
+mobile: +1-555-0101
+title: Engineering Manager
+departmentNumber: 1000
+employeeNumber: E001
+employeeType: Full-Time
+userPassword: TestUser@2024
+description: Engineering Manager - Software Development
+
+# User 2: Jane Smith - Senior Developer
+dn: uid=jsmith,ou=people,ou=identities
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: jsmith
+cn: Jane Smith
+sn: Smith
+givenName: Jane
+displayName: Jane Smith
+mail: jsmith@example.com
+telephoneNumber: +1-555-0200
+mobile: +1-555-0201
+title: Senior Software Developer
+departmentNumber: 1000
+employeeNumber: E002
+employeeType: Full-Time
+manager: uid=jdoe,ou=people,ou=identities
+userPassword: TestUser@2024
+description: Senior Developer - Backend Systems
+
+# User 3: Bob Johnson - DevOps Engineer
+dn: uid=bjohnson,ou=people,ou=identities
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: bjohnson
+cn: Bob Johnson
+sn: Johnson
+givenName: Bob
+displayName: Bob Johnson
+mail: bjohnson@example.com
+telephoneNumber: +1-555-0300
+mobile: +1-555-0301
+title: DevOps Engineer
+departmentNumber: 1000
+employeeNumber: E003
+employeeType: Full-Time
+manager: uid=jdoe,ou=people,ou=identities
+userPassword: TestUser@2024
+description: DevOps Engineer - Infrastructure & Automation
+
+# User 4: Alice Williams - QA Lead
+dn: uid=awilliams,ou=people,ou=identities
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: awilliams
+cn: Alice Williams
+sn: Williams
+givenName: Alice
+displayName: Alice Williams
+mail: awilliams@example.com
+telephoneNumber: +1-555-0400
+mobile: +1-555-0401
+title: QA Lead
+departmentNumber: 1001
+employeeNumber: E004
+employeeType: Full-Time
+userPassword: TestUser@2024
+description: Quality Assurance Lead
+
+# User 5: Charlie Brown - Product Manager
+dn: uid=cbrown,ou=people,ou=identities
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: cbrown
+cn: Charlie Brown
+sn: Brown
+givenName: Charlie
+displayName: Charlie Brown
+mail: cbrown@example.com
+telephoneNumber: +1-555-0500
+mobile: +1-555-0501
+title: Product Manager
+departmentNumber: 2000
+employeeNumber: E005
+employeeType: Full-Time
+userPassword: TestUser@2024
+description: Product Manager - Platform Services
+
+# User 6: Diana Martinez - UX Designer
+dn: uid=dmartinez,ou=people,ou=identities
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: dmartinez
+cn: Diana Martinez
+sn: Martinez
+givenName: Diana
+displayName: Diana Martinez
+mail: dmartinez@example.com
+telephoneNumber: +1-555-0600
+mobile: +1-555-0601
+title: UX Designer
+departmentNumber: 2001
+employeeNumber: E006
+employeeType: Full-Time
+manager: uid=cbrown,ou=people,ou=identities
+userPassword: TestUser@2024
+description: UX/UI Designer - User Experience
+
+# User 7: Edward Davis - System Administrator
+dn: uid=edavis,ou=people,ou=identities
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: edavis
+cn: Edward Davis
+sn: Davis
+givenName: Edward
+displayName: Edward Davis
+mail: edavis@example.com
+telephoneNumber: +1-555-0700
+mobile: +1-555-0701
+title: System Administrator
+departmentNumber: 3000
+employeeNumber: E007
+employeeType: Full-Time
+userPassword: TestUser@2024
+description: System Administrator - IT Operations
+
+# User 8: Fiona Garcia - HR Manager
+dn: uid=fgarcia,ou=people,ou=identities
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: fgarcia
+cn: Fiona Garcia
+sn: Garcia
+givenName: Fiona
+displayName: Fiona Garcia
+mail: fgarcia@example.com
+telephoneNumber: +1-555-0800
+mobile: +1-555-0801
+title: HR Manager
+departmentNumber: 4000
+employeeNumber: E008
+employeeType: Full-Time
+userPassword: TestUser@2024
+description: Human Resources Manager
+
+# User 9: George Wilson - Junior Developer
+dn: uid=gwilson,ou=people,ou=identities
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: gwilson
+cn: George Wilson
+sn: Wilson
+givenName: George
+displayName: George Wilson
+mail: gwilson@example.com
+telephoneNumber: +1-555-0900
+mobile: +1-555-0901
+title: Junior Developer
+departmentNumber: 1000
+employeeNumber: E009
+employeeType: Intern
+manager: uid=jsmith,ou=people,ou=identities
+userPassword: TestUser@2024
+description: Junior Developer - Learning and Development
+
+# User 10: Helen Anderson - Security Analyst
+dn: uid=handerson,ou=people,ou=identities
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: handerson
+cn: Helen Anderson
+sn: Anderson
+givenName: Helen
+displayName: Helen Anderson
+mail: handerson@example.com
+telephoneNumber: +1-555-1000
+mobile: +1-555-1001
+title: Security Analyst
+departmentNumber: 3000
+employeeNumber: E010
+employeeType: Full-Time
+userPassword: TestUser@2024
+description: Security Analyst - Cybersecurity
