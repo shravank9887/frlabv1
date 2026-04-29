@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "ScriptTypes",
+    "entityId" : "CONFIG_PROVIDER_NODE",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "CONFIG_PROVIDER_NODE",
+    "isHidden" : false,
+    "languages" : [ "JAVASCRIPT", "GROOVY" ],
+    "defaultScript" : "5e854779-6ec1-4c39-aeba-0477e0986646",
+    "_type" : {
+      "_id" : "contexts",
+      "name" : "scriptContext",
+      "collection" : true
+    }
+  }
+}

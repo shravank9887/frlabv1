@@ -30,7 +30,9 @@ RUN apt-get update && \
         less \
         procps \
         # For LDAP troubleshooting
-        ldap-utils && \
+        ldap-utils \
+        # For privilege dropping in entrypoint
+        gosu && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
@@ -100,10 +102,11 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=120s --retries=5 \
 # Volumes for persistence
 VOLUME ["/opt/pingds-data", "/opt/certs", "/opt/backups", "/opt/logs"]
 
-# Switch to pingds user (non-root for security)
-USER pingds
+# Keep as root user initially to fix volume permissions
+# The entrypoint script will handle permission fixes and then run as pingds
+USER root
 
-# Entrypoint
+# Entrypoint wrapper that fixes permissions then drops to pingds user
 ENTRYPOINT ["/opt/scripts/docker-entrypoint.sh"]
 
 # Default command

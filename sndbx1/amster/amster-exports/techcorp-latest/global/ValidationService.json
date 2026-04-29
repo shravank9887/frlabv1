@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "ValidationService",
+    "entityId" : "ValidationService",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "validGotoDestinations" : [ ],
+    "defaults" : {
+      "validGotoDestinations" : [ ]
+    },
+    "_type" : {
+      "_id" : "validation",
+      "name" : "Validation Service",
+      "collection" : false
+    }
+  }
+}

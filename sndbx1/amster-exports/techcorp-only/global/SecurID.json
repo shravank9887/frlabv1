@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "SecurID",
+    "entityId" : "SecurID",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "defaults" : {
+      "serverConfigPath" : "/opt/am-config/config/auth/ace/data",
+      "authenticationLevel" : 0
+    },
+    "_type" : {
+      "_id" : "securid",
+      "name" : "SecurID",
+      "collection" : false
+    }
+  }
+}

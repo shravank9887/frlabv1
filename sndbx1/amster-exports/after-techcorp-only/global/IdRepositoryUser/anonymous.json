@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "IdRepositoryUser",
+    "entityId" : "anonymous",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "anonymous",
+    "roles" : [ ],
+    "inetUserStatus" : "Inactive",
+    "givenName" : "anonymous",
+    "iplanet-am-user-auth-config" : "[Empty]",
+    "userPassword" : null,
+    "sn" : "anonymous",
+    "dn" : "uid=anonymous,ou=people,",
+    "cn" : "anonymous",
+    "_type" : {
+      "_id" : "user",
+      "name" : "User",
+      "collection" : true
+    }
+  }
+}

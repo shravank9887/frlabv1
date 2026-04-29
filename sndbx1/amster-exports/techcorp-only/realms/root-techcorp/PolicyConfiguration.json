@@ -1,0 +1,36 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "PolicyConfiguration",
+    "entityId" : "PolicyConfiguration",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "userAliasEnabled" : false,
+    "connectionPoolMinimumSize" : 1,
+    "maximumSearchResults" : 100,
+    "policyHeartbeatTimeUnit" : "SECONDS",
+    "usersSearchAttribute" : "uid",
+    "searchTimeout" : 5,
+    "policyHeartbeatInterval" : 10,
+    "usersSearchScope" : "SCOPE_SUB",
+    "subjectsResultTTL" : 10,
+    "checkIfResourceTypeExists" : true,
+    "connectionPoolMaximumSize" : 10,
+    "sslEnabled" : true,
+    "bindDn" : "uid=am-identity-bind-account,ou=admins,ou=identities",
+    "ldapServer" : [ "pingds:1636" ],
+    "mtlsEnabled" : false,
+    "bindPassword" : null,
+    "realmSearchFilter" : "(objectclass=sunismanagedorganization)",
+    "usersSearchFilter" : "(objectclass=inetorgperson)",
+    "usersBaseDn" : "ou=identities",
+    "_type" : {
+      "_id" : "policyconfiguration",
+      "name" : "Policy Configuration",
+      "collection" : false
+    }
+  }
+}

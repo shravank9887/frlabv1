@@ -8,6 +8,7 @@ services:
     image: pingds:latest
     container_name: pingds
     hostname: pingds
+    user: "0"  # Run as root to fix volume permissions, entrypoint drops to pingds user
     networks:
       fr-net:
         aliases:
@@ -56,6 +57,52 @@ services:
       retries: 5
       start_period: 90s
 
+  pingam:
+    build:
+      context: ./pingam
+      dockerfile: Dockerfile
+    image: pingam:latest
+    container_name: pingam
+    hostname: pingam
+    networks:
+      fr-net:
+        aliases:
+          - pingam
+          - am.example.com
+    ports:
+      - "8081:8080"   # HTTP (mapped to 8081 to avoid conflict with PingDS)
+      - "8444:8443"   # HTTPS
+    environment:
+      # Truststore password (matches PingDS exported truststore)
+      - TRUSTSTORE_PASSWORD=changeit
+
+      # AM server settings (for reference)
+      - AM_SERVER_FQDN=pingam
+      - AM_SERVER_PORT=8080
+      - AM_SERVER_PROTOCOL=http
+    volumes:
+      # AM configuration (persistent)
+      - pingam-config:/opt/am-config
+
+      # Tomcat logs
+      - pingam-logs:/usr/local/tomcat/logs
+
+      # Shared certificates from PingDS
+      - shared-certs:/opt/certs:ro
+
+    depends_on:
+      pingds:
+        condition: service_healthy
+
+    restart: unless-stopped
+
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/am/isAlive.jsp"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 120s
+
 # Named volumes for data persistence
 volumes:
   pingds-data:
@@ -68,6 +115,14 @@ volumes:
 
   pingds-backups:
     name: forgerock_pingds_backups
+    driver: local
+
+  pingam-config:
+    name: forgerock_pingam_config
+    driver: local
+
+  pingam-logs:
+    name: forgerock_pingam_logs
     driver: local
 
 # External network (already created)

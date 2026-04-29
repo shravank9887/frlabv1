@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "Session",
+    "entityId" : "Session",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "dynamic" : {
+      "maxIdleTime" : 30,
+      "maxSessionTime" : 120,
+      "quotaLimit" : 5,
+      "maxCachingTime" : 3
+    },
+    "_type" : {
+      "_id" : "session",
+      "name" : "Session",
+      "collection" : false
+    }
+  }
+}

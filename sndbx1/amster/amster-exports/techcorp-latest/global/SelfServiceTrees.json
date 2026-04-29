@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "SelfServiceTrees",
+    "entityId" : "SelfServiceTrees",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "defaults" : {
+      "treeMapping" : { },
+      "enabled" : true
+    },
+    "_type" : {
+      "_id" : "selfServiceTrees",
+      "name" : "Self Service Trees",
+      "collection" : false
+    }
+  }
+}

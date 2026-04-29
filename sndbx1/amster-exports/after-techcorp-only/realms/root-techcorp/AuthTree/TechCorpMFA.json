@@ -1,0 +1,74 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "AuthTree",
+    "entityId" : "TechCorpMFA",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "TechCorpMFA",
+    "entryNodeId" : "da0cabb1-02a9-4f48-9588-6c064e01e733",
+    "innerTreeOnly" : false,
+    "noSession" : false,
+    "mustRun" : false,
+    "enabled" : true,
+    "uiConfig" : { },
+    "nodes" : {
+      "da0cabb1-02a9-4f48-9588-6c064e01e733" : {
+        "displayName" : "Page Node",
+        "nodeType" : "PageNode",
+        "x" : 59,
+        "y" : 123,
+        "connections" : {
+          "outcome" : "09c5437a-bbbb-4d53-a859-4b82997fb38b"
+        }
+      },
+      "09c5437a-bbbb-4d53-a859-4b82997fb38b" : {
+        "displayName" : "Data Store Decision",
+        "nodeType" : "DataStoreDecisionNode",
+        "x" : 234,
+        "y" : 20,
+        "connections" : {
+          "true" : "daafa9c8-af4c-411e-99ba-612f579df98d",
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      },
+      "daafa9c8-af4c-411e-99ba-612f579df98d" : {
+        "displayName" : "OATH Token Verifier",
+        "nodeType" : "OathTokenVerifierNode",
+        "x" : 502,
+        "y" : 91,
+        "connections" : {
+          "successOutcome" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0",
+          "notRegisteredOutcome" : "1a5aa45e-ac9e-4908-9b53-75aac4309552",
+          "failureOutcome" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      },
+      "1a5aa45e-ac9e-4908-9b53-75aac4309552" : {
+        "displayName" : "OATH Registration",
+        "nodeType" : "OathRegistrationNode",
+        "x" : 789,
+        "y" : 176,
+        "connections" : {
+          "successOutcome" : "daafa9c8-af4c-411e-99ba-612f579df98d",
+          "failureOutcome" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      }
+    },
+    "staticNodes" : {
+      "startNode" : {
+        "x" : 50,
+        "y" : 25
+      },
+      "70e691a5-1e33-4ac3-a356-e7b6d60d92e0" : {
+        "x" : 1024,
+        "y" : 55
+      },
+      "e301438c-0bd0-429c-ab0c-66126501069a" : {
+        "x" : 445,
+        "y" : 530
+      }
+    }
+  }
+}

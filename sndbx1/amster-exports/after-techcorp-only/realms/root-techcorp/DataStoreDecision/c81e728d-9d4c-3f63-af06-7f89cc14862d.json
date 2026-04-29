@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "DataStoreDecision",
+    "entityId" : "c81e728d-9d4c-3f63-af06-7f89cc14862d",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "c81e728d-9d4c-3f63-af06-7f89cc14862d",
+    "_type" : {
+      "_id" : "DataStoreDecisionNode",
+      "name" : "Data Store Decision",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "true",
+      "displayName" : "True"
+    }, {
+      "id" : "false",
+      "displayName" : "False"
+    } ]
+  }
+}

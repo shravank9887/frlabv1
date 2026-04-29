@@ -1,0 +1,77 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "AuthTree",
+    "entityId" : "TechCorpMFA-WebAuthn",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "TechCorpMFA-WebAuthn",
+    "entryNodeId" : "9b7a60a0-73bf-4f5f-9ca1-3753ff417ade",
+    "innerTreeOnly" : false,
+    "noSession" : false,
+    "mustRun" : false,
+    "enabled" : true,
+    "uiConfig" : { },
+    "nodes" : {
+      "9b7a60a0-73bf-4f5f-9ca1-3753ff417ade" : {
+        "displayName" : "Page Node",
+        "nodeType" : "PageNode",
+        "x" : 140,
+        "y" : 95,
+        "connections" : {
+          "outcome" : "fa869922-de2c-4743-b79c-13808cb4e8c2"
+        }
+      },
+      "fa869922-de2c-4743-b79c-13808cb4e8c2" : {
+        "displayName" : "Data Store Decision",
+        "nodeType" : "DataStoreDecisionNode",
+        "x" : 307,
+        "y" : 20,
+        "connections" : {
+          "true" : "49ff1065-feab-4371-a658-417a295a4e06"
+        }
+      },
+      "49ff1065-feab-4371-a658-417a295a4e06" : {
+        "displayName" : "WebAuthn Authentication Node",
+        "nodeType" : "WebAuthnAuthenticationNode",
+        "x" : 389,
+        "y" : 195,
+        "connections" : {
+          "unsupported" : "e301438c-0bd0-429c-ab0c-66126501069a",
+          "noDevice" : "302d4c18-8117-481d-948d-73ed537b2fbe",
+          "success" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0",
+          "failure" : "e301438c-0bd0-429c-ab0c-66126501069a",
+          "error" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      },
+      "302d4c18-8117-481d-948d-73ed537b2fbe" : {
+        "displayName" : "WebAuthn Registration Node",
+        "nodeType" : "WebAuthnRegistrationNode",
+        "x" : 737,
+        "y" : 287,
+        "connections" : {
+          "unsupported" : "e301438c-0bd0-429c-ab0c-66126501069a",
+          "success" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0",
+          "failure" : "e301438c-0bd0-429c-ab0c-66126501069a",
+          "error" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      }
+    },
+    "staticNodes" : {
+      "startNode" : {
+        "x" : 50,
+        "y" : 25
+      },
+      "70e691a5-1e33-4ac3-a356-e7b6d60d92e0" : {
+        "x" : 1123,
+        "y" : 82
+      },
+      "e301438c-0bd0-429c-ab0c-66126501069a" : {
+        "x" : 558,
+        "y" : 519
+      }
+    }
+  }
+}

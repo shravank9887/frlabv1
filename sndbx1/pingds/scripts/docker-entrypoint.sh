@@ -13,6 +13,24 @@ log_error() {
     echo "[ENTRYPOINT] $(date '+%Y-%m-%d %H:%M:%S') - ERROR: $1" >&2
 }
 
+# Fix volume permissions if running as root (Docker volume mounts override Dockerfile ownership)
+if [ "$(id -u)" = "0" ]; then
+    log_info "Running as root - fixing volume permissions..."
+
+    # Fix ownership of volume-mounted directories
+    chown -R pingds:pingds /opt/pingds-data /opt/certs /opt/backups /opt/logs 2>/dev/null || true
+
+    # Ensure correct permissions
+    chmod 755 /opt/certs
+
+    log_info "Permissions fixed. Switching to pingds user..."
+
+    # Re-execute this script as pingds user
+    exec gosu pingds "$0" "$@"
+fi
+
+# From this point forward, we're running as pingds user
+
 # Function to check if DS instance exists and is configured
 is_ds_instance_valid() {
     if [ -d "${PINGDS_HOME}/db" ] && \

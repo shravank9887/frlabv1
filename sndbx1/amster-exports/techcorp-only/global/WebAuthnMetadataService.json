@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "WebAuthnMetadataService",
+    "entityId" : "WebAuthnMetadataService",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "defaults" : {
+      "fidoMetadataServiceUris" : [ ],
+      "enforceRevocationCheck" : false
+    },
+    "_type" : {
+      "_id" : "webAuthnMetadataService",
+      "name" : "WebAuthn Metadata Service",
+      "collection" : false
+    }
+  }
+}

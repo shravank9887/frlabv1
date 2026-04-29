@@ -1,0 +1,141 @@
+{
+    "artifact": {
+        "groupId": "org.forgerock.am",
+        "artifactId": "openam-amster",
+        "version": "8.0.2"
+    },
+    "copyrights": [
+        "Copyright 2016-2025 Ping Identity Corporation",
+        "Copyright 2003-2023 The Apache Software Foundation",
+        "Portions Copyright 2016-2025 Ping Identity Corporation"
+    ],
+    "dependencies": {
+        "api-descriptor-27.0.2-20251110132731-c867121cbbd400bebff65dbb2260ee27cc67a961": [
+            "Copyright 2015-2025 ForgeRock AS"
+        ],
+        "chf-client-apache-async-27.0.2-20251110132731-c867121cbbd400bebff65dbb2260ee27cc67a961": [
+            "Copyright 2015-2024 ForgeRock AS"
+        ],
+        "chf-client-apache-common-27.0.2-20251110132731-c867121cbbd400bebff65dbb2260ee27cc67a961": [
+            "Copyright 2015-2024 ForgeRock AS"
+        ],
+        "chf-client-apache-sync-27.0.2-20251110132731-c867121cbbd400bebff65dbb2260ee27cc67a961": [
+            "Copyright 2014-2023 ForgeRock AS",
+            "Copyright 2009 Sun Microsystems, Inc",
+            "Portions Copyright 2011-2024 ForgeRock AS",
+            "Portions Copyright 2010-2011 ApexIdentity Inc"
+        ],
+        "chf-http-core-27.0.2-20251110132731-c867121cbbd400bebff65dbb2260ee27cc67a961": [
+            "Copyright 2012-2025 ForgeRock AS",
+            "Copyright 2025 Ping Identity Corporation",
+            "Copyright 2009-2024 Sun Microsystems, Inc",
+            "Copyright 2010-2011 ApexIdentity Inc",
+            "Portions Copyright 2011-2025 ForgeRock AS",
+            "Portions Copyright 2010-2011 ApexIdentity Inc"
+        ],
+        "config-27.0.2-20251110132731-c867121cbbd400bebff65dbb2260ee27cc67a961": [
+            "Copyright 2017-2025 ForgeRock AS"
+        ],
+        "forgerock-util-27.0.2-20251110132731-c867121cbbd400bebff65dbb2260ee27cc67a961": [
+            "Copyright 2011-2025 ForgeRock AS",
+            "Copyright 2014-2015 Stack overflow users",
+            "Copyright 2010-2011 ApexIdentity Inc",
+            "Portions Copyright 2011-2025 ForgeRock AS"
+        ],
+        "json-crypto-core-27.0.2-20251110132731-c867121cbbd400bebff65dbb2260ee27cc67a961": [
+            "Copyright 2011-2024 ForgeRock AS"
+        ],
+        "json-resource-27.0.2-20251110132731-c867121cbbd400bebff65dbb2260ee27cc67a961": [
+            "Copyright 2011-2025 ForgeRock AS"
+        ],
+        "json-resource-http-27.0.2-20251110132731-c867121cbbd400bebff65dbb2260ee27cc67a961": [
+            "Copyright 2012-2024 ForgeRock AS"
+        ],
+        "json-schema-core-27.0.2-20251110132731-c867121cbbd400bebff65dbb2260ee27cc67a961": [
+            "Copyright 2011-2025 ForgeRock AS"
+        ],
+        "json-web-token-27.0.2-20251110132731-c867121cbbd400bebff65dbb2260ee27cc67a961": [
+            "Copyright 2011-2025 ForgeRock AS"
+        ],
+        "openam-annotations-8.0.2": [
+            "Copyright 2013-2025 Ping Identity Corporation"
+        ],
+        "openam-encryption-support-8.0.2": [
+            "Copyright 2014-2025 Ping Identity Corporation",
+            "Copyright 2005 Sun Microsystems, Inc",
+            "Portions Copyright 2010-2025 Ping Identity Corporation"
+        ],
+        "openam-keystore-8.0.2": [
+            "Copyright 2017-2025 Ping Identity Corporation",
+            "Copyright 2005-2008 Sun Microsystems, Inc",
+            "Copyright 2004 Mikael Grev, MiG InfoCom AB",
+            "Portions Copyright 2010-2025 Ping Identity Corporation"
+        ],
+        "openam-parent-8.0.2": [
+            "Copyright 2011-2025 ForgeRock AS",
+            "Copyright 2008-2025 Ping Identity Corporation",
+            "Copyright 2003-2023 The Apache Software Foundation",
+            "Copyright 2020 IC Consult",
+            "Copyright 2011-2019 Twitter, Inc",
+            "Copyright 2013-2017 Dropwizard contributors",
+            "Copyright 2008-2017 the original CometD author or authors",
+            "Copyright 2008-2017 the original author or authors",
+            "Copyright 2013-2016 Nomura Research Institute, Ltd",
+            "Copyright 2016 The Android Open Source Project",
+            "Copyright 2015 Intellectual Reserve, Inc",
+            "Copyright 2014 flatlogic",
+            "Copyright 2011-2013 Cybernetica AS",
+            "Copyright 2012 Open Source Solution Technology Corporation",
+            "Copyright 2012 Stefan Petre",
+            "Copyright 2011 IETF Trust and the persons identified as",
+            "Copyright 2007-2011 The Guava Authors",
+            "Copyright 2010 Cowboy",
+            "Copyright 2008-2010 James Coglan",
+            "Copyright 1997-2010 Sun Microsystems, Inc",
+            "Copyright 2009 SSHJ Contributors",
+            "Copyright 2005-2008 Sam Stephenson",
+            "Copyright 2007 The OWASP Foundation",
+            "Copyright 2006-2007 Yahoo",
+            "Copyright 2006 Google Inc",
+            "Copyright 2005 World Wide Web Consortium,",
+            "Copyright 2004 Mikael Grev, MiG InfoCom AB",
+            "Copyright 2004 OATH",
+            "Copyright 1997-2003 Netscape Communications Corp",
+            "Copyright 2001 Robert Penner All rights reserved",
+            "Copyright 2001 The Internet Society and W3C",
+            "Copyright 1989-1991 Free Software Foundation, Inc",
+            "Portions Copyright 2009-2025 Ping Identity Corporation",
+            "Portions Copyright 2020 IC Consult",
+            "Portions Copyright 2010-2018 ForgeRock AS",
+            "Portions Copyright 2012-2017 Nomura Research Institute, Ltd",
+            "Portions Copyright 2016 Agile Digital Engineering",
+            "Portions Copyright 2015 Intellectual Reserve, Inc",
+            "Portions Copyright 2015 Rich Brown",
+            "Portions Copyright 2000-2015 www",
+            "Portions Copyright 2012-2014 Open Source Solution Technology Corporation",
+            "Portions Copyright 2013 Cybernetica AS",
+            "Portions Copyright 2013 Syntegrity",
+            "Portions Copyright 1997-2006 Sun Microsystems, Inc"
+        ],
+        "openam-sdk-8.0.2": [
+            "Copyright 2015-2025 Ping Identity Corporation"
+        ],
+        "openam-sdk-core-8.0.2": [
+            "Copyright 2015-2025 Ping Identity Corporation"
+        ],
+        "openam-system-properties-8.0.2": [
+            "Copyright 2021-2025 Ping Identity Corporation",
+            "Copyright 2006 Sun Microsystems, Inc",
+            "Portions Copyright 2010-2025 Ping Identity Corporation"
+        ],
+        "secrets-api-27.0.2-20251110132731-c867121cbbd400bebff65dbb2260ee27cc67a961": [
+            "Copyright 2017-2024 ForgeRock AS"
+        ],
+        "secrets-backend-keystore-27.0.2-20251110132731-c867121cbbd400bebff65dbb2260ee27cc67a961": [
+            "Copyright 2017-2024 ForgeRock AS"
+        ],
+        "security-27.0.2-20251110132731-c867121cbbd400bebff65dbb2260ee27cc67a961": [
+            "Copyright 2013-2024 ForgeRock AS"
+        ]
+    }
+}

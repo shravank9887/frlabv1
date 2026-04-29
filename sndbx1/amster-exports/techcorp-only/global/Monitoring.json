@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "Monitoring",
+    "entityId" : "Monitoring",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "rmiPort" : 9999,
+    "enabled" : false,
+    "rmiEnabled" : false,
+    "httpPort" : 8082,
+    "sessionHistoryWindowSize" : 10000,
+    "policyHistoryWindowSize" : 10000,
+    "httpEnabled" : false,
+    "authfilePath" : "%BASE_DIR%/security/openam_mon_auth",
+    "_type" : {
+      "_id" : "monitoring",
+      "name" : "Monitoring",
+      "collection" : false
+    }
+  }
+}

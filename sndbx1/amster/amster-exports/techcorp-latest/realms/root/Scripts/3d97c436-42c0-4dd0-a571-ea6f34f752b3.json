@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "Scripts",
+    "entityId" : "3d97c436-42c0-4dd0-a571-ea6f34f752b3",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "3d97c436-42c0-4dd0-a571-ea6f34f752b3",
+    "name" : "Itsme Profile Normalization",
+    "description" : "Normalizes raw profile data from Itsme",
+    "script" : "LyoKICogQ29weXJpZ2h0IDIwMjAtMjAyNSBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uLiBBbGwgUmlnaHRzIFJlc2VydmVkCiAqCiAqIFRoaXMgY29kZSBpcyB0byBiZSB1c2VkIGV4Y2x1c2l2ZWx5IGluIGNvbm5lY3Rpb24gd2l0aCBQaW5nIElkZW50aXR5CiAqIENvcnBvcmF0aW9uIHNvZnR3YXJlIG9yIHNlcnZpY2VzLiBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uIG9ubHkgb2ZmZXJzCiAqIHN1Y2ggc29mdHdhcmUgb3Igc2VydmljZXMgdG8gbGVnYWwgZW50aXRpZXMgd2hvIGhhdmUgZW50ZXJlZCBpbnRvIGEKICogYmluZGluZyBsaWNlbnNlIGFncmVlbWVudCB3aXRoIFBpbmcgSWRlbnRpdHkgQ29ycG9yYXRpb24uCiAqLwoKaW1wb3J0IHN0YXRpYyBvcmcuZm9yZ2Vyb2NrLmpzb24uSnNvblZhbHVlLmZpZWxkCmltcG9ydCBzdGF0aWMgb3JnLmZvcmdlcm9jay5qc29uLkpzb25WYWx1ZS5qc29uCmltcG9ydCBzdGF0aWMgb3JnLmZvcmdlcm9jay5qc29uLkpzb25WYWx1ZS5vYmplY3QKCmltcG9ydCBvcmcuZm9yZ2Vyb2NrLmpzb24uSnNvblZhbHVlCgpKc29uVmFsdWUgbWFuYWdlZFVzZXIgPSBqc29uKG9iamVjdCgKICAgICAgICBmaWVsZCgiaWQiLCByYXdQcm9maWxlLnN1YiksCiAgICAgICAgZmllbGQoImRpc3BsYXlOYW1lIiwgcmF3UHJvZmlsZS5uYW1lKSwKICAgICAgICBmaWVsZCgiZ2l2ZW5OYW1lIiwgcmF3UHJvZmlsZS5naXZlbl9uYW1lKSwKICAgICAgICBmaWVsZCgiZmFtaWx5TmFtZSIsIHJhd1Byb2ZpbGUuZmFtaWx5X25hbWUpLAogICAgICAgIGZpZWxkKCJ1c2VybmFtZSIsIHJhd1Byb2ZpbGUuZW1haWwpLAogICAgICAgIGZpZWxkKCJlbWFpbCIsIHJhd1Byb2ZpbGUuZW1haWwpKSkKcmV0dXJuIG1hbmFnZWRVc2Vy",
+    "default" : true,
+    "language" : "GROOVY",
+    "context" : "SOCIAL_IDP_PROFILE_TRANSFORMATION",
+    "createdBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
+    "creationDate" : 1433147666269,
+    "lastModifiedBy" : "id=amAdmin,ou=user,ou=am-config",
+    "lastModifiedDate" : 1769884360067,
+    "evaluatorVersion" : "1.0"
+  }
+}

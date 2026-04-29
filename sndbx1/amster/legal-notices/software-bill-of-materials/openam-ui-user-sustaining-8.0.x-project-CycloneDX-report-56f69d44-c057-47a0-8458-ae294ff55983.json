@@ -1,0 +1,3384 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "serialNumber" : "urn:uuid:edbc7491-e2a4-40fe-ad84-d65d6f8d4c12",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-12-02T13:44:47Z",
+    "tools" : [ {
+      "vendor" : "Mend.io",
+      "name" : "CycloneDX report generator",
+      "version" : "1.1.0"
+    } ],
+    "authors" : [ {
+      "name" : "Organization: ForgeRock"
+    }, {
+      "name" : "Person: ci (ci@pingidentity.com)"
+    } ],
+    "component" : {
+      "type" : "application",
+      "bom-ref" : "f8cdc38c-4791-488f-8329-cb9f26151f2d",
+      "name" : "openam-ui-user - sustaining/8.0.x"
+    },
+    "properties" : [ {
+      "name" : "reportName",
+      "value" : "Product SBOM Report"
+    } ]
+  },
+  "components" : [ {
+    "type" : "library",
+    "bom-ref" : "backbone-1.4.0.tgz",
+    "group" : "backbone",
+    "name" : "backbone-1.4.0.tgz",
+    "version" : "1.4.0",
+    "description" : "Give your JS App some Backbone with Models, Views, Collections, and Events.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "54db4de9df7c3811c3f032f34749a4cd27f3bd12"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2010-2019 Jeremy Ashkenas,Copyright 2010-2019 Jeremy Ashkenas, DocumentCloud",
+    "purl" : "pkg:npm/backbone@1.4.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/jashkenas/backbone#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/backbone/-/backbone-1.4.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "1aa18ed5-3c9b-4013-a024-82aec7caa109"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "loose-envify-1.4.0.tgz-2",
+    "group" : "loose-envify",
+    "name" : "loose-envify-1.4.0.tgz",
+    "version" : "1.4.0",
+    "description" : "Fast (and loose) selective `process.env` replacer using js-tokens instead of an AST",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "71ee51fa7be4caec1a63839f7e682d8132d30caf"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2015 Copyright (c) 2015 Andres Suarez (zertosh@gmail.com)",
+    "purl" : "pkg:npm/loose-envify@1.4.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/zertosh/loose-envify"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "9a5827a6-294a-4776-9f6f-e7657cfb53e3"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "punycode-2.1.1.tgz",
+    "group" : "punycode",
+    "name" : "punycode-2.1.1.tgz",
+    "version" : "2.1.1",
+    "description" : "A robust Punycode converter that fully complies to RFC 3492 and RFC 5891, and works on nearly all JavaScript platforms.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright Mathias Bynens <https://mathiasbynens.be/>",
+    "purl" : "pkg:npm/punycode@2.1.1",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://mths.be/punycode"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "3a147b09-cbdc-4c57-94cb-47b4f675836f"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "selectize-0.12.6.tgz",
+    "group" : "selectize",
+    "name" : "selectize-0.12.6.tgz",
+    "version" : "0.12.6",
+    "description" : "Selectize is a jQuery-based custom <select> UI control. Useful for tagging, contact lists, country selectors, etc.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "c2cf08cbaa4cb06c5e99bb452919d71b080690d6"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 2013-2016 Brian Reavis,Copyright 2013-2015 Brian Reavis,Copyright 2013-2016 [Brian Reavis](http://twitter.com/brianreavis) & [Contributors](https://github.c",
+    "purl" : "pkg:npm/selectize@0.12.6",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/selectize/selectize.js#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/selectize/-/selectize-0.12.6.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "47c44f40-62f8-4335-8aa2-2773e54a4f46"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "microplugin-0.0.3.tgz",
+    "group" : "microplugin",
+    "name" : "microplugin-0.0.3.tgz",
+    "version" : "0.0.3",
+    "description" : "A lightweight plugin / dependency system for javascript libraries.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "1fc2e1bb7c9e19e82bd84bba9137bbe71250d8cd"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "2013 Copyright © 2013 Brian Reavis & Contributors",
+    "purl" : "pkg:npm/microplugin@0.0.3",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/microplugin/-/microplugin-0.0.3.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "85ea7e9c-d6b4-42ee-8ff7-ba29b717e021"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "backbone-1.3.3.tgz",
+    "group" : "backbone",
+    "name" : "backbone-1.3.3.tgz",
+    "version" : "1.3.3",
+    "description" : "Give your JS App some Backbone with Models, Views, Collections, and Events.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "4cc80ea7cb1631ac474889ce40f2f8bc683b2999"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2018 Copyright (c) 2010-2016 Jeremy Ashkenas, DocumentCloud",
+    "purl" : "pkg:npm/backbone@1.3.3",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/jashkenas/backbone#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/backbone/-/backbone-1.3.3.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "05d4a1b2-4734-490c-8e31-ac6a334f3220"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "fast-json-stable-stringify-2.0.0.tgz",
+    "group" : "fast-json-stable-stringify",
+    "name" : "fast-json-stable-stringify-2.0.0.tgz",
+    "version" : "2.0.0",
+    "description" : "deterministic `JSON.stringify()` - a faster version of substack's json-stable-strigify without jsonify",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "d5142c0caee6b1189f87d3a76111064f86c8bbf2"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2017 Copyright 2017 James Halliday (mail@substack.net)",
+    "purl" : "pkg:npm/fast-json-stable-stringify@2.0.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/epoberezkin/fast-json-stable-stringify"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "b2babdf0-4d42-40a2-a3c0-c68d69acb0f4"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "backbone-1.4.0.tgz-2",
+    "group" : "backbone",
+    "name" : "backbone-1.4.0.tgz",
+    "version" : "1.4.0",
+    "description" : "Give your JS App some Backbone with Models, Views, Collections, and Events.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "54db4de9df7c3811c3f032f34749a4cd27f3bd12"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2010-2019 Jeremy Ashkenas,Copyright 2010-2019 Jeremy Ashkenas, DocumentCloud",
+    "purl" : "pkg:npm/backbone@1.4.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/jashkenas/backbone#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/backbone/-/backbone-1.4.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "1aa18ed5-3c9b-4013-a024-82aec7caa109"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "ms-2.1.2.tgz",
+    "group" : "ms",
+    "name" : "ms-2.1.2.tgz",
+    "version" : "2.1.2",
+    "description" : "Tiny millisecond conversion utility",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "d09d1f357b443f493382a8eb3ccd183872ae6009"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2016 Zeit, Inc",
+    "purl" : "pkg:npm/ms@2.1.2",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/zeit/ms#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "37566c45-c002-4952-9203-410edefb4cd6"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "deepmerge-4.2.2.tgz",
+    "group" : "deepmerge",
+    "name" : "deepmerge-4.2.2.tgz",
+    "version" : "4.2.2",
+    "description" : "A library for deep (recursive) merging of Javascript objects",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2012 James Halliday, Josh Duff, and other contributors",
+    "purl" : "pkg:npm/deepmerge@4.2.2",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/TehShrike/deepmerge"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/deepmerge/-/deepmerge-4.2.2.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "52cdae8a-3792-40bc-a2f8-69f25bc411f2"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "backgrid-paginator-0.3.9.tgz",
+    "group" : "backgrid-paginator",
+    "name" : "backgrid-paginator-0.3.9.tgz",
+    "version" : "0.3.9",
+    "description" : "Backgrid.js extension for pagination.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "daf661146c137665a0a8dea27cdad1f238269378"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2012 Copyright (c) 2012 Jimmy Yuen Ho Wong",
+    "purl" : "pkg:npm/backgrid-paginator@0.3.9",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/wyuenho/backgrid-paginator#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/backgrid-paginator/-/backgrid-paginator-0.3.9.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "66c965a0-75cb-4ced-b116-2fd6aff84dee"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "backgrid-0.3.8.tgz",
+    "group" : "backgrid",
+    "name" : "backgrid-0.3.8.tgz",
+    "version" : "0.3.8",
+    "description" : "Backgrid.js is a set of components for building semantic and easily stylable data grid widgets with Backbone.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "7d26816742d72c859cad39b13f19c9f27baffed7"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2012 Copyright (c) 2012-present Cloudflare, Inc.",
+    "purl" : "pkg:npm/backgrid@0.3.8",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://backgridjs.com/"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/backgrid/-/backgrid-0.3.8.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "28055d05-d6ce-4cba-94de-d8ae6435f3e0"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "lodash-4.17.21.tgz",
+    "group" : "lodash",
+    "name" : "lodash-4.17.21.tgz",
+    "version" : "4.17.21",
+    "description" : "Lodash modular utilities.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "679591c564c3bffaae8454cf0b3df370c3d6911c"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright OpenJS Foundation and other contributors <https://openjsf.org/>,Copyright OpenJS Foundation and other contributors <https://openjsf.org/>",
+    "purl" : "pkg:npm/lodash@4.17.21",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://lodash.com/"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "79a3304f-3040-449d-846a-9763edd3091f"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "js-tokens-4.0.0.tgz",
+    "group" : "js-tokens",
+    "name" : "js-tokens-4.0.0.tgz",
+    "version" : "4.0.0",
+    "description" : "A regex that tokenizes JavaScript.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "19203fb59991df98e3a287050d4647cdeaf32499"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2014 Copyright (c) 2014, 2015, 2016, 2017, 2018 Simon Lydell",
+    "purl" : "pkg:npm/js-tokens@4.0.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/lydell/js-tokens#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "d0b055ef-47c4-40a5-b47a-85d384854c37"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "jquery-3.6.1.tgz",
+    "group" : "jquery",
+    "name" : "jquery-3.6.1.tgz",
+    "version" : "3.6.1",
+    "description" : "JavaScript library for DOM operations",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "fab0408f8b45fc19f956205773b62b292c147a16"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright OpenJS Foundation and other contributors, https://openjsf.org/",
+    "purl" : "pkg:npm/jquery@3.6.1",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://jquery.com"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/jquery/-/jquery-3.6.1.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "25819f84-5805-4741-a0b4-728ad460dd72"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "react-is-16.10.2.tgz",
+    "group" : "react-is",
+    "name" : "react-is-16.10.2.tgz",
+    "version" : "16.10.2",
+    "description" : "Brand checking of React Elements.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "984120fd4d16800e9a738208ab1fba422d23b5ab"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright Facebook, Inc. and its affiliates",
+    "purl" : "pkg:npm/react-is@16.10.2",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://reactjs.org/"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/react-is/-/react-is-16.10.2.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "0fd48280-147d-4979-a3ed-cd2405b4cd96"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "lunr-0.7.2.tgz",
+    "group" : "lunr",
+    "name" : "lunr-0.7.2.tgz",
+    "version" : "0.7.2",
+    "description" : "Simple full-text search in your browser.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "79a30e932e216cba163541ee37a3607c12cd7281"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2013 Copyright (C) 2013 by Oliver Nightingale",
+    "purl" : "pkg:npm/lunr@0.7.2",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://lunrjs.com"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/lunr/-/lunr-0.7.2.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "36f1cc6c-7a4d-4712-93df-afdaf1089285"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "symbol-observable-1.2.0.tgz",
+    "group" : "symbol-observable",
+    "name" : "symbol-observable-1.2.0.tgz",
+    "version" : "1.2.0",
+    "description" : "Symbol.observable ponyfill",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "c22688aed4eab3cdc2dfeacbb561660560a00804"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2016 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com) Copyright (c) Ben Lesh <ben@benlesh.com>",
+    "purl" : "pkg:npm/symbol-observable@1.2.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/blesh/symbol-observable#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/symbol-observable/-/symbol-observable-1.2.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "27da822f-8a82-4eca-a868-6f43de84084b"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "debug-3.2.7.tgz",
+    "group" : "debug",
+    "name" : "debug-3.2.7.tgz",
+    "version" : "3.2.7",
+    "description" : "small debugging utility",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "72580b7e9145fb39b6676f9c5e5fb100b934179a"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2014 TJ Holowaychuk <tj@vision-media.ca>,Copyright 2014-2017 TJ Holowaychuk,Copyright 2014-2017 TJ Holowaychuk <tj@vision-media.ca>",
+    "purl" : "pkg:npm/debug@3.2.7",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/visionmedia/debug#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/debug/-/debug-3.2.7.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "2a0d4866-6c66-4470-8b20-beffb41ccdb9"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "bootstrap-3.4.1.tgz",
+    "group" : "bootstrap",
+    "name" : "bootstrap-3.4.1.tgz",
+    "version" : "3.4.1",
+    "description" : "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "c3a347d419e289ad11f4033e3c4132b87c081d72"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2019 Twitter, Inc.",
+    "purl" : "pkg:npm/bootstrap@3.4.1",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://getbootstrap.com/"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/bootstrap/-/bootstrap-3.4.1.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "197f7023-d658-4ab6-89d4-b3da4694be2a"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "to-no-case-1.0.2.tgz",
+    "group" : "to-no-case",
+    "name" : "to-no-case-1.0.2.tgz",
+    "version" : "1.0.2",
+    "description" : "Remove any existing casing from a string.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "c722907164ef6b178132c8e69930212d1b4aa16a"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2016 Ian Storm Taylor",
+    "purl" : "pkg:npm/to-no-case@1.0.2",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/ianstormtaylor/to-no-case#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/to-no-case/-/to-no-case-1.0.2.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "2c5c3a37-401f-4168-b897-1535d2722a68"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "qrcode-generator-1.4.4.tgz",
+    "group" : "qrcode-generator",
+    "name" : "qrcode-generator-1.4.4.tgz",
+    "version" : "1.4.4",
+    "description" : "QR Code Generator implementation in JavaScript.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "63f771224854759329a99048806a53ed278740e7"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2009 Kazuhiko Arase",
+    "purl" : "pkg:npm/qrcode-generator@1.4.4",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/kazuhikoarase/qrcode-generator#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/qrcode-generator/-/qrcode-generator-1.4.4.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "396f42a8-3f17-43c0-abbb-ca0d03d158fd"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "cardinal-1.0.0.tgz",
+    "group" : "cardinal",
+    "name" : "cardinal-1.0.0.tgz",
+    "version" : "1.0.0",
+    "description" : "Syntax highlights JavaScript code with ANSI colors to be printed to the terminal.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "50e21c1b0aa37729f9377def196b5a9cec932ee9"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2012 Thorsten Lorenz",
+    "purl" : "pkg:npm/cardinal@1.0.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/thlorenz/cardinal#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/cardinal/-/cardinal-1.0.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "09aa6c95-ca76-4992-afb1-4460acfe98f6"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "i18next-21.6.14.tgz",
+    "group" : "i18next",
+    "name" : "i18next-21.6.14.tgz",
+    "version" : "21.6.14",
+    "description" : "i18next internationalization framework",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "2bc199fba7f4da44b5952d7df0a3814a6e5c3943"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2022 i18next",
+    "purl" : "pkg:npm/i18next@21.6.14",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://www.i18next.com"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/i18next/-/i18next-21.6.14.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "3bd31250-6fd8-41c2-870c-e0531359d2e7"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "domhandler-4.3.1.tgz-2",
+    "group" : "domhandler",
+    "name" : "domhandler-4.3.1.tgz",
+    "version" : "4.3.1",
+    "description" : "Handler for htmlparser2 that turns pages into a dom",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "8d792033416f59d68bc03a5aa7b018c1ca89279c"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "BSD-2-Clause",
+        "url" : "http://opensource.org/licenses/bsd-license"
+      }
+    } ],
+    "copyright" : "Copyright Felix Böhm",
+    "purl" : "pkg:npm/domhandler@4.3.1",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/fb55/domhandler#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/domhandler/-/domhandler-4.3.1.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "8bfd87a0-bb95-4f36-abb9-b37a089d866b"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "ansicolors-0.2.1.tgz",
+    "group" : "ansicolors",
+    "name" : "ansicolors-0.2.1.tgz",
+    "version" : "0.2.1",
+    "description" : "Functions that surround a string with ansicolor codes so it prints in color.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "be089599097b74a5c9c4a84a0cdbcdb62bd87aef"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2013 Copyright 2013 Thorsten Lorenz.",
+    "purl" : "pkg:npm/ansicolors@0.2.1",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/ansicolors/-/ansicolors-0.2.1.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "145da10a-b433-4214-afad-2949876dc5bb"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "loose-envify-1.4.0.tgz",
+    "group" : "loose-envify",
+    "name" : "loose-envify-1.4.0.tgz",
+    "version" : "1.4.0",
+    "description" : "Fast (and loose) selective `process.env` replacer using js-tokens instead of an AST",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "71ee51fa7be4caec1a63839f7e682d8132d30caf"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2015 Copyright (c) 2015 Andres Suarez (zertosh@gmail.com)",
+    "purl" : "pkg:npm/loose-envify@1.4.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/zertosh/loose-envify"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "9a5827a6-294a-4776-9f6f-e7657cfb53e3"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "core-js-3.2.1.tgz",
+    "group" : "core-js",
+    "name" : "core-js-3.2.1.tgz",
+    "version" : "3.2.1",
+    "description" : "Standard library",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "cd41f38534da6cc59f7db050fe67307de9868b09"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2014-2019 Denis Pushkarev",
+    "purl" : "pkg:npm/core-js@3.2.1",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/zloirock/core-js#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/core-js/-/core-js-3.2.1.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "8b0ae36d-54a0-4856-a30f-1a8807e4f9da"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "redux-4.0.5.tgz",
+    "group" : "redux",
+    "name" : "redux-4.0.5.tgz",
+    "version" : "4.0.5",
+    "description" : "Predictable state container for JavaScript apps",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "4db5de5816e17891de8a80c424232d06f051d93f"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2015 Dan Abramov",
+    "purl" : "pkg:npm/redux@4.0.5",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://redux.js.org"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/redux/-/redux-4.0.5.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "a38a3353-34a5-4942-8ac1-de34fcf75ac1"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "backgrid-filter-0.3.7.tgz",
+    "group" : "backgrid-filter",
+    "name" : "backgrid-filter-0.3.7.tgz",
+    "version" : "0.3.7",
+    "description" : "Search box widget extension for Backgrid.js. Supports server-side, client-side and full-text searching.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "d4b19d0e707013d7f181f9e8c7febb4997d56f03"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2012 Copyright (c) 2012 Jimmy Yuen Ho Wong",
+    "purl" : "pkg:npm/backgrid-filter@0.3.7",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/wyuenho/backgrid-text-cell#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/backgrid-filter/-/backgrid-filter-0.3.7.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "42fcd139-2049-472e-9824-1d6c0a77cf2f"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "postcss-8.4.31.tgz",
+    "group" : "postcss",
+    "name" : "postcss-8.4.31.tgz",
+    "version" : "8.4.31",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "92b451050a9f914da6755af352bdc0192508656d"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2013 Andrey Sitnik <andrey@sitnik.ru>",
+    "purl" : "pkg:npm/postcss@8.4.31",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://postcss.org/"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "a60ee044-64eb-4bbf-87ec-9a5721e8bc94"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "react-16.9.0.tgz",
+    "group" : "react",
+    "name" : "react-16.9.0.tgz",
+    "version" : "16.9.0",
+    "description" : "React is a JavaScript library for building user interfaces.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "40ba2f9af13bc1a38d75dbf2f4359a5185c4f7aa"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright Facebook, Inc. and its affiliates",
+    "purl" : "pkg:npm/react@16.9.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://reactjs.org/"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/react/-/react-16.9.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "32816f07-2e53-446b-bf18-bf0c3b29b41d"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "ajv-6.12.3.tgz",
+    "group" : "ajv",
+    "name" : "ajv-6.12.3.tgz",
+    "version" : "6.12.3",
+    "description" : "Another JSON Schema Validator",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "18c5af38a111ddeb4f2697bd78d68abc1cabd706"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2015-2017 Evgeny Poberezkin",
+    "purl" : "pkg:npm/ajv@6.12.3",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/ajv-validator/ajv"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/ajv/-/ajv-6.12.3.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "bbc75522-2b28-4cb7-905e-95afb0e3055d"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "optimist-0.6.1.tgz",
+    "group" : "optimist",
+    "name" : "optimist-0.6.1.tgz",
+    "version" : "0.6.1",
+    "description" : "Light-weight option parsing with an argv hash. No optstrings attached.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "da3ea74686fa21a19a111c326e90eb15a0196686"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "X11",
+        "url" : "http://spdx.org/licenses/X11"
+      }
+    } ],
+    "copyright" : "2010 Copyright 2010 James Halliday (mail@substack.net)",
+    "purl" : "pkg:npm/optimist@0.6.1",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/substack/node-optimist"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "627a4fa7-62d7-40c5-8189-eef66f820d0f"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "redeyed-1.0.1.tgz",
+    "group" : "redeyed",
+    "name" : "redeyed-1.0.1.tgz",
+    "version" : "1.0.1",
+    "description" : "Takes JavaScript code, along with a config and returns the original code with tokens wrapped as configured.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "e96c193b40c0816b00aec842698e61185e55498a"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2012 Thorsten Lorenz",
+    "purl" : "pkg:npm/redeyed@1.0.1",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/thlorenz/redeyed#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/redeyed/-/redeyed-1.0.1.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "7ed09a9b-2a42-46e3-a9de-86af96477cae"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "backbone.paginator-2.0.8.tgz",
+    "group" : "backbone.paginator",
+    "name" : "backbone.paginator-2.0.8.tgz",
+    "version" : "2.0.8",
+    "description" : "A pageable Backbone.Collection superset. Supports server-side/client-side/infinite pagination and sorting.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "3a7e34f0a8b97b096333587ed3048556b9eafdcb"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2012 Copyright (c) 2012-2014 Jimmy Yuen Ho Wong and contributors",
+    "purl" : "pkg:npm/backbone.paginator@2.0.8",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/backbone-paginator/backbone.paginator#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/backbone.paginator/-/backbone.paginator-2.0.8.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "55900fc7-5bd1-49a9-b817-e34963e2b9bf"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "reduce-reducers-0.4.3.tgz",
+    "group" : "reduce-reducers",
+    "name" : "reduce-reducers-0.4.3.tgz",
+    "version" : "0.4.3",
+    "description" : "Reduce multiple reducers into a single reducer",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "8e052618801cd8fc2714b4915adaa8937eb6d66c"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright Andrew Clark",
+    "purl" : "pkg:npm/reduce-reducers@0.4.3",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/redux-utilities/reduce-reducers#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/reduce-reducers/-/reduce-reducers-0.4.3.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "68a1c4f8-8164-4094-9fea-b5859bb42e95"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "runtime-7.26.10.tgz-2",
+    "group" : "@babel/runtime",
+    "name" : "runtime-7.26.10.tgz",
+    "version" : "7.26.10",
+    "description" : "babel's modular runtime helpers",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "a07b4d8fa27af131a633d7b3524db803eb4764c2"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2014 Sebastian McKenzie and other contributors",
+    "purl" : "pkg:npm/%40babel/runtime@7.26.10",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://babel.dev/docs/en/next/babel-runtime"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/@babel/runtime/-/runtime-7.26.10.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "445363a6-05b0-4f6f-a953-dd38e3f83898"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "fast-deep-equal-3.1.3.tgz",
+    "group" : "fast-deep-equal",
+    "name" : "fast-deep-equal-3.1.3.tgz",
+    "version" : "3.1.3",
+    "description" : "Fast deep equal",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "3a7d56b559d6cbc3eb512325244e619a65c6c525"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2017 Evgeny Poberezkin,Copyright 2017 Evgeny Poberezkin",
+    "purl" : "pkg:npm/fast-deep-equal@3.1.3",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/epoberezkin/fast-deep-equal#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "993c44f5-2ffa-4e05-8cb7-414b724f4c4b"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "spin.js-2.3.2.tgz",
+    "group" : "spin.js",
+    "name" : "spin.js-2.3.2.tgz",
+    "version" : "2.3.2",
+    "description" : "An animated CSS3 loading spinner with VML fallback for IE.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "6caa56d520673450fd5cfbc6971e6d0772c37a1a"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2011-2015 Felix Gnass,Copyright 2011-2015 Felix Gnass [fgnass at gmail dot com]",
+    "purl" : "pkg:npm/spin.js@2.3.2",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/fgnass/spin.js#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/spin.js/-/spin.js-2.3.2.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "9535d7a1-4801-4589-94b2-0408aa0b4bae"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "object-assign-4.1.1.tgz",
+    "group" : "object-assign",
+    "name" : "object-assign-4.1.1.tgz",
+    "version" : "4.1.1",
+    "description" : "ES2015 `Object.assign()` ponyfill",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "2109adc7965887cfc05cbbd442cac8bfbb360863"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com),Copyright Sindre Sorhus",
+    "purl" : "pkg:npm/object-assign@4.1.1",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/sindresorhus/object-assign#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "a4092084-ee9d-4050-8866-9a8a346dcc97"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "crest-js-2.1.11.tgz",
+    "group" : "@forgerock/crest-js",
+    "name" : "crest-js-2.1.11.tgz",
+    "version" : "2.1.11",
+    "description" : "Lightweight Library for Communicating With ForgeRock CREST APIs.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "7229eb5533dbb5b42d449add18ca604aec4f7aa7"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2017-2018 ForgeRock AS",
+    "purl" : "pkg:npm/%40forgerock/crest-js@2.1.11",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://forgerock.github.io/crest-js"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/@forgerock/crest-js/-/crest-js-2.1.11.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "3db6318d-fb20-4f95-abf6-424161c71408"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "csv-parse-4.8.5.tgz",
+    "group" : "csv-parse",
+    "name" : "csv-parse-4.8.5.tgz",
+    "version" : "4.8.5",
+    "description" : "CSV parsing implementing the Node.js `stream.Transform` API",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "32e92a0e0acedab141bd5c5a3ad6fc3316f2c72d"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2010 Adaltas",
+    "purl" : "pkg:npm/csv-parse@4.8.5",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://csv.js.org/parse/"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/csv-parse/-/csv-parse-4.8.5.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "eb746a2a-0c94-4be9-b4fb-46a772bcb175"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "domhandler-4.3.1.tgz",
+    "group" : "domhandler",
+    "name" : "domhandler-4.3.1.tgz",
+    "version" : "4.3.1",
+    "description" : "Handler for htmlparser2 that turns pages into a dom",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "8d792033416f59d68bc03a5aa7b018c1ca89279c"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "BSD-2-Clause",
+        "url" : "http://opensource.org/licenses/bsd-license"
+      }
+    } ],
+    "copyright" : "Copyright Felix Böhm",
+    "purl" : "pkg:npm/domhandler@4.3.1",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/fb55/domhandler#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/domhandler/-/domhandler-4.3.1.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "8bfd87a0-bb95-4f36-abb9-b37a089d866b"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "underscore-1.12.1.tgz",
+    "group" : "underscore",
+    "name" : "underscore-1.12.1.tgz",
+    "version" : "1.12.1",
+    "description" : "JavaScript's functional programming helper library.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "7bb8cc9b3d397e201cf8553336d262544ead829e"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2009-2020 Jeremy Ashkenas",
+    "purl" : "pkg:npm/underscore@1.12.1",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://underscorejs.org"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/underscore/-/underscore-1.12.1.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "d0f59090-0f20-49d8-9951-850b06d98afd"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "redux-actions-2.6.5.tgz",
+    "group" : "redux-actions",
+    "name" : "redux-actions-2.6.5.tgz",
+    "version" : "2.6.5",
+    "description" : "Flux Standard Action utlities for Redux",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "bdca548768ee99832a63910c276def85e821a27e"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright Andrew Clark",
+    "purl" : "pkg:npm/redux-actions@2.6.5",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/redux-utilities/redux-actions"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/redux-actions/-/redux-actions-2.6.5.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "fb011630-fbf8-4731-95e6-b49f20b6e35a"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "javascript-sdk-2.2.0.tgz",
+    "group" : "@forgerock/javascript-sdk",
+    "name" : "javascript-sdk-2.2.0.tgz",
+    "version" : "2.2.0",
+    "description" : "ForgeRock JavaScript SDK",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "85020fc6fdf17f4514d5f1f77970d789adb58454"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2019 ForgeRock,Copyright 2020 ForgeRock AS",
+    "purl" : "pkg:npm/%40forgerock/javascript-sdk@2.2.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/ForgeRock/forgerock-javascript-sdk#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/@forgerock/javascript-sdk/-/javascript-sdk-2.2.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "c0b60785-0fa2-4503-b31d-9d282927e6b1"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "moment-2.29.4.tgz",
+    "group" : "moment",
+    "name" : "moment-2.29.4.tgz",
+    "version" : "2.29.4",
+    "description" : "Parse, validate, manipulate, and display dates",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "3dbe052889fe7c1b2ed966fcb3a77328964ef108"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright JS Foundation and other contributors,Copyright JS Foundation and other contributors",
+    "purl" : "pkg:npm/moment@2.29.4",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://momentjs.com"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/moment/-/moment-2.29.4.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "8fdb3cd2-2cdc-43af-986a-60d039eb0786"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "htmlparser2-6.1.0.tgz",
+    "group" : "htmlparser2",
+    "name" : "htmlparser2-6.1.0.tgz",
+    "version" : "6.1.0",
+    "description" : "Fast & forgiving HTML/XML parser",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "c4d762b6c3371a05dbe65e94ae43a9f845fb8fb7"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2010-2011 Chris Winberry <chris@winberry.net>,Copyright 2010-2011 Chris Winberry <chris@winberry.net>",
+    "purl" : "pkg:npm/htmlparser2@6.1.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/fb55/htmlparser2#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/htmlparser2/-/htmlparser2-6.1.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "ce5f6109-925d-4030-a573-a9b84f65cf5d"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "is-plain-object-5.0.0.tgz",
+    "group" : "is-plain-object",
+    "name" : "is-plain-object-5.0.0.tgz",
+    "version" : "5.0.0",
+    "description" : "Returns true if an object was created by the `Object` constructor, or Object.create(null).",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "4427f50ab3429e9025ea7d52e9043a9ef4159344"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2019 \"Jon Schlinkert\" (https://github.com/jonschlinkert),Copyright 2014-2017 Jon Schlinkert",
+    "purl" : "pkg:npm/is-plain-object@5.0.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/jonschlinkert/is-plain-object"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/is-plain-object/-/is-plain-object-5.0.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "c4131921-2d0b-4306-a10b-6ff08b22570d"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "react-dom-16.9.0.tgz",
+    "group" : "react-dom",
+    "name" : "react-dom-16.9.0.tgz",
+    "version" : "16.9.0",
+    "description" : "React package for working with the DOM.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "5e65527a5e26f22ae3701131bcccaee9fb0d3962"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright Facebook, Inc. and its affiliates",
+    "purl" : "pkg:npm/react-dom@16.9.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://reactjs.org/"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/react-dom/-/react-dom-16.9.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "8141fb12-6ff6-4aba-a83c-15f5eba2ffc4"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "wordwrap-0.0.3.tgz",
+    "group" : "wordwrap",
+    "name" : "wordwrap-0.0.3.tgz",
+    "version" : "0.0.3",
+    "description" : "Wrap those words. Show them at what columns to start and stop.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2015 Copyright 2015 James Halliday (mail@substack.net)",
+    "purl" : "pkg:npm/wordwrap@0.0.3",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/substack/node-wordwrap#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "8f16cb82-46ff-4d8a-bf00-4e9f860b1528"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "form2js-1.0.0.tgz",
+    "group" : "form2js",
+    "name" : "form2js-1.0.0.tgz",
+    "version" : "1.0.0",
+    "description" : "form2js -------",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "179a10051e4a06f694b2ab345e9c92001dd84ce7"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2010 Copyright (c) 2010 Maxim Vasiliev",
+    "purl" : "pkg:npm/form2js@1.0.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/kirill-zhirnov/form2js"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/form2js/-/form2js-1.0.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "e846af43-adae-4b6a-8d31-b49940f75951"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "whatwg-fetch-3.0.0.tgz",
+    "group" : "whatwg-fetch",
+    "name" : "whatwg-fetch-3.0.0.tgz",
+    "version" : "3.0.0",
+    "description" : "A window.fetch polyfill.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "fc804e458cc460009b1a2b966bc8817d2578aefb"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2014 Copyright (c) 2014-2016 GitHub, Inc.",
+    "purl" : "pkg:npm/whatwg-fetch@3.0.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/github/fetch#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-3.0.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "bde00657-4741-4291-8020-b9b9a0bc9ed0"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "jquery-i18next-1.2.1.tgz",
+    "group" : "jquery-i18next",
+    "name" : "jquery-i18next-1.2.1.tgz",
+    "version" : "1.2.1",
+    "description" : "i18next plugin for jquery usage",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "3e4ac5e46632fac21640529f1aa7b68e54f227e8"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2015 Copyright (c) 2015 i18next",
+    "purl" : "pkg:npm/jquery-i18next@1.2.1",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/i18next/jquery-i18next"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/jquery-i18next/-/jquery-i18next-1.2.1.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "6a35b0b5-f2c0-4b81-9d96-60c7272b6b71"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "moment-duration-format-2.3.2.tgz",
+    "group" : "moment-duration-format",
+    "name" : "moment-duration-format-2.3.2.tgz",
+    "version" : "2.3.2",
+    "description" : "A moment.js plugin for formatting durations.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "5fa2b19b941b8d277122ff3f87a12895ec0d6212"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2019 John Madhavan-Reese",
+    "purl" : "pkg:npm/moment-duration-format@2.3.2",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/jsmreese/moment-duration-format"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/moment-duration-format/-/moment-duration-format-2.3.2.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "62a2f735-a3dc-410a-85cb-28c699dae6e0"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "esprima-3.0.0.tgz",
+    "group" : "esprima",
+    "name" : "esprima-3.0.0.tgz",
+    "version" : "3.0.0",
+    "description" : "ECMAScript parsing infrastructure for multipurpose analysis",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "53cf247acda77313e551c3aa2e73342d3fb4f7d9"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "BSD-2-Clause",
+        "url" : "http://opensource.org/licenses/bsd-license"
+      }
+    } ],
+    "copyright" : "Copyright jQuery Foundation, Inc. and Contributors, All Rights Reserved",
+    "purl" : "pkg:npm/esprima@3.0.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://esprima.org"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/esprima/-/esprima-3.0.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "c968c9ce-f281-464a-9983-7470ed377c0c"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "domelementtype-2.3.0.tgz",
+    "group" : "domelementtype",
+    "name" : "domelementtype-2.3.0.tgz",
+    "version" : "2.3.0",
+    "description" : "all the types of nodes in htmlparser2's dom",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "5c45e8e869952626331d7aab326d01daf65d589d"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "BSD-2-Clause",
+        "url" : "http://opensource.org/licenses/bsd-license"
+      }
+    } ],
+    "copyright" : "Copyright Felix Böhm",
+    "purl" : "pkg:npm/domelementtype@2.3.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/fb55/domelementtype#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "372829c7-28a4-4171-a8ad-3f1f03723760"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "regenerator-runtime-0.14.1.tgz",
+    "group" : "regenerator-runtime",
+    "name" : "regenerator-runtime-0.14.1.tgz",
+    "version" : "0.14.1",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "356ade10263f685dda125100cd862c1db895327f"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2014 Facebook, Inc,Copyright 2014 Facebook, Inc",
+    "purl" : "pkg:npm/regenerator-runtime@0.14.1",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/facebook/regenerator/tree/main#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "c956be08-f1b4-4b34-9051-a29f7941ba39"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "uri-js-4.2.2.tgz",
+    "group" : "uri-js",
+    "name" : "uri-js-4.2.2.tgz",
+    "version" : "4.2.2",
+    "description" : "An RFC 3986/3987 compliant, scheme extendable URI/IRI parsing/validating/resolving library for JavaScript.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "94c540e1ff772956e2299507c010aea6c8838eb0"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "BSD-2-Clause",
+        "url" : "http://opensource.org/licenses/bsd-license"
+      }
+    } ],
+    "copyright" : "Copyright 2011 Gary Court",
+    "purl" : "pkg:npm/uri-js@4.2.2",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/garycourt/uri-js"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/uri-js/-/uri-js-4.2.2.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "bb25cac8-b8c1-41ad-8463-b1472c1c0ca4"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "to-camel-case-1.0.0.tgz",
+    "group" : "to-camel-case",
+    "name" : "to-camel-case-1.0.0.tgz",
+    "version" : "1.0.0",
+    "description" : "Convert a string to camel case.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "1a56054b2f9d696298ce66a60897322b6f423e46"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2016 Ian Storm Taylor",
+    "purl" : "pkg:npm/to-camel-case@1.0.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/ianstormtaylor/to-camel-case"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/to-camel-case/-/to-camel-case-1.0.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "092f8c8a-58fd-4ea0-961d-b70ecf0da120"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "escape-string-regexp-4.0.0.tgz",
+    "group" : "escape-string-regexp",
+    "name" : "escape-string-regexp-4.0.0.tgz",
+    "version" : "4.0.0",
+    "description" : "Escape RegExp special characters",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "14ba83a5d373e3d311e5afca29cf5bfad965bf34"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)",
+    "purl" : "pkg:npm/escape-string-regexp@4.0.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/sindresorhus/escape-string-regexp#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "7da84aa4-0eec-48f5-a8af-73f8e6f24a30"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "just-curry-it-3.1.0.tgz",
+    "group" : "just-curry-it",
+    "name" : "just-curry-it-3.1.0.tgz",
+    "version" : "3.1.0",
+    "description" : "return a curried function",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "ab59daed308a58b847ada166edd0a2d40766fbc5"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2016 angus croll",
+    "purl" : "pkg:npm/just-curry-it@3.1.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/angus-c/just#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/just-curry-it/-/just-curry-it-3.1.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "8f55c7cc-9afe-4188-b2be-221052de1eaa"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "dom-serializer-1.4.1.tgz",
+    "group" : "dom-serializer",
+    "name" : "dom-serializer-1.4.1.tgz",
+    "version" : "1.4.1",
+    "description" : "render domhandler DOM nodes to a string",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "de5d41b1aea290215dc45a6dae8adcf1d32e2d30"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2014 The cheeriojs contributors",
+    "purl" : "pkg:npm/dom-serializer@1.4.1",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/cheeriojs/dom-renderer#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/dom-serializer/-/dom-serializer-1.4.1.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "11454618-02dd-4430-a45c-3934431331ce"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "bootstrap-dialog-1.34.6.tgz",
+    "group" : "bootstrap-dialog",
+    "name" : "bootstrap-dialog-1.34.6.tgz",
+    "version" : "1.34.6",
+    "description" : "Make use of Bootstrap Modal more monkey-friendly.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "6e5e15a4dc8e0a8ae0c539a50d00628a8da65f0b"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2015 Copyright 2015 Nakupanda (avanoob@hotmail.com)",
+    "purl" : "pkg:npm/bootstrap-dialog@1.34.6",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://nakupanda.github.io/bootstrap3-dialog"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/bootstrap-dialog/-/bootstrap-dialog-1.34.6.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "9e2c152b-605c-4eb0-af26-77ccad140fef"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "nanoid-3.3.8.tgz",
+    "group" : "nanoid",
+    "name" : "nanoid-3.3.8.tgz",
+    "version" : "3.3.8",
+    "description" : "A tiny (116 bytes), secure URL-friendly unique string ID generator",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "b1be3030bee36aaff18bacb375e5cce521684baf"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2017 Andrey Sitnik <andrey@sitnik.ru>,Copyright 2017 Andrey Sitnik <andrey@sitnik.ru>",
+    "purl" : "pkg:npm/nanoid@3.3.8",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/ai/nanoid#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/nanoid/-/nanoid-3.3.8.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "7d3c947c-a44e-4592-83df-7c9df9e76384"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "picocolors-1.0.0.tgz",
+    "group" : "picocolors",
+    "name" : "picocolors-1.0.0.tgz",
+    "version" : "1.0.0",
+    "description" : "The tiniest and the fastest library for terminal output formatting with ANSI colors",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "ISC",
+        "url" : "http://www.opensource.org/licenses/ISC"
+      }
+    } ],
+    "copyright" : "Copyright 2021 Alexey Raspopov, Kostiantyn Denysov, Anton Verinov",
+    "purl" : "pkg:npm/picocolors@1.0.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/alexeyraspopov/picocolors#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "a193845d-b4d3-43ff-8128-03d1b1669744"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "backgrid-select-all-0.3.5.tgz",
+    "group" : "backgrid-select-all",
+    "name" : "backgrid-select-all-0.3.5.tgz",
+    "version" : "0.3.5",
+    "description" : "Backgrid.js extension for multiple selections.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "143a800e5d95ff2ae5a84d78bf4fba41f9481e94"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2018 Copyright (c) 2012 Jimmy Yuen Ho Wong",
+    "purl" : "pkg:npm/backgrid-select-all@0.3.5",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/wyuenho/backgrid-select-all"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/backgrid-select-all/-/backgrid-select-all-0.3.5.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "b0aca66a-468e-4e36-8aa2-ebd110532c98"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "humanize-0.0.9.tgz",
+    "group" : "humanize",
+    "name" : "humanize-0.0.9.tgz",
+    "version" : "0.0.9",
+    "description" : "Javascript string formatter for human readability",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "1994ffaecdfe9c441ed2bdac7452b7bb4c9e41a4"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2012 Copyright (c) 2012 Tai-Jin Lee http://www.taijinlee.com",
+    "purl" : "pkg:npm/humanize@0.0.9",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/taijinlee/humanize"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/humanize/-/humanize-0.0.9.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "d7d70c48-b5b4-4b5d-b9c8-70f91b8d4f35"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "domutils-2.8.0.tgz",
+    "group" : "domutils",
+    "name" : "domutils-2.8.0.tgz",
+    "version" : "2.8.0",
+    "description" : "Utilities for working with htmlparser2's dom",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "4437def5db6e2d1f5d6ee859bd95ca7d02048135"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "BSD-2-Clause",
+        "url" : "http://opensource.org/licenses/bsd-license"
+      }
+    } ],
+    "copyright" : "Copyright Felix Böhm",
+    "purl" : "pkg:npm/domutils@2.8.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/fb55/domutils#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/domutils/-/domutils-2.8.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "1e270810-2827-4cfb-89c9-a2ffb85d4ef2"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "moment-timezone-0.5.37.tgz",
+    "group" : "moment-timezone",
+    "name" : "moment-timezone-0.5.37.tgz",
+    "version" : "0.5.37",
+    "description" : "Parse and display moments in any timezone.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "adf97f719c4e458fdb12e2b4e87b8bec9f4eef1e"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright JS Foundation and other contributors,Copyright JS Foundation and other contributors",
+    "purl" : "pkg:npm/moment-timezone@0.5.37",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://momentjs.com/timezone/"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.5.37.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "58424e51-c8fd-4e74-9927-2914f0241aa5"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "domelementtype-2.0.1.tgz",
+    "group" : "domelementtype",
+    "name" : "domelementtype-2.0.1.tgz",
+    "version" : "2.0.1",
+    "description" : "all the types of nodes in htmlparser2's dom",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "1f8bdfe91f5a78063274e803b4bdcedf6e94f94d"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "BSD-2-Clause",
+        "url" : "http://opensource.org/licenses/bsd-license"
+      }
+    } ],
+    "copyright" : "Copyright Felix Böhm",
+    "purl" : "pkg:npm/domelementtype@2.0.1",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/fb55/domelementtype#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/domelementtype/-/domelementtype-2.0.1.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "351a2e67-240c-4777-82ee-ab56cc9d549b"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "scheduler-0.15.0.tgz",
+    "group" : "scheduler",
+    "name" : "scheduler-0.15.0.tgz",
+    "version" : "0.15.0",
+    "description" : "Cooperative scheduler for the browser environment.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "6bfcf80ff850b280fed4aeecc6513bc0b4f17f8e"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright Facebook, Inc. and its affiliates",
+    "purl" : "pkg:npm/scheduler@0.15.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://reactjs.org/"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/scheduler/-/scheduler-0.15.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "b5d506ff-832c-4d28-b328-9e0e9dd6d8b5"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "font-awesome-4.7.0.tgz",
+    "group" : "font-awesome",
+    "name" : "font-awesome-4.7.0.tgz",
+    "version" : "4.7.0",
+    "description" : "The iconic font and CSS framework",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "8fa8cf0411a1a31afd07b06d2902bb9fc815a133"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2016 Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome",
+    "purl" : "pkg:npm/font-awesome@4.7.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://fontawesome.io/"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "9bf3f29e-f214-489e-a53c-d0711a1860bf"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "json-schema-traverse-0.4.1.tgz",
+    "group" : "json-schema-traverse",
+    "name" : "json-schema-traverse-0.4.1.tgz",
+    "version" : "0.4.1",
+    "description" : "Traverse JSON Schema passing each schema object to callback",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "69f6a87d9513ab8bb8fe63bdb0979c448e684660"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2017 Evgeny Poberezkin",
+    "purl" : "pkg:npm/json-schema-traverse@0.4.1",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/epoberezkin/json-schema-traverse#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "c7cb5563-bdb6-4e45-bb63-34c0e74a408f"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "urijs-1.19.11.tgz",
+    "group" : "urijs",
+    "name" : "urijs-1.19.11.tgz",
+    "version" : "1.19.11",
+    "description" : "URI.js is a Javascript library for working with URLs.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "204b0d6b605ae80bea54bea39280cdb7c9f923cc"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2011 Rodney Rehm",
+    "purl" : "pkg:npm/urijs@1.19.11",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://medialize.github.io/URI.js/"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/urijs/-/urijs-1.19.11.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "6f337935-1fa3-44c9-85e8-ca163d83fd1e"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "to-space-case-1.0.0.tgz",
+    "group" : "to-space-case",
+    "name" : "to-space-case-1.0.0.tgz",
+    "version" : "1.0.0",
+    "description" : "Convert a string to space case.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "b052daafb1b2b29dc770cea0163e5ec0ebc9fc17"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2016 Ian Storm Taylor",
+    "purl" : "pkg:npm/to-space-case@1.0.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/ianstormtaylor/to-space-case"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/to-space-case/-/to-space-case-1.0.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "e088b3bb-46fb-46c5-ad7e-78e59959ae2c"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "async-3.2.3.tgz",
+    "group" : "async",
+    "name" : "async-3.2.3.tgz",
+    "version" : "3.2.3",
+    "description" : "Higher-order functions and common patterns for asynchronous code",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "ac53dafd3f4720ee9e8a160628f18ea91df196c9"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2010-2018 Caolan McMahon,Copyright 2010-2018 Caolan McMahon",
+    "purl" : "pkg:npm/async@3.2.3",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://caolan.github.io/async/"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/async/-/async-3.2.3.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "73acb055-ce7e-4999-a58e-48ac93afd6ee"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "source-map-js-1.0.2.tgz",
+    "group" : "source-map-js",
+    "name" : "source-map-js-1.0.2.tgz",
+    "version" : "1.0.2",
+    "description" : "Generates and consumes source maps",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "adbc361d9c62df380125e7f161f71c826f1e490c"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "BSD-3-Clause",
+        "url" : "http://www.opensource.org/licenses/BSD-3-Clause"
+      }
+    } ],
+    "copyright" : "Copyright 2009-2011 Mozilla Foundation and contributors",
+    "purl" : "pkg:npm/source-map-js@1.0.2",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/7rulnik/source-map-js"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "25443c8a-9b9b-43ea-8c93-2ab9ad11ea5d"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "backbone-relational-0.10.0.tgz",
+    "group" : "backbone-relational",
+    "name" : "backbone-relational-0.10.0.tgz",
+    "version" : "0.10.0",
+    "description" : "Get and set relations (one-to-one, one-to-many, many-to-one) for Backbone models",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "308eb2c8eae0980da55c9f6c592553c4e0e0041c"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2011-2014 Paul Uithol",
+    "purl" : "pkg:npm/backbone-relational@0.10.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://backbonerelational.org"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/backbone-relational/-/backbone-relational-0.10.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "87005ca8-4fbc-4078-9328-4ba63aaf6c96"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "parse-srcset-1.0.2.tgz",
+    "group" : "parse-srcset",
+    "name" : "parse-srcset-1.0.2.tgz",
+    "version" : "1.0.2",
+    "description" : "A spec-conformant JavaScript parser for the HTML5 srcset attribute",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "f2bd221f6cc970a938d88556abc589caaaa2bde1"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2014 Alex Bell",
+    "purl" : "pkg:npm/parse-srcset@1.0.2",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/albell/parse-srcset#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/parse-srcset/-/parse-srcset-1.0.2.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "cab83f3c-a64b-4375-868d-2b1672ed26c2"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "sanitize-html-2.12.1.tgz",
+    "group" : "sanitize-html",
+    "name" : "sanitize-html-2.12.1.tgz",
+    "version" : "2.12.1",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "280a0f5c37305222921f6f9d605be1f6558914c7"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2013-2015 P'unk Avenue LLC",
+    "purl" : "pkg:npm/sanitize-html@2.12.1",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/apostrophecms/sanitize-html#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/sanitize-html/-/sanitize-html-2.12.1.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "9e6a0342-bec3-4f45-8845-a4fdf91db688"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "minimist-1.2.6.tgz",
+    "group" : "minimist",
+    "name" : "minimist-1.2.6.tgz",
+    "version" : "1.2.6",
+    "description" : "parse argument options",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "8637a5b759ea0d6e98702cfb3a9283323c93af44"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "James Halliday",
+    "purl" : "pkg:npm/minimist@1.2.6",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/substack/minimist"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "7b51197c-4cb4-491a-95bd-d58086296988"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "runtime-7.26.10.tgz",
+    "group" : "@babel/runtime",
+    "name" : "runtime-7.26.10.tgz",
+    "version" : "7.26.10",
+    "description" : "babel's modular runtime helpers",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "a07b4d8fa27af131a633d7b3524db803eb4764c2"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2014 Sebastian McKenzie and other contributors",
+    "purl" : "pkg:npm/%40babel/runtime@7.26.10",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://babel.dev/docs/en/next/babel-runtime"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/@babel/runtime/-/runtime-7.26.10.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "445363a6-05b0-4f6f-a953-dd38e3f83898"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "entities-2.0.0.tgz",
+    "group" : "entities",
+    "name" : "entities-2.0.0.tgz",
+    "version" : "2.0.0",
+    "description" : "Encode & decode XML/HTML entities with ease",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "68d6084cab1b079767540d80e56a39b423e4abf4"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "BSD-2-Clause",
+        "url" : "http://opensource.org/licenses/bsd-license"
+      }
+    } ],
+    "copyright" : "Copyright Felix Böhm",
+    "purl" : "pkg:npm/entities@2.0.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/fb55/entities#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/entities/-/entities-2.0.0.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "38d350c8-cfe2-4a8f-93be-7327397a5ad4"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "i18next-browser-languagedetector-6.1.4.tgz",
+    "group" : "i18next-browser-languagedetector",
+    "name" : "i18next-browser-languagedetector-6.1.4.tgz",
+    "version" : "6.1.4",
+    "description" : "language detector used in browser environment for i18next",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "7b087c5edb6f6acd38ef54ede2160ab9cde0108f"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2022 i18next",
+    "purl" : "pkg:npm/i18next-browser-languagedetector@6.1.4",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/i18next/i18next-browser-languageDetector"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/i18next-browser-languagedetector/-/i18next-browser-languagedetector-6.1.4.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "781b77a2-1cf6-4342-92a1-ecba728b68c2"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "invariant-2.2.4.tgz",
+    "group" : "invariant",
+    "name" : "invariant-2.2.4.tgz",
+    "version" : "2.2.4",
+    "description" : "invariant",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "610f3c92c9359ce1db616e538008d23ff35158e6"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2013 Copyright (c) 2013-present, Facebook, Inc.",
+    "purl" : "pkg:npm/invariant@2.2.4",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/zertosh/invariant#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/invariant/-/invariant-2.2.4.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "244a7f9a-2234-4282-950e-13a8e0dfd38b"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "prop-types-15.7.2.tgz",
+    "group" : "prop-types",
+    "name" : "prop-types-15.7.2.tgz",
+    "version" : "15.7.2",
+    "description" : "Runtime type checking for React props and similar objects.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2013 Facebook, Inc",
+    "purl" : "pkg:npm/prop-types@15.7.2",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://facebook.github.io/react/"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "966986b5-97ca-421d-803a-7e88d5bde181"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "sifter-0.5.4.tgz",
+    "group" : "sifter",
+    "name" : "sifter-0.5.4.tgz",
+    "version" : "0.5.4",
+    "description" : "A library for textually searching arrays and hashes of objects by property (or multiple properties). Designed specifically for autocomplete.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "3cb9e514889edfc887d8d87a355841b01ebdd1ab"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 2013-2015 \"Brian Reavis\" (http://twitter.com/brianreavis) & \"Contributors\" (https://github,Copyright 2013-2015 [Brian Reavis](http://twitter.com/brianreavis) & [Contributors](https://github.c",
+    "purl" : "pkg:npm/sifter@0.5.4",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/brianreavis/sifter.js#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/sifter/-/sifter-0.5.4.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "b370b9df-8eb4-459c-af9a-3e51e01994ea"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "ua-parser-js-0.7.33.tgz",
+    "group" : "ua-parser-js",
+    "name" : "ua-parser-js-0.7.33.tgz",
+    "version" : "0.7.33",
+    "description" : "Detect Browser, Engine, OS, CPU, and Device type/model from User-Agent data. Supports browser & node.js environment",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "1d04acb4ccef9293df6f70f2c3d22f3030d8b532"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2012-2021 Faisal Salman <,Copyright 2012-2021 Faisal Salman <",
+    "purl" : "pkg:npm/ua-parser-js@0.7.33",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/faisalman/ua-parser-js"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.33.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "b3954739-b4ab-4bb2-a07e-1881d54cb781"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "backbone-1.2.3.tgz",
+    "group" : "backbone",
+    "name" : "backbone-1.2.3.tgz",
+    "version" : "1.2.3",
+    "description" : "Give your JS App some Backbone with Models, Views, Collections, and Events.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "c22cfd07fc86ebbeae61d18929ed115e999d65b9"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2010 Copyright (c) 2010-2015 Jeremy Ashkenas, DocumentCloud",
+    "purl" : "pkg:npm/backbone@1.2.3",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/jashkenas/backbone"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/backbone/-/backbone-1.2.3.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "b0632259-6241-4567-81ff-8ebd42dc8438"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "backbone.paginator-2.0.8.tgz-2",
+    "group" : "backbone.paginator",
+    "name" : "backbone.paginator-2.0.8.tgz",
+    "version" : "2.0.8",
+    "description" : "A pageable Backbone.Collection superset. Supports server-side/client-side/infinite pagination and sorting.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "3a7e34f0a8b97b096333587ed3048556b9eafdcb"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "2012 Copyright (c) 2012-2014 Jimmy Yuen Ho Wong and contributors",
+    "purl" : "pkg:npm/backbone.paginator@2.0.8",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/backbone-paginator/backbone.paginator#readme"
+    }, {
+      "type" : "distribution",
+      "url" : "https://registry.npmjs.org/backbone.paginator/-/backbone.paginator-2.0.8.tgz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "NODE_PACKAGED_MODULE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "55900fc7-5bd1-49a9-b817-e34963e2b9bf"
+    } ]
+  } ],
+  "dependencies" : [ {
+    "ref" : "javascript-sdk-2.2.0.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "bootstrap-dialog-1.34.6.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "underscore-1.12.1.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "backgrid-0.3.8.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "backbone-1.2.3.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "lunr-0.7.2.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "backgrid-filter-0.3.7.tgz",
+    "dependsOn" : [ "underscore-1.12.1.tgz", "backgrid-0.3.8.tgz", "backbone-1.2.3.tgz", "lunr-0.7.2.tgz" ]
+  }, {
+    "ref" : "react-16.9.0.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "spin.js-2.3.2.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "moment-duration-format-2.3.2.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "ms-2.1.2.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "debug-3.2.7.tgz",
+    "dependsOn" : [ "ms-2.1.2.tgz" ]
+  }, {
+    "ref" : "backbone-1.4.0.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "backbone-relational-0.10.0.tgz",
+    "dependsOn" : [ "backbone-1.4.0.tgz", "underscore-1.12.1.tgz" ]
+  }, {
+    "ref" : "form2js-1.0.0.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "urijs-1.19.11.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "crest-js-2.1.11.tgz",
+    "dependsOn" : [ "urijs-1.19.11.tgz" ]
+  }, {
+    "ref" : "moment-2.29.4.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "moment-timezone-0.5.37.tgz",
+    "dependsOn" : [ "moment-2.29.4.tgz" ]
+  }, {
+    "ref" : "backgrid-select-all-0.3.5.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "ua-parser-js-0.7.33.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "core-js-3.2.1.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "font-awesome-4.7.0.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "backbone.paginator-2.0.8.tgz",
+    "dependsOn" : [ "backbone-1.4.0.tgz" ]
+  }, {
+    "ref" : "symbol-observable-1.2.0.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "redux-4.0.5.tgz",
+    "dependsOn" : [ "symbol-observable-1.2.0.tgz" ]
+  }, {
+    "ref" : "just-curry-it-3.1.0.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "loose-envify-1.4.0.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "reduce-reducers-0.4.3.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "to-no-case-1.0.2.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "to-space-case-1.0.0.tgz",
+    "dependsOn" : [ "to-no-case-1.0.2.tgz" ]
+  }, {
+    "ref" : "to-camel-case-1.0.0.tgz",
+    "dependsOn" : [ "to-space-case-1.0.0.tgz" ]
+  }, {
+    "ref" : "invariant-2.2.4.tgz",
+    "dependsOn" : [ "loose-envify-1.4.0.tgz" ]
+  }, {
+    "ref" : "redux-actions-2.6.5.tgz",
+    "dependsOn" : [ "just-curry-it-3.1.0.tgz", "loose-envify-1.4.0.tgz", "reduce-reducers-0.4.3.tgz", "to-camel-case-1.0.0.tgz", "invariant-2.2.4.tgz" ]
+  }, {
+    "ref" : "whatwg-fetch-3.0.0.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "backbone.paginator-2.0.8.tgz-2",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "backbone-1.3.3.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "backgrid-paginator-0.3.9.tgz",
+    "dependsOn" : [ "backbone.paginator-2.0.8.tgz-2", "underscore-1.12.1.tgz", "backbone-1.3.3.tgz" ]
+  }, {
+    "ref" : "lodash-4.17.21.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "bootstrap-3.4.1.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "microplugin-0.0.3.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "csv-parse-4.8.5.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "wordwrap-0.0.3.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "minimist-1.2.6.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "optimist-0.6.1.tgz",
+    "dependsOn" : [ "wordwrap-0.0.3.tgz", "minimist-1.2.6.tgz" ]
+  }, {
+    "ref" : "async-3.2.3.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "humanize-0.0.9.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "ansicolors-0.2.1.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "esprima-3.0.0.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "redeyed-1.0.1.tgz",
+    "dependsOn" : [ "esprima-3.0.0.tgz" ]
+  }, {
+    "ref" : "cardinal-1.0.0.tgz",
+    "dependsOn" : [ "ansicolors-0.2.1.tgz", "redeyed-1.0.1.tgz" ]
+  }, {
+    "ref" : "sifter-0.5.4.tgz",
+    "dependsOn" : [ "csv-parse-4.8.5.tgz", "optimist-0.6.1.tgz", "async-3.2.3.tgz", "humanize-0.0.9.tgz", "cardinal-1.0.0.tgz" ]
+  }, {
+    "ref" : "selectize-0.12.6.tgz",
+    "dependsOn" : [ "microplugin-0.0.3.tgz", "sifter-0.5.4.tgz" ]
+  }, {
+    "ref" : "domelementtype-2.3.0.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "domhandler-4.3.1.tgz",
+    "dependsOn" : [ "domelementtype-2.3.0.tgz" ]
+  }, {
+    "ref" : "domhandler-4.3.1.tgz-2",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "dom-serializer-1.4.1.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "domutils-2.8.0.tgz",
+    "dependsOn" : [ "domhandler-4.3.1.tgz-2", "dom-serializer-1.4.1.tgz" ]
+  }, {
+    "ref" : "entities-2.0.0.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "domelementtype-2.0.1.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "htmlparser2-6.1.0.tgz",
+    "dependsOn" : [ "domhandler-4.3.1.tgz", "domutils-2.8.0.tgz", "entities-2.0.0.tgz", "domelementtype-2.0.1.tgz" ]
+  }, {
+    "ref" : "deepmerge-4.2.2.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "is-plain-object-5.0.0.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "escape-string-regexp-4.0.0.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "picocolors-1.0.0.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "source-map-js-1.0.2.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "nanoid-3.3.8.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "postcss-8.4.31.tgz",
+    "dependsOn" : [ "picocolors-1.0.0.tgz", "source-map-js-1.0.2.tgz", "nanoid-3.3.8.tgz" ]
+  }, {
+    "ref" : "parse-srcset-1.0.2.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "sanitize-html-2.12.1.tgz",
+    "dependsOn" : [ "htmlparser2-6.1.0.tgz", "deepmerge-4.2.2.tgz", "is-plain-object-5.0.0.tgz", "escape-string-regexp-4.0.0.tgz", "postcss-8.4.31.tgz", "parse-srcset-1.0.2.tgz" ]
+  }, {
+    "ref" : "jquery-3.6.1.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "runtime-7.26.10.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "i18next-21.6.14.tgz",
+    "dependsOn" : [ "runtime-7.26.10.tgz" ]
+  }, {
+    "ref" : "regenerator-runtime-0.14.1.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "runtime-7.26.10.tgz-2",
+    "dependsOn" : [ "regenerator-runtime-0.14.1.tgz" ]
+  }, {
+    "ref" : "i18next-browser-languagedetector-6.1.4.tgz",
+    "dependsOn" : [ "runtime-7.26.10.tgz-2" ]
+  }, {
+    "ref" : "object-assign-4.1.1.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "react-is-16.10.2.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "prop-types-15.7.2.tgz",
+    "dependsOn" : [ "react-is-16.10.2.tgz" ]
+  }, {
+    "ref" : "js-tokens-4.0.0.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "loose-envify-1.4.0.tgz-2",
+    "dependsOn" : [ "js-tokens-4.0.0.tgz" ]
+  }, {
+    "ref" : "scheduler-0.15.0.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "react-dom-16.9.0.tgz",
+    "dependsOn" : [ "object-assign-4.1.1.tgz", "prop-types-15.7.2.tgz", "loose-envify-1.4.0.tgz-2", "scheduler-0.15.0.tgz" ]
+  }, {
+    "ref" : "punycode-2.1.1.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "uri-js-4.2.2.tgz",
+    "dependsOn" : [ "punycode-2.1.1.tgz" ]
+  }, {
+    "ref" : "json-schema-traverse-0.4.1.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "fast-deep-equal-3.1.3.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "fast-json-stable-stringify-2.0.0.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "ajv-6.12.3.tgz",
+    "dependsOn" : [ "uri-js-4.2.2.tgz", "json-schema-traverse-0.4.1.tgz", "fast-deep-equal-3.1.3.tgz", "fast-json-stable-stringify-2.0.0.tgz" ]
+  }, {
+    "ref" : "qrcode-generator-1.4.4.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "jquery-i18next-1.2.1.tgz",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "backbone-1.4.0.tgz-2",
+    "dependsOn" : [ "underscore-1.12.1.tgz" ]
+  }, {
+    "ref" : "f8cdc38c-4791-488f-8329-cb9f26151f2d",
+    "dependsOn" : [ "javascript-sdk-2.2.0.tgz", "bootstrap-dialog-1.34.6.tgz", "backgrid-filter-0.3.7.tgz", "react-16.9.0.tgz", "spin.js-2.3.2.tgz", "moment-duration-format-2.3.2.tgz", "debug-3.2.7.tgz", "backbone-relational-0.10.0.tgz", "form2js-1.0.0.tgz", "crest-js-2.1.11.tgz", "moment-timezone-0.5.37.tgz", "backgrid-select-all-0.3.5.tgz", "ua-parser-js-0.7.33.tgz", "core-js-3.2.1.tgz", "backgrid-0.3.8.tgz", "urijs-1.19.11.tgz", "font-awesome-4.7.0.tgz", "backbone.paginator-2.0.8.tgz", "redux-4.0.5.tgz", "redux-actions-2.6.5.tgz", "whatwg-fetch-3.0.0.tgz", "backgrid-paginator-0.3.9.tgz", "lodash-4.17.21.tgz", "bootstrap-3.4.1.tgz", "selectize-0.12.6.tgz", "sanitize-html-2.12.1.tgz", "jquery-3.6.1.tgz", "i18next-21.6.14.tgz", "i18next-browser-languagedetector-6.1.4.tgz", "react-dom-16.9.0.tgz", "ajv-6.12.3.tgz", "qrcode-generator-1.4.4.tgz", "moment-2.29.4.tgz", "jquery-i18next-1.2.1.tgz", "backbone-1.4.0.tgz-2" ]
+  } ],
+  "vulnerabilities" : [ {
+    "id" : "CVE-2024-6485",
+    "source" : {
+      "name" : "NVD",
+      "url" : "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2024-6485"
+    },
+    "ratings" : [ {
+      "score" : 6.4,
+      "severity" : "medium",
+      "method" : "CVSSv3",
+      "vector" : "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:L/A:L"
+    } ],
+    "analysis" : {
+      "state" : "exploitable",
+      "response" : [ "will_not_fix", "update" ]
+    },
+    "affects" : [ {
+      "ref" : "bootstrap-3.4.1.tgz"
+    } ]
+  }, {
+    "id" : "CVE-2025-1647",
+    "source" : {
+      "name" : "NVD",
+      "url" : "https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2025-1647"
+    },
+    "ratings" : [ {
+      "score" : 5.6,
+      "severity" : "medium",
+      "method" : "CVSSv3",
+      "vector" : "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    } ],
+    "analysis" : {
+      "state" : "exploitable",
+      "response" : [ "will_not_fix", "update" ]
+    },
+    "affects" : [ {
+      "ref" : "bootstrap-3.4.1.tgz"
+    } ]
+  } ]
+}

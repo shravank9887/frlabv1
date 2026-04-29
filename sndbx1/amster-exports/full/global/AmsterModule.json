@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "AmsterModule",
+    "entityId" : "AmsterModule",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "defaults" : {
+      "authorizedKeys" : "/opt/am-config/security/keys/amster/authorized_keys",
+      "authenticationLevel" : 0,
+      "enabled" : true
+    },
+    "_type" : {
+      "_id" : "amster",
+      "name" : "ForgeRock Amster",
+      "collection" : false
+    }
+  }
+}

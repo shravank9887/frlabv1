@@ -1,0 +1,27 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "GlobalScripts",
+    "entityId" : "424da748-82cc-4b54-be6f-82bd64d82a74",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "424da748-82cc-4b54-be6f-82bd64d82a74",
+    "createdBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
+    "evaluatorVersion" : "V1_0",
+    "creationDate" : "1433147666269",
+    "language" : "GROOVY",
+    "script" : "LyoKICogQ29weXJpZ2h0IDIwMjAtMjAyNSBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uLiBBbGwgUmlnaHRzIFJlc2VydmVkCiAqCiAqIFRoaXMgY29kZSBpcyB0byBiZSB1c2VkIGV4Y2x1c2l2ZWx5IGluIGNvbm5lY3Rpb24gd2l0aCBQaW5nIElkZW50aXR5CiAqIENvcnBvcmF0aW9uIHNvZnR3YXJlIG9yIHNlcnZpY2VzLiBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uIG9ubHkgb2ZmZXJzCiAqIHN1Y2ggc29mdHdhcmUgb3Igc2VydmljZXMgdG8gbGVnYWwgZW50aXRpZXMgd2hvIGhhdmUgZW50ZXJlZCBpbnRvIGEKICogYmluZGluZyBsaWNlbnNlIGFncmVlbWVudCB3aXRoIFBpbmcgSWRlbnRpdHkgQ29ycG9yYXRpb24uCiAqLwoKaW1wb3J0IHN0YXRpYyBvcmcuZm9yZ2Vyb2NrLmpzb24uSnNvblZhbHVlLmZpZWxkCmltcG9ydCBzdGF0aWMgb3JnLmZvcmdlcm9jay5qc29uLkpzb25WYWx1ZS5qc29uCmltcG9ydCBzdGF0aWMgb3JnLmZvcmdlcm9jay5qc29uLkpzb25WYWx1ZS5vYmplY3QKCnJldHVybiBqc29uKG9iamVjdCgKICAgICAgICBmaWVsZCgiaWQiLCByYXdQcm9maWxlLnN1YiksCiAgICAgICAgZmllbGQoImRpc3BsYXlOYW1lIiwgcmF3UHJvZmlsZS5uYW1lKSwKICAgICAgICBmaWVsZCgiZ2l2ZW5OYW1lIiwgcmF3UHJvZmlsZS5naXZlbl9uYW1lKSwKICAgICAgICBmaWVsZCgiZmFtaWx5TmFtZSIsIHJhd1Byb2ZpbGUuZmFtaWx5X25hbWUpLAogICAgICAgIGZpZWxkKCJwaG90b1VybCIsIHJhd1Byb2ZpbGUucGljdHVyZSksCiAgICAgICAgZmllbGQoImVtYWlsIiwgcmF3UHJvZmlsZS5lbWFpbCksCiAgICAgICAgZmllbGQoInVzZXJuYW1lIiwgcmF3UHJvZmlsZS5lbWFpbCksCiAgICAgICAgZmllbGQoImxvY2FsZSIsIHJhd1Byb2ZpbGUubG9jYWxlKSkp",
+    "description" : "Normalizes raw profile data from Yahoo",
+    "lastModifiedBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
+    "context" : "SOCIAL_IDP_PROFILE_TRANSFORMATION",
+    "lastModifiedDate" : "1433147666269",
+    "name" : "Yahoo Profile Normalization",
+    "_type" : {
+      "_id" : "globalScript",
+      "name" : "globalScript",
+      "collection" : true
+    }
+  }
+}

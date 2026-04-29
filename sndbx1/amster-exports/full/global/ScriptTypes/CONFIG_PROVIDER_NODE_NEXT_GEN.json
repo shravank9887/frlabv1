@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "ScriptTypes",
+    "entityId" : "CONFIG_PROVIDER_NODE_NEXT_GEN",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "CONFIG_PROVIDER_NODE_NEXT_GEN",
+    "isHidden" : false,
+    "languages" : [ "JAVASCRIPT" ],
+    "defaultScript" : "[Empty]",
+    "_type" : {
+      "_id" : "contexts",
+      "name" : "scriptContext",
+      "collection" : true
+    }
+  }
+}

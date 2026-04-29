@@ -1,0 +1,29 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "Applications",
+    "entityId" : "TechCorpAPI",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "TechCorpAPI",
+    "resourceTypeUuids" : [ "76656a38-5f8e-401b-83aa-4ccb74ce88d2" ],
+    "conditions" : [ "AMIdentityMembership", "AND", "AuthLevel", "AuthScheme", "AuthenticateToRealm", "AuthenticateToService", "IPv4", "IPv6", "IdmUser", "LDAPFilter", "LEAuthLevel", "NOT", "OAuth2Scope", "OR", "Policy", "ResourceEnvIP", "Script", "Session", "SessionProperty", "SimpleTime", "Transaction" ],
+    "creationDate" : 1769770231294,
+    "name" : "TechCorpAPI",
+    "displayName" : "TechCorp API Access",
+    "description" : null,
+    "attributeNames" : [ ],
+    "createdBy" : "id=amAdmin,ou=user,ou=am-config",
+    "editable" : true,
+    "resourceComparator" : null,
+    "lastModifiedBy" : "id=amAdmin,ou=user,ou=am-config",
+    "lastModifiedDate" : 1769770231294,
+    "applicationType" : "iPlanetAMWebAgentService",
+    "entitlementCombiner" : "DenyOverride",
+    "subjects" : [ "AND", "AuthenticatedUsers", "Identity", "JwtClaim", "NONE", "NOT", "OR", "Policy" ],
+    "saveIndex" : null,
+    "searchIndex" : null
+  }
+}

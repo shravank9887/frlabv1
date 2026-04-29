@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "GCPServiceAccount",
+    "entityId" : "default",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "default",
+    "disallowedSecretNamePatterns" : [ ],
+    "allowedRealms" : [ "*" ],
+    "allowedSecretNamePatterns" : [ "*" ],
+    "_type" : {
+      "_id" : "serviceAccounts",
+      "name" : "GCP Service Account",
+      "collection" : true
+    }
+  }
+}

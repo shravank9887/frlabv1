@@ -1,0 +1,60 @@
+{
+  "name": "02-sso",
+  "comment": "Lab 7: AM SSO — SingleSignOnFilter validates AM session, redirects to login if missing",
+  "condition": "${find(request.uri.path, '^/sso')}",
+  "heap": [
+    {
+      "name": "AmService-1",
+      "type": "AmService",
+      "config": {
+        "url": "http://pingam:8080/am",
+        "realm": "/techcorp",
+        "agent": {
+          "username": "ig_agent",
+          "passwordSecretId": "agent.password"
+        },
+        "secretsProvider": {
+          "type": "Base64EncodedSecretStore",
+          "config": {
+            "secrets": {
+              "agent.password": "Y2hhbmdlaXQ="
+            }
+          }
+        },
+        "sessionProperties": ["uid", "cn"]
+      }
+    }
+  ],
+  "handler": {
+    "type": "Chain",
+    "config": {
+      "filters": [
+        {
+          "type": "SingleSignOnFilter",
+          "config": {
+            "amService": "AmService-1",
+            "loginEndpoint": "http://pingam:8081/am/?goto=${urlEncodeQueryParameterNameOrValue(contexts.router.originalUri)}%3F_ig%3Dtrue&realm=/techcorp"
+          }
+        },
+        {
+          "type": "HeaderFilter",
+          "config": {
+            "messageType": "REQUEST",
+            "add": {
+              "X-IG-User": ["${contexts.ssoToken.info.uid}"],
+              "X-IG-Session": ["${contexts.ssoToken.value}"]
+            }
+          }
+        }
+      ],
+      "handler": {
+        "type": "ReverseProxyHandler",
+        "config": {
+          "connectionTimeout": "10 seconds",
+          "soTimeout": "10 seconds"
+        },
+        "baseURI": "http://sample-app:8081"
+      }
+    }
+  }
+}

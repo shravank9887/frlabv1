@@ -1,0 +1,26 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "RetryLimitDecision",
+    "entityId" : "29e82667-3122-4255-b316-ade3056117b1",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "29e82667-3122-4255-b316-ade3056117b1",
+    "incrementUserAttributeOnFailure" : true,
+    "retryLimit" : 3,
+    "_type" : {
+      "_id" : "RetryLimitDecisionNode",
+      "name" : "Retry Limit Decision",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "Retry",
+      "displayName" : "Retry"
+    }, {
+      "id" : "Reject",
+      "displayName" : "Reject"
+    } ]
+  }
+}

@@ -1,0 +1,36 @@
+Public Domain Definition
+
+Public domain refers to the total absence of copyright protection for a creative work (such as a book, painting, photograph, movie, poem, article, piece of music, product design or computer program).
+
+Public domain works (i.e., works in the public domain) are considered to be a part of the public's cultural heritage, and thus anybody is entitled to make use of them for any purpose, including copying, modifying and even selling, including with a restrictive license such as a EULA (end user license agreement). Moreover, it is even permissible to remove the original author's name and treat it as one's own work. The only restrictions that apply to public domain works are those that apply to goods and services in general, such as laws concerning safety, libel and exports.
+
+Copyright was originally created as a government-granted, short-term monopoly for the purpose of providing a financial incentive for the authors of creative works. It does not protect facts, ideas, discoveries, systems or methods of operation, although it can protect the way they are expressed.
+
+In the case of the U.S., copyright is provided for in the Constitution. Article I, Section 8 states:
+
+The Congress shall have Power . . . To promote the Progress of Science and useful Arts, by securing for limited Times to Authors and Inventors the exclusive Right to their respective Writings and Discoveries . . .
+Patents and trademarks are likewise government-granted monopolies to stimulate invention and commerce. A patent is a the granting by a government of the sole rights for an invention to its inventor or applicant for a limited period of time, generally 17 or 20 years from the filing date, according to the country. A trademark protects words, phrases, symbols or designs identifying the manufacturer or supplier of goods or services.
+
+How a Work Enters the Public Domain
+
+Copyright applies by default to most types of creative works, and thus it is not necessary for the creator to state on the work that it is copyrighted in order to obtain the full protection of copyright law.
+
+Creative works are in the public domain wherever no law exists that establishes proprietary rights to them or where they are specifically excluded from existing laws. Works that were created before copyright laws were passed are part of the public domain, such as the works of Leonardo da Vinci, William Shakespeare and Franz Schubert. Likewise, mathematical formulae are not subject to copyrights or patents in most countries (although their application in the form of computer programs can be patented). Also, works created by the U.S. Federal Government automatically and immediately enter the public domain.
+
+There are two ways that a copyrighted work can enter the public domain. One is the deliberate surrendering of the copyright by the creator of the work. The other, and more common, is the expiration of the copyright due to the passage of some legally stipulated period of time.
+
+Under current U.S. copyright law, any work created by an individual enters the public domain on January 1, 70 years after the author's death. If the work is a joint effort of two or more authors, it enters the public domain on January 1, 70 years after the death of the last surviving author. In the case of a work made for hire, a work published under a pseudonym or a collective work, it enters the public domain on January 1, 95 years after the date of first publication or 120 years after creation, whichever occurs earlier. Eventually, all works will fall into the public domain, assuming that copyright law does not deviate from its original intention of providing protection only for a limited duration.
+
+Once in the public domain, a work cannot be removed from it. However, any variation on any public domain work becomes the property of the person making the variation, and it receives an automatic copyright, just as do completely original works. Examples include a new arrangement for a piece of music, a new edition of a book and a modified computer program. A modified public domain computer program can be copyrighted and re-licensed, thereby removing that version, but not the original version, from the public domain.
+
+It is a common misconception that free software and freeware are public domain software. Free software, also referred to as open source software, is software that anyone can obtain at no cost and use for any desired purpose, including studying, running on as many computers as desired, modifying, giving away and even selling. It differs from public domain software in that the copyright is retained by the creator (or to whomever the creator transfers it) and the name of the creator and original copyright notice must appear on all redistributions of such software and derivatives thereof.
+
+Freeware also differs from public domain software in that the author retains the copyright. However, it is more restrictive than free software in that the copyright prevents anyone from using the software for any purpose that is not expressly permitted by the author. Freeware licenses typically allow other people to use the software but not to modify and sell it.
+
+In the early days of computers, software was generally in the public domain, as has always been the case with mathematics, scientific knowledge in general and even cooking recipes. However, this situation changed several decades ago when computer companies realized that there were vast profits to be made from selling software and severely restricting its use.
+
+The free software movement was started as a reaction to this, including the realization that restricting the use of software (such the ability to study, modify and redistribute it) was severely impeding technological advance and having a negative effect on the economy as a whole. The goal of this movement is to provide software with the best advantages of the public domain while allowing full credit to be given to its developers and ensuring that it cannot again be taken out of the public domain and its use restricted by powerful companies.
+
+
+________
+Disclaimer: The above material is presented for reference purposes only, and it is not intended as nor does it constitute legal advice. Neither The Linux Information Project nor any of its content providers shall be liable for any errors or omissions in the content or for any actions taken in reliance thereon. The author of said material is not an attorney and makes absolutely no claim to have any knowledge about legal matters beyond that of an informed layman. Any questions should be directed to a licensed attorney specializing in copyrights and intellectual property law. Proper legal advice can only be provided by a licensed attorney with reference to the specific facts of a particular situation and to the laws of the relevant jurisdiction.

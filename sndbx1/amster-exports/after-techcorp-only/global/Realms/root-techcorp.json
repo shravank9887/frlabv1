@@ -1,0 +1,16 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "Realms",
+    "entityId" : "L3RlY2hjb3Jw",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "L3RlY2hjb3Jw",
+    "parentPath" : "/",
+    "active" : true,
+    "name" : "techcorp",
+    "aliases" : [ "techcorp.example.com" ]
+  }
+}

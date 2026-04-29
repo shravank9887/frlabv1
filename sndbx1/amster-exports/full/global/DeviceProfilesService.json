@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "DeviceProfilesService",
+    "entityId" : "DeviceProfilesService",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "defaults" : {
+      "deviceProfilesSettingsEncryptionScheme" : "NONE",
+      "deviceProfilesSettingsEncryptionKeystoreType" : "JKS",
+      "deviceProfilesAttrName" : "deviceProfiles",
+      "deviceProfilesSettingsEncryptionKeystorePassword" : null,
+      "deviceProfilesSettingsEncryptionKeystore" : "/opt/am-config/security/keystores/keystore.jks"
+    },
+    "_type" : {
+      "_id" : "deviceProfilesService",
+      "name" : "Device Profiles Service",
+      "collection" : false
+    }
+  }
+}

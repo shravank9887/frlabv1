@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "HttpClient",
+    "entityId" : "HttpClient",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "core" : {
+      "enabled" : false
+    },
+    "_type" : {
+      "_id" : "httpclient",
+      "name" : "Http Client Service",
+      "collection" : false
+    }
+  }
+}

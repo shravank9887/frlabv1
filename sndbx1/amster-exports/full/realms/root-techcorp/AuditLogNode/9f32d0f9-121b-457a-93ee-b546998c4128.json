@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "AuditLogNode",
+    "entityId" : "9f32d0f9-121b-457a-93ee-b546998c4128",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "9f32d0f9-121b-457a-93ee-b546998c4128",
+    "logPrefix" : "LOGIN",
+    "includeHeaders" : true,
+    "_type" : {
+      "_id" : "AuditLogNode",
+      "name" : "Audit Log Node",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

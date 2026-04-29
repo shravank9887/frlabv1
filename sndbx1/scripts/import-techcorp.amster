@@ -1,0 +1,12 @@
+/*
+ * Import techcorp realm configuration
+ * Usage: amster scripts/import-techcorp.amster
+ *
+ * Connects to AM, imports config from amster-exports/techcorp-latest/
+ * Idempotent: creates missing entities, updates existing ones
+ * Used for: environment promotion (staging/prod), disaster recovery, post-upgrade restore
+ */
+
+connect -i http://pingam:8081/am
+import-config --path amster-exports/techcorp-latest
+:exit

@@ -1,0 +1,33 @@
+#!/usr/bin/env sh
+#
+#  Copyright 2016-2025 Ping Identity Corporation. All Rights Reserved
+#
+#  This code is to be used exclusively in connection with Ping Identity
+#  Corporation software or services. Ping Identity Corporation only offers
+#  such software or services to legal entities who have entered into a
+#  binding license agreement with Ping Identity Corporation.
+#
+
+DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+
+if [ -z "$JAVA_HOME" ]
+then
+    echo
+    echo "\$JAVA_HOME variable is not set. Exiting"
+    echo
+    exit 1
+fi
+
+debug_suspend="n"
+debug_port="*:6006"
+debug=""
+for var in "$@"
+do
+    case "$var" in
+    -d)
+        debug="-agentlib:jdwp=transport=dt_socket,server=y,suspend=$debug_suspend,address=$debug_port -Dorg.slf4j.simpleLogger.defaultLogLevel=DEBUG"
+        ;;
+    esac
+done
+
+$JAVA_HOME/bin/java $debug -Djava.awt.headless=true -jar ${DIR}/amster*.jar $*

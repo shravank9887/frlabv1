@@ -1,0 +1,63 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "AuthTree",
+    "entityId" : "TechCorpSecureLogin",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "TechCorpSecureLogin",
+    "entryNodeId" : "6baf79af-4d67-43f7-9240-4b6c6ee9bd0b",
+    "innerTreeOnly" : false,
+    "noSession" : false,
+    "mustRun" : false,
+    "enabled" : true,
+    "uiConfig" : { },
+    "nodes" : {
+      "6baf79af-4d67-43f7-9240-4b6c6ee9bd0b" : {
+        "displayName" : "Page Node",
+        "nodeType" : "PageNode",
+        "x" : 335,
+        "y" : 113,
+        "connections" : {
+          "outcome" : "a0ae5399-adb5-4508-8cf5-8f64c890269b"
+        }
+      },
+      "a0ae5399-adb5-4508-8cf5-8f64c890269b" : {
+        "displayName" : "Data Store Decision",
+        "nodeType" : "DataStoreDecisionNode",
+        "x" : 521,
+        "y" : 123.63543701171875,
+        "connections" : {
+          "false" : "29e82667-3122-4255-b316-ade3056117b1",
+          "true" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      },
+      "29e82667-3122-4255-b316-ade3056117b1" : {
+        "displayName" : "Retry Limit Decision",
+        "nodeType" : "RetryLimitDecisionNode",
+        "x" : 106,
+        "y" : 339,
+        "connections" : {
+          "Retry" : "6baf79af-4d67-43f7-9240-4b6c6ee9bd0b",
+          "Reject" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      }
+    },
+    "staticNodes" : {
+      "startNode" : {
+        "x" : 50,
+        "y" : 25
+      },
+      "70e691a5-1e33-4ac3-a356-e7b6d60d92e0" : {
+        "x" : 943,
+        "y" : 332
+      },
+      "e301438c-0bd0-429c-ab0c-66126501069a" : {
+        "x" : 723,
+        "y" : 524
+      }
+    }
+  }
+}

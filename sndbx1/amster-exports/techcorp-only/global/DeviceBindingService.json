@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "DeviceBindingService",
+    "entityId" : "DeviceBindingService",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "defaults" : {
+      "deviceBindingSettingsEncryptionKeystorePassword" : null,
+      "deviceBindingAttrName" : "boundDevices",
+      "deviceBindingSettingsEncryptionScheme" : "NONE",
+      "deviceBindingSettingsEncryptionKeystoreType" : "JKS"
+    },
+    "_type" : {
+      "_id" : "deviceBindingService",
+      "name" : "Device Binding Service",
+      "collection" : false
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "CORSService",
+    "entityId" : "CORSService",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "enabled" : true,
+    "_type" : {
+      "_id" : "CorsService",
+      "name" : "CORS Service",
+      "collection" : false
+    }
+  }
+}

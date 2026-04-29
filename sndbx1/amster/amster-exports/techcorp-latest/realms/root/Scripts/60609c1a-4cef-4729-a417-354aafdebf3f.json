@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "Scripts",
+    "entityId" : "60609c1a-4cef-4729-a417-354aafdebf3f",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "60609c1a-4cef-4729-a417-354aafdebf3f",
+    "name" : "LINE Profile Normalization",
+    "description" : "Normalizes raw profile data from LINE",
+    "script" : "LyoKICogQ29weXJpZ2h0IDIwMjQtMjAyNSBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uLiBBbGwgUmlnaHRzIFJlc2VydmVkCiAqCiAqIFRoaXMgY29kZSBpcyB0byBiZSB1c2VkIGV4Y2x1c2l2ZWx5IGluIGNvbm5lY3Rpb24gd2l0aCBQaW5nIElkZW50aXR5CiAqIENvcnBvcmF0aW9uIHNvZnR3YXJlIG9yIHNlcnZpY2VzLiBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uIG9ubHkgb2ZmZXJzCiAqIHN1Y2ggc29mdHdhcmUgb3Igc2VydmljZXMgdG8gbGVnYWwgZW50aXRpZXMgd2hvIGhhdmUgZW50ZXJlZCBpbnRvIGEKICogYmluZGluZyBsaWNlbnNlIGFncmVlbWVudCB3aXRoIFBpbmcgSWRlbnRpdHkgQ29ycG9yYXRpb24uCiAqLwoKCmltcG9ydCBzdGF0aWMgb3JnLmZvcmdlcm9jay5qc29uLkpzb25WYWx1ZS5maWVsZAppbXBvcnQgc3RhdGljIG9yZy5mb3JnZXJvY2suanNvbi5Kc29uVmFsdWUuZmllbGRJZk5vdE51bGwKaW1wb3J0IHN0YXRpYyBvcmcuZm9yZ2Vyb2NrLmpzb24uSnNvblZhbHVlLmpzb24KaW1wb3J0IHN0YXRpYyBvcmcuZm9yZ2Vyb2NrLmpzb24uSnNvblZhbHVlLm9iamVjdAoKLy8gTElORSBkb2VzIG5vdCByZXR1cm4gdGhlIGVtYWlsIGZyb20gdGhlIHVzZXJJbmZvIGVuZHBvaW50IGJ1dCBzaG91bGQgcmV0dXJuIGl0IGZyb20gdGhlIHRva2VuIGVuZHBvaW50IGFuZCB0aGVyZWZvcmUKLy8gaXQgc2hvdWxkIGJlIHNldCBpbiB0aGUgc2hhcmVkIHN0YXRlCnZhciBlbWFpbCA9IG51bGwKdmFyIHVzZXJuYW1lID0gbnVsbAp2YXIgZmlyc3ROYW1lID0gbnVsbAp2YXIgbGFzdE5hbWUgPSBudWxsCgppZiAoc2hhcmVkU3RhdGUuZ2V0KCJjbGFpbXNfc2V0IikgIT0gbnVsbCAmJiBzaGFyZWRTdGF0ZS5nZXQoImNsYWltc19zZXQiKS5lbWFpbCAhPSBudWxsKSB7CiAgICBlbWFpbCA9IHNoYXJlZFN0YXRlLmdldCgiY2xhaW1zX3NldCIpLmVtYWlsCiAgICB1c2VybmFtZSA9IGVtYWlsCn0gZWxzZSB7CiAgICAvLyBFbnN1cmUgdGhhdCB5b3VyIExJTkUgcHJvdmlkZXIgaXMgY29uZmlndXJlZCB0byBwcm92aWRlIHVzZXJzJyBlbWFpbCBhZGRyZXNzZXMKICAgIHRocm93IG5ldyBFeGNlcHRpb24oIkVtYWlsIGlzIHJlcXVpcmVkIikKfQoKaWYgKHJhd1Byb2ZpbGUuaXNEZWZpbmVkKCJuYW1lIikgJiYgcmF3UHJvZmlsZS5uYW1lLmlzTm90TnVsbCgpKSB7CiAgICB2YXIgc3BsaXROYW1lID0gcmF3UHJvZmlsZS5uYW1lLmFzU3RyaW5nKCkuc3BsaXQoIiAiKQogICAgZmlyc3ROYW1lID0gc3BsaXROYW1lWzBdCiAgICBsYXN0TmFtZSA9IHNwbGl0TmFtZVstMV0KfQoKcmV0dXJuIGpzb24ob2JqZWN0KAogICAgICAgIGZpZWxkKCJpZCIsIHJhd1Byb2ZpbGUuc3ViKSwKICAgICAgICBmaWVsZCgiZGlzcGxheU5hbWUiLCByYXdQcm9maWxlLm5hbWUpLAogICAgICAgIGZpZWxkKCJwaG90b1VybCIsIHJhd1Byb2ZpbGUucGljdHVyZSksCiAgICAgICAgZmllbGQoImVtYWlsIiwgZW1haWwpLAogICAgICAgIGZpZWxkSWZOb3ROdWxsKCJnaXZlbk5hbWUiLCBmaXJzdE5hbWUpLAogICAgICAgIGZpZWxkSWZOb3ROdWxsKCJmYW1pbHlOYW1lIiwgbGFzdE5hbWUpLAogICAgICAgIGZpZWxkKCJ1c2VybmFtZSIsIHVzZXJuYW1lKSkp",
+    "default" : true,
+    "language" : "GROOVY",
+    "context" : "SOCIAL_IDP_PROFILE_TRANSFORMATION",
+    "createdBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
+    "creationDate" : 1433147666269,
+    "lastModifiedBy" : "id=amAdmin,ou=user,ou=am-config",
+    "lastModifiedDate" : 1769884360176,
+    "evaluatorVersion" : "1.0"
+  }
+}

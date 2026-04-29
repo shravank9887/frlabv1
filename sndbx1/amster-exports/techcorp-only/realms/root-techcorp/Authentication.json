@@ -1,0 +1,66 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "Authentication",
+    "entityId" : "Authentication",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "postauthprocess" : {
+      "usernameGeneratorClass" : "com.sun.identity.authentication.spi.DefaultUserIDGenerator",
+      "usernameGeneratorEnabled" : true,
+      "loginPostProcessClass" : [ ],
+      "loginSuccessUrl" : [ "/am/console" ],
+      "userAttributeSessionMapping" : [ ],
+      "loginFailureUrl" : [ ]
+    },
+    "security" : {
+      "zeroPageLoginEnabled" : false,
+      "zeroPageLoginReferrerWhiteList" : [ ],
+      "zeroPageLoginAllowedWithoutReferrer" : true,
+      "moduleBasedAuthEnabled" : true,
+      "sharedSecret" : null,
+      "addClearSiteDataHeader" : true
+    },
+    "trees" : {
+      "suspendedAuthenticationTimeout" : 5,
+      "authenticationSessionsStateManagement" : "JWT",
+      "authenticationSessionsMaxDuration" : 5,
+      "authenticationTreeCookieHttpOnly" : true,
+      "authenticationSessionsWhitelist" : false
+    },
+    "accountlockout" : {
+      "loginFailureLockoutMode" : false,
+      "storeInvalidAttemptsInDataStore" : true,
+      "lockoutDuration" : 0,
+      "lockoutDurationMultiplier" : 1,
+      "lockoutWarnUserCount" : 0,
+      "loginFailureCount" : 5,
+      "loginFailureDuration" : 300
+    },
+    "core" : {
+      "adminAuthModule" : "ldapService",
+      "orgConfig" : "TechCorpLogin"
+    },
+    "general" : {
+      "userStatusCallbackPlugins" : [ ],
+      "statelessSessionsEnabled" : false,
+      "locale" : "en_US",
+      "twoFactorRequired" : false,
+      "identityType" : [ "agent", "user" ],
+      "defaultAuthLevel" : 0
+    },
+    "userprofile" : {
+      "dynamicProfileCreation" : "false",
+      "defaultRole" : [ ],
+      "aliasAttributeName" : [ "uid" ]
+    },
+    "_type" : {
+      "_id" : "EMPTY",
+      "name" : "Core",
+      "collection" : false
+    }
+  }
+}

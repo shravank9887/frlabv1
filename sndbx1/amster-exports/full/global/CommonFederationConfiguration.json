@@ -1,0 +1,49 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "CommonFederationConfiguration",
+    "entityId" : "CommonFederationConfiguration",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "implementationClasses" : {
+      "loggerClass" : "com.sun.identity.plugin.log.impl.LogProvider",
+      "signatureProviderClass" : "com.sun.identity.saml.xmlsig.AMSignatureProvider",
+      "passwordDecoderClass" : "com.sun.identity.saml.xmlsig.FMPasswordDecoder",
+      "configurationClass" : "com.sun.identity.plugin.configuration.impl.ConfigurationInstanceImpl",
+      "rootUrlProviderClass" : "org.forgerock.openam.federation.plugin.rooturl.impl.FmRootUrlProvider",
+      "keyProviderClass" : "com.sun.identity.saml.xmlsig.JKSKeyProvider",
+      "sessionProviderClass" : "com.sun.identity.plugin.session.impl.FMSessionProvider",
+      "datastoreClass" : "com.sun.identity.plugin.datastore.impl.IdRepoDataStoreProvider"
+    },
+    "algorithms" : {
+      "QuerySignatureAlgorithmEC" : "http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha512",
+      "transformationAlgorithm" : "http://www.w3.org/2001/10/xml-exc-c14n#",
+      "maskGenerationFunction" : "http://www.w3.org/2009/xmlenc11#mgf1sha256",
+      "aesKeyWrapAlgorithm" : "http://www.w3.org/2001/04/xmlenc#kw-aes256",
+      "DigestAlgorithm" : "http://www.w3.org/2001/04/xmlenc#sha256",
+      "QuerySignatureAlgorithmDSA" : "http://www.w3.org/2009/xmldsig11#dsa-sha256",
+      "QuerySignatureAlgorithmRSA" : "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256",
+      "signatureAlgorithm" : "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256",
+      "rsaKeyTransportAlgorithm" : "http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p",
+      "canonicalizationAlgorithm" : "http://www.w3.org/2001/10/xml-exc-c14n#"
+    },
+    "generalConfig" : {
+      "maxContentLength" : 20480,
+      "samlErrorPageUrl" : "/saml2/jsp/saml2error.jsp",
+      "certificateChecking" : "on",
+      "samlErrorPageHttpBinding" : "HTTP-POST"
+    },
+    "montoring" : {
+      "monitoringSaml2Class" : "com.sun.identity.plugin.monitoring.impl.FedMonSAML2SvcProvider",
+      "monitoringAgentClass" : "com.sun.identity.plugin.monitoring.impl.AgentProvider"
+    },
+    "_type" : {
+      "_id" : "federation/common",
+      "name" : "Common Federation Configuration",
+      "collection" : false
+    }
+  }
+}

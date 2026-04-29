@@ -1,0 +1,62 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "AuthTree",
+    "entityId" : "TechCorpLogin",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "TechCorpLogin",
+    "entryNodeId" : "782f6a43-fdaa-404c-8f1b-1a651d38c16e",
+    "innerTreeOnly" : false,
+    "noSession" : false,
+    "mustRun" : false,
+    "enabled" : true,
+    "uiConfig" : { },
+    "nodes" : {
+      "782f6a43-fdaa-404c-8f1b-1a651d38c16e" : {
+        "displayName" : "Page Node",
+        "nodeType" : "PageNode",
+        "x" : 265,
+        "y" : 123,
+        "connections" : {
+          "outcome" : "c3aa003b-83be-4bcc-9309-a562e3dbd0d0"
+        }
+      },
+      "c3aa003b-83be-4bcc-9309-a562e3dbd0d0" : {
+        "displayName" : "Data Store Decision",
+        "nodeType" : "DataStoreDecisionNode",
+        "x" : 526,
+        "y" : 125,
+        "connections" : {
+          "true" : "9f32d0f9-121b-457a-93ee-b546998c4128",
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      },
+      "9f32d0f9-121b-457a-93ee-b546998c4128" : {
+        "displayName" : "Audit Log Node",
+        "nodeType" : "AuditLogNode",
+        "x" : 715,
+        "y" : 122,
+        "connections" : {
+          "outcome" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      }
+    },
+    "staticNodes" : {
+      "startNode" : {
+        "x" : 50,
+        "y" : 25
+      },
+      "70e691a5-1e33-4ac3-a356-e7b6d60d92e0" : {
+        "x" : 1023,
+        "y" : 146
+      },
+      "e301438c-0bd0-429c-ab0c-66126501069a" : {
+        "x" : 974,
+        "y" : 327
+      }
+    }
+  }
+}

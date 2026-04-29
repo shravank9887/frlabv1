@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "Smtp",
+    "entityId" : "mailpit",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "mailpit",
+    "port" : 465,
+    "emailImplClassName" : "org.forgerock.openam.services.email.MailServerImpl",
+    "sslState" : "Non SSL",
+    "hostname" : "mailpit:1025",
+    "_type" : {
+      "_id" : "smtpTransports",
+      "name" : "SMTP",
+      "collection" : true
+    }
+  }
+}

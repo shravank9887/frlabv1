@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "CreateObject",
+    "entityId" : "6e54a071-0818-439f-a09b-3a801c1caaf8",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "6e54a071-0818-439f-a09b-3a801c1caaf8",
+    "identityResource" : "managed/user",
+    "_type" : {
+      "_id" : "CreateObjectNode",
+      "name" : "Create Object",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "CREATED",
+      "displayName" : "Created"
+    }, {
+      "id" : "FAILURE",
+      "displayName" : "Failed"
+    } ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "Policies",
+    "entityId" : "AllowEmployeeWrite",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "AllowEmployeeWrite",
+    "name" : "AllowEmployeeWrite",
+    "active" : true,
+    "description" : "",
+    "resources" : [ "http://api.techcorp.com:80/data/*" ],
+    "actionValues" : {
+      "POST" : true,
+      "PUT" : true
+    },
+    "applicationName" : "TechCorpAPI",
+    "subject" : {
+      "type" : "Identity",
+      "subjectValues" : [ "id=employees,ou=group,o=techcorp,ou=services,ou=am-config" ]
+    },
+    "resourceTypeUuid" : "76656a38-5f8e-401b-83aa-4ccb74ce88d2",
+    "lastModifiedBy" : "id=amAdmin,ou=user,ou=am-config",
+    "lastModifiedDate" : "2026-01-30T11:18:42.215Z",
+    "createdBy" : "id=amAdmin,ou=user,ou=am-config",
+    "creationDate" : "2026-01-30T11:12:31.141Z"
+  }
+}

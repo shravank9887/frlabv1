@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "PlatformUsername",
+    "entityId" : "4f60c1e2-f41a-4243-9aee-d56f740709de",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "4f60c1e2-f41a-4243-9aee-d56f740709de",
+    "usernameAttribute" : "userName",
+    "validateInput" : false,
+    "_type" : {
+      "_id" : "ValidatedUsernameNode",
+      "name" : "Platform Username",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

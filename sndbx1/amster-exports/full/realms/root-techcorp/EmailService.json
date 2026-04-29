@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "EmailService",
+    "entityId" : "EmailService",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "emailAddressAttribute" : "mail",
+    "transportType" : "mailpit",
+    "port" : 1025,
+    "emailImplClassName" : "org.forgerock.openam.services.email.MailServerImpl",
+    "emailRateLimitSeconds" : 1,
+    "sslState" : "Non SSL",
+    "from" : "noreply@techcorp.example.com",
+    "_type" : {
+      "_id" : "email",
+      "name" : "Email Service",
+      "collection" : false
+    }
+  }
+}

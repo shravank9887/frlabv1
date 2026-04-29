@@ -1,0 +1,28 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "ScriptingEngineConfiguration",
+    "entityId" : "engineConfiguration",
+    "pathParams" : {
+      "contexts" : "POLICY_CONDITION_NEXT_GEN"
+    }
+  },
+  "data" : {
+    "_id" : "engineConfiguration",
+    "propertyNamePrefix" : "script",
+    "serverTimeout" : 0,
+    "useSecurityManager" : true,
+    "maxThreads" : 50,
+    "coreThreads" : 10,
+    "whiteList" : [ "org.forgerock.util.promise.PromiseImpl", "org.forgerock.util.promise.Promises$*", "java.lang.Object" ],
+    "idleTimeout" : 60,
+    "queueSize" : 10,
+    "blackList" : [ "java.security.AccessController", "java.lang.Class", "java.lang.reflect.*" ],
+    "_type" : {
+      "_id" : "engineConfiguration",
+      "name" : "Scripting engine configuration",
+      "collection" : false
+    }
+  }
+}

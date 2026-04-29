@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "AttributeCollector",
+    "entityId" : "02df8238-d84c-4130-ae8e-1886b74aad50",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "02df8238-d84c-4130-ae8e-1886b74aad50",
+    "attributesToCollect" : [ "givenName", "sn", "mail" ],
+    "identityAttribute" : "userName",
+    "validateInputs" : false,
+    "required" : true,
+    "_type" : {
+      "_id" : "AttributeCollectorNode",
+      "name" : "Attribute Collector",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

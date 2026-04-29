@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "realm" : "/partner",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "AmsterJwtDecisionNode",
+    "entityId" : "cfcd2084-95d5-35ef-a6e7-d7f9f98764db",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "cfcd2084-95d5-35ef-a6e7-d7f9f98764db",
+    "authorizedKeys" : "/opt/am-config/security/keys/amster/authorized_keys",
+    "_type" : {
+      "_id" : "AmsterJwtDecisionNode",
+      "name" : "Amster Jwt Decision Node",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "true",
+      "displayName" : "True"
+    }, {
+      "id" : "false",
+      "displayName" : "False"
+    } ]
+  }
+}

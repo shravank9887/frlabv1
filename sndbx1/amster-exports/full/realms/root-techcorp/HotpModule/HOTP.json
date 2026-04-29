@@ -1,0 +1,32 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "HotpModule",
+    "entityId" : "HOTP",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "HOTP",
+    "userProfileEmailAttribute" : "mail",
+    "otpDeliveryMethod" : "SMS and E-mail",
+    "smtpSslEnabled" : "SSL",
+    "userProfileTelephoneAttribute" : "telephoneNumber",
+    "authenticationLevel" : 0,
+    "smtpHostname" : "smtp.gmail.com",
+    "smtpHostPort" : 465,
+    "smtpUserPassword" : null,
+    "smtpUsername" : "opensso.sun",
+    "smtpFromAddress" : "no-reply@openam.org",
+    "otpValidityDuration" : 5,
+    "autoSendOTP" : false,
+    "otpMaxRetry" : 3,
+    "otpLength" : "8",
+    "smsGatewayClass" : "com.sun.identity.authentication.modules.hotp.DefaultSMSGatewayImpl",
+    "_type" : {
+      "_id" : "hotp",
+      "name" : "HOTP",
+      "collection" : true
+    }
+  }
+}

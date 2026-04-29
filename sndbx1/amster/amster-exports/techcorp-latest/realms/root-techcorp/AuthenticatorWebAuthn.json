@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "AuthenticatorWebAuthn",
+    "entityId" : "AuthenticatorWebAuthn",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "authenticatorWebAuthnDeviceSettingsEncryptionScheme" : "NONE",
+    "authenticatorWebAuthnDeviceSettingsEncryptionKeystore" : "/opt/am-config/security/keystores/keystore.jceks",
+    "webauthnAttrName" : "webauthnDeviceProfiles",
+    "authenticatorWebAuthnDeviceSettingsEncryptionKeystorePassword" : null,
+    "authenticatorWebAuthnDeviceSettingsEncryptionKeystoreType" : "JCEKS",
+    "_type" : {
+      "_id" : "authenticatorWebAuthnService",
+      "name" : "WebAuthn Profile Encryption Service",
+      "collection" : false
+    }
+  }
+}

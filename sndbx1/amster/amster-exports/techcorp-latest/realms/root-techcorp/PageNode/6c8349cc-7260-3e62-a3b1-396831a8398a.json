@@ -1,0 +1,37 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "PageNode",
+    "entityId" : "6c8349cc-7260-3e62-a3b1-396831a8398a",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "6c8349cc-7260-3e62-a3b1-396831a8398a",
+    "nodes" : [ {
+      "_id" : "cfcd2084-95d5-35ef-a6e7-dff9f98764db",
+      "nodeType" : "UsernameCollectorNode",
+      "displayName" : "User Name Collector"
+    }, {
+      "_id" : "c4ca4238-a0b9-3382-8dcc-509a6f75849c",
+      "nodeType" : "PasswordCollectorNode",
+      "displayName" : "Password Collector"
+    } ],
+    "stage" : "null",
+    "pageDescription" : {
+      "en" : ""
+    },
+    "pageHeader" : {
+      "en" : "Sign In"
+    },
+    "_type" : {
+      "_id" : "PageNode",
+      "name" : "Page Node",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

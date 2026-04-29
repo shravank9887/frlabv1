@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : "/partner",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "Scripts",
+    "entityId" : "58d29080-4563-480b-89bb-1e7719776a21",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "58d29080-4563-480b-89bb-1e7719776a21",
+    "name" : "Google Profile Normalization",
+    "description" : "Normalizes raw profile data from Google",
+    "script" : "LyoKICogQ29weXJpZ2h0IDIwMjAtMjAyNSBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uLiBBbGwgUmlnaHRzIFJlc2VydmVkCiAqCiAqIFRoaXMgY29kZSBpcyB0byBiZSB1c2VkIGV4Y2x1c2l2ZWx5IGluIGNvbm5lY3Rpb24gd2l0aCBQaW5nIElkZW50aXR5CiAqIENvcnBvcmF0aW9uIHNvZnR3YXJlIG9yIHNlcnZpY2VzLiBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uIG9ubHkgb2ZmZXJzCiAqIHN1Y2ggc29mdHdhcmUgb3Igc2VydmljZXMgdG8gbGVnYWwgZW50aXRpZXMgd2hvIGhhdmUgZW50ZXJlZCBpbnRvIGEKICogYmluZGluZyBsaWNlbnNlIGFncmVlbWVudCB3aXRoIFBpbmcgSWRlbnRpdHkgQ29ycG9yYXRpb24uCiAqLwoKaW1wb3J0IHN0YXRpYyBvcmcuZm9yZ2Vyb2NrLmpzb24uSnNvblZhbHVlLmZpZWxkCmltcG9ydCBzdGF0aWMgb3JnLmZvcmdlcm9jay5qc29uLkpzb25WYWx1ZS5qc29uCmltcG9ydCBzdGF0aWMgb3JnLmZvcmdlcm9jay5qc29uLkpzb25WYWx1ZS5vYmplY3QKCnJldHVybiBqc29uKG9iamVjdCgKICAgICAgICBmaWVsZCgiaWQiLCByYXdQcm9maWxlLnN1YiksCiAgICAgICAgZmllbGQoImRpc3BsYXlOYW1lIiwgcmF3UHJvZmlsZS5uYW1lKSwKICAgICAgICBmaWVsZCgiZ2l2ZW5OYW1lIiwgcmF3UHJvZmlsZS5naXZlbl9uYW1lKSwKICAgICAgICBmaWVsZCgiZmFtaWx5TmFtZSIsIHJhd1Byb2ZpbGUuZmFtaWx5X25hbWUpLAogICAgICAgIGZpZWxkKCJwaG90b1VybCIsIHJhd1Byb2ZpbGUucGljdHVyZSksCiAgICAgICAgZmllbGQoImVtYWlsIiwgcmF3UHJvZmlsZS5lbWFpbCksCiAgICAgICAgZmllbGQoInVzZXJuYW1lIiwgcmF3UHJvZmlsZS5lbWFpbCksCiAgICAgICAgZmllbGQoImxvY2FsZSIsIHJhd1Byb2ZpbGUubG9jYWxlKSkp",
+    "default" : true,
+    "language" : "GROOVY",
+    "context" : "SOCIAL_IDP_PROFILE_TRANSFORMATION",
+    "createdBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
+    "creationDate" : 1433147666269,
+    "lastModifiedBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
+    "lastModifiedDate" : 1433147666269,
+    "evaluatorVersion" : "1.0"
+  }
+}

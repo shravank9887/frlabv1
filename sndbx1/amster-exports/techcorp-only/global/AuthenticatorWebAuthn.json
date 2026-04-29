@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "AuthenticatorWebAuthn",
+    "entityId" : "AuthenticatorWebAuthn",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "defaults" : {
+      "authenticatorWebAuthnDeviceSettingsEncryptionScheme" : "NONE",
+      "authenticatorWebAuthnDeviceSettingsEncryptionKeystorePassword" : null,
+      "webauthnAttrName" : "webauthnDeviceProfiles",
+      "authenticatorWebAuthnDeviceSettingsEncryptionKeystore" : "/opt/am-config/security/keystores/keystore.jceks",
+      "authenticatorWebAuthnDeviceSettingsEncryptionKeystoreType" : "JCEKS"
+    },
+    "_type" : {
+      "_id" : "authenticatorWebAuthnService",
+      "name" : "WebAuthn Profile Encryption Service",
+      "collection" : false
+    }
+  }
+}

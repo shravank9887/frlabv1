@@ -1,0 +1,40 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "WebAuthnAuthenticationNode",
+    "entityId" : "49ff1065-feab-4371-a658-417a295a4e06",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "49ff1065-feab-4371-a658-417a295a4e06",
+    "detectSignCountMismatch" : false,
+    "requiresResidentKey" : false,
+    "asScript" : true,
+    "origins" : [ ],
+    "userVerificationRequirement" : "PREFERRED",
+    "isRecoveryCodeAllowed" : false,
+    "timeout" : 60,
+    "_type" : {
+      "_id" : "WebAuthnAuthenticationNode",
+      "name" : "WebAuthn Authentication Node",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "unsupported",
+      "displayName" : "Unsupported"
+    }, {
+      "id" : "noDevice",
+      "displayName" : "No Device Registered"
+    }, {
+      "id" : "success",
+      "displayName" : "Success"
+    }, {
+      "id" : "failure",
+      "displayName" : "Failure"
+    }, {
+      "id" : "error",
+      "displayName" : "Client Error"
+    } ]
+  }
+}

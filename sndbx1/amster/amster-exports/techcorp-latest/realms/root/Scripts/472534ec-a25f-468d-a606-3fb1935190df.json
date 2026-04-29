@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "Scripts",
+    "entityId" : "472534ec-a25f-468d-a606-3fb1935190df",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "472534ec-a25f-468d-a606-3fb1935190df",
+    "name" : "WeChat Profile Normalization",
+    "description" : "Normalizes raw profile data from WeChat",
+    "script" : "LyoKICogQ29weXJpZ2h0IDIwMjAtMjAyNSBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uLiBBbGwgUmlnaHRzIFJlc2VydmVkCiAqCiAqIFRoaXMgY29kZSBpcyB0byBiZSB1c2VkIGV4Y2x1c2l2ZWx5IGluIGNvbm5lY3Rpb24gd2l0aCBQaW5nIElkZW50aXR5CiAqIENvcnBvcmF0aW9uIHNvZnR3YXJlIG9yIHNlcnZpY2VzLiBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uIG9ubHkgb2ZmZXJzCiAqIHN1Y2ggc29mdHdhcmUgb3Igc2VydmljZXMgdG8gbGVnYWwgZW50aXRpZXMgd2hvIGhhdmUgZW50ZXJlZCBpbnRvIGEKICogYmluZGluZyBsaWNlbnNlIGFncmVlbWVudCB3aXRoIFBpbmcgSWRlbnRpdHkgQ29ycG9yYXRpb24uCiAqLwoKaW1wb3J0IHN0YXRpYyBvcmcuZm9yZ2Vyb2NrLmpzb24uSnNvblZhbHVlLmZpZWxkCmltcG9ydCBzdGF0aWMgb3JnLmZvcmdlcm9jay5qc29uLkpzb25WYWx1ZS5qc29uCmltcG9ydCBzdGF0aWMgb3JnLmZvcmdlcm9jay5qc29uLkpzb25WYWx1ZS5vYmplY3QKCnJldHVybiBqc29uKG9iamVjdCgKICAgICAgICBmaWVsZCgiaWQiLCByYXdQcm9maWxlLm9wZW5pZCksCiAgICAgICAgZmllbGQoImRpc3BsYXlOYW1lIiwgcmF3UHJvZmlsZS5uaWNrbmFtZSksCiAgICAgICAgZmllbGQoInBob3RvVXJsIiwgcmF3UHJvZmlsZS5oZWFkaW1ndXJsKSwKICAgICAgICBmaWVsZCgidXNlcm5hbWUiLCByYXdQcm9maWxlLm5pY2tuYW1lKSkp",
+    "default" : true,
+    "language" : "GROOVY",
+    "context" : "SOCIAL_IDP_PROFILE_TRANSFORMATION",
+    "createdBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
+    "creationDate" : 1433147666269,
+    "lastModifiedBy" : "id=amAdmin,ou=user,ou=am-config",
+    "lastModifiedDate" : 1769884360111,
+    "evaluatorVersion" : "1.0"
+  }
+}

@@ -1,0 +1,3244 @@
+======================================================
+== OpenAM sustaining/8.0.x - Open Source Copyrights ==
+======================================================
+
+abbrev-1.1.1.tgz
+================
+Licensed under MIT
+Source Code can be found at: https://github.com/isaacs/abbrev-js.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/69c12709-c5ea-4de1-b1b8-2801f22e5370
+Copyright Isaac Z
+
+activation-1.1.jar
+==================
+Licensed under CDDL 1.1
+License terms can be found at: https://javaee.github.io/glassfish/LICENSE
+Copyright 2006 SUN MICROSYSTEMS, INC.
+
+ajv-6.12.3.tgz
+==============
+Licensed under MIT
+Source Code can be found at: https://github.com/ajv-validator/ajv.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/b51d773b-e5b4-4abe-bdad-df371069fb6f
+Copyright 2015-2017 Evgeny Poberezkin
+
+animal-sniffer-annotations-1.24.jar
+===================================
+Licensed under MIT
+License terms can be found at: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.24/animal-sniffer-annotations-1.24.pom
+Copyright 2009 codehaus.org
+Copyright MojoHaus
+
+annotations-17.0.0.jar
+======================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/17.0.0/annotations-17.0.0.pom
+Copyright 2000-2018 Copyright
+
+annotations-4.1.1.4.jar
+=======================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.pom
+Copyright 2019 The Apache Software Foundation, Licensed under the <a class="white" href="/licen
+
+ansicolors-0.2.1.tgz
+====================
+Licensed under MIT
+Source Code can be found at: https://github.com/thlorenz/ansicolors.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/ba4a059d-f803-4f78-b2b3-63a2ddabbc90
+2013  Copyright 2013 Thorsten Lorenz. 
+
+antisamy-1.7.8.jar
+==================
+Licensed under BSD 3
+License terms can be found at: https://repo.maven.apache.org/maven2/org/owasp/antisamy/antisamy/1.7.8/antisamy-1.7.8.pom
+Copyright OWASP Foundation
+
+aopalliance-1.0.jar
+===================
+Licensed under Public Domain
+License terms can be found at: https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+Copyright (c)  
+
+apfloat-1.10.1.jar
+==================
+Licensed under MIT
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apfloat/apfloat/1.10.1/apfloat-1.10.1.pom
+Copyright (c) 2021
+
+api-common-2.37.1.jar
+=====================
+Licensed under BSD 3
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/api/api-common/2.37.1/api-common-2.37.1.pom
+Copyright 2016 Google Inc
+
+argparse-1.0.10.tgz
+===================
+Licensed under MIT
+Source Code can be found at: https://github.com/nodeca/argparse.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/b88d89b7-51de-4669-950b-cf45d18052c5
+Copyright 2012 [Vitaly Puzrin](https://github.com/puzrin)
+Copyright 2012 by Vitaly Puzrin
+Copyright 2012 Vitaly Puzrin" (https://github.com/puzrin)
+
+asap-2.0.6.tgz
+==============
+Licensed under MIT
+Source Code can be found at: https://github.com/kriskowal/asap.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/92470ce1-fd5a-4928-b7f2-2c58ce36a2f0
+2014 Copyright 2009–2014 Contributors. All rights reserved.
+
+asciidoctorj-3.0.0.jar
+======================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/asciidoctor/asciidoctorj/3.0.0/asciidoctorj-3.0.0.pom
+
+asciidoctorj-api-3.0.0.jar
+==========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/asciidoctor/asciidoctorj-api/3.0.0/asciidoctorj-api-3.0.0.pom
+
+asm-9.7.1.jar
+=============
+Licensed under BSD 3
+License terms can be found at: https://plugins.gradle.org/m2/org/ow2/asm/asm/9.7.1/asm-9.7.1.pom
+Copyright OW2
+Copyright 2000-2011 INRIA
+
+asm-9.8.jar
+===========
+Licensed under BSD 3
+License terms can be found at: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.8/asm-9.8.pom
+Copyright 2000-2011 INRIA
+Copyright OW2
+
+asm-analysis-9.7.1.jar
+======================
+Licensed under BSD 3
+License terms can be found at: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.pom
+Copyright OW2
+Copyright 2000-2011 INRIA
+
+asm-analysis-9.8.jar
+====================
+Licensed under BSD 3
+License terms can be found at: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.pom
+Copyright 2000-2011 INRIA
+Copyright OW2
+
+asm-commons-9.7.1.jar
+=====================
+Licensed under BSD 3
+License terms can be found at: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.pom
+Copyright OW2
+Copyright 2000-2011 INRIA
+
+asm-tree-9.7.1.jar
+==================
+Licensed under BSD 3
+License terms can be found at: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.pom
+Copyright OW2
+Copyright 2000-2011 INRIA
+
+asm-tree-9.8.jar
+================
+Licensed under BSD 3
+License terms can be found at: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.pom
+Copyright 2000-2011 INRIA
+Copyright OW2
+
+asm-util-9.7.1.jar
+==================
+Licensed under BSD 3
+License terms can be found at: https://plugins.gradle.org/m2/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.pom
+Copyright OW2
+Copyright 2000-2011 INRIA
+
+asm-util-9.8.jar
+================
+Licensed under BSD 3
+License terms can be found at: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/9.8/asm-util-9.8.pom
+Copyright 2000-2011 INRIA
+Copyright OW2
+
+async-3.2.3.tgz
+===============
+Licensed under MIT
+Source Code can be found at: https://github.com/caolan/async.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/fda20677-08e5-4b94-828a-0fc3711ff761
+Copyright 2010-2018 Caolan McMahon
+
+attr-accept-2.0.0.tgz
+=====================
+Licensed under MIT
+Source Code can be found at: https://github.com/react-dropzone/attr-accept.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/b02cb79f-4ebc-4cf9-8dfd-aac89b61a746
+Copyright 2015 Andrey Okonetchnikov
+
+auto-service-annotations-1.0.1.jar
+==================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.pom
+Copyright 2013 Google LLC
+
+auto-value-annotations-1.10.4.jar
+=================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/auto/value/auto-value-annotations/1.10.4/auto-value-annotations-1.10.4.pom
+Copyright 2012 Google LLC
+
+autocomplete-6.19.0.tgz
+=======================
+Licensed under MIT
+Source Code can be found at: https://github.com/codemirror/autocomplete.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/216e3068-98be-49b9-8f23-723297d02faf
+Copyright 2018-2021 by Marijn Haverbeke <marijn@haverbeke.berlin> and others
+
+aws-java-sdk-core-1.12.650.jar
+==============================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-core/1.12.650/aws-java-sdk-core-1.12.650.pom
+Copyright 2010-2024 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+aws-java-sdk-sns-1.12.650.jar
+=============================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-sns/1.12.650/aws-java-sdk-sns-1.12.650.pom
+Copyright 2010-2024 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+aws-java-sdk-sqs-1.12.650.jar
+=============================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-sqs/1.12.650/aws-java-sdk-sqs-1.12.650.pom
+Copyright 2010 Amazon.com, Inc. or its affiliates.
+
+babel-plugin-emotion-9.2.11.tgz
+===============================
+Licensed under MIT
+Source Code can be found at: https://github.com/emotion-js/emotion.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/2bb79151-7487-40dc-adf8-c0b040dff06e
+Copyright 2016 Kye Hohenberger
+
+babel-plugin-macros-2.6.1.tgz
+=============================
+Licensed under MIT
+Source Code can be found at: https://github.com/kentcdodds/babel-plugin-macros.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/1f1f52f7-423b-416e-bf2a-dc03118ff9bd
+Copyright 2017 Kent C
+
+babel-plugin-syntax-jsx-6.18.0.tgz
+==================================
+Licensed under MIT
+Source Code can be found at: https://github.com/babel/babel.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/b3ee5315-e8ec-4a73-99cc-b87741849122
+Copyright 2014-2016 Sebastian McKenzie <sebmck@gmail.com>
+
+babel-runtime-6.26.0.tgz
+========================
+Licensed under MIT
+Source Code can be found at: https://github.com/babel/babel.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/3ba9980e-d073-47b6-87a9-7eea2073ce59
+2017 Copyright (c) 2014-2017 Sebastian McKenzie <sebmck@gmail.com>
+
+babel-utils-0.6.10.tgz
+======================
+Licensed under MIT
+Source Code can be found at: https://github.com/emotion-js/emotion.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/a72174a3-1a8e-4cd5-b729-6418d24855b7
+Copyright 2016 Kye Hohenberger
+
+backbone-1.2.3.tgz
+==================
+Licensed under MIT
+Source Code can be found at: https://github.com/jashkenas/backbone.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/70b0e0d8-2874-4440-9c82-d810a3a11aa5
+2010 Copyright (c) 2010-2015 Jeremy Ashkenas, DocumentCloud
+
+backbone-1.3.3.tgz
+==================
+Licensed under MIT
+Source Code can be found at: https://github.com/jashkenas/backbone.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/083acddb-a2c1-4758-bf0b-afbf37cb6813
+2018 Copyright (c) 2010-2016 Jeremy Ashkenas, DocumentCloud
+
+backbone-1.4.0.tgz
+==================
+Licensed under MIT
+Source Code can be found at: https://github.com/jashkenas/backbone.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/cd49eb3e-b75d-4010-94ef-762c0853d59a
+Copyright 2010-2019 Jeremy Ashkenas, DocumentCloud
+Copyright 2010-2019 Jeremy Ashkenas
+
+backbone-relational-0.10.0.tgz
+==============================
+Licensed under MIT
+Source Code can be found at: https://github.com/PaulUithol/Backbone-relational.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/54b7e9c4-f1a0-4897-9c4b-adf8b71d6f1a
+Copyright 2011-2014 Paul Uithol
+
+backbone.paginator-2.0.8.tgz
+============================
+Licensed under MIT
+Source Code can be found at: https://github.com/backbone-paginator/backbone.paginator.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/5bd48db5-0c27-4b1d-aac4-4f5f22b5e45e
+2012 Copyright (c) 2012-2014 Jimmy Yuen Ho Wong and contributors
+
+backgrid-0.3.8.tgz
+==================
+Licensed under MIT
+Source Code can be found at: https://github.com/cloudflare/backgrid.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/7468b9e2-7172-4a66-96bc-5213aabc6905
+2012 Copyright (c) 2012-present Cloudflare, Inc.
+
+backgrid-filter-0.3.7.tgz
+=========================
+Licensed under MIT
+Source Code can be found at: https://github.com/wyuenho/backgrid-text-cell.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/0e7dd59c-35b2-4528-913e-8796b5a1e5d1
+2012 Copyright (c) 2012 Jimmy Yuen Ho Wong
+
+backgrid-paginator-0.3.9.tgz
+============================
+Licensed under MIT
+Source Code can be found at: https://github.com/wyuenho/backgrid-paginator.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/a218e131-90e4-455a-b276-d6184b975541
+2012 Copyright (c) 2012 Jimmy Yuen Ho Wong
+
+backgrid-select-all-0.3.5.tgz
+=============================
+Licensed under MIT
+Source Code can be found at: https://github.com/wyuenho/backgrid-select-all.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/6b716593-4977-421c-ad41-7956da3fd1ae
+2018 Copyright (c) 2012 Jimmy Yuen Ho Wong
+
+backport9-1.13.jar
+==================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/headius/backport9/1.13/backport9-1.13.pom
+Unspecified Copyright
+Reviewed by the WhiteSource Research Team
+Library copyrights could not be established
+
+bcmail-jdk18on-1.79.jar
+=======================
+Licensed under Bouncy Castle License
+License terms can be found at: https://repo.maven.apache.org/maven2/org/bouncycastle/bcmail-jdk18on/1.79/bcmail-jdk18on-1.79.pom
+
+bcpkix-jdk18on-1.79.jar
+=======================
+Licensed under Bouncy Castle License
+License terms can be found at: https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.79/bcpkix-jdk18on-1.79.pom
+
+bcprov-jdk18on-1.79.jar
+=======================
+Licensed under Bouncy Castle License
+License terms can be found at: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk18on/1.79/bcprov-jdk18on-1.79.pom
+Copyright 2000 The Legion of the Bouncy Castle Inc. 
+
+bcutil-jdk18on-1.79.jar
+=======================
+Licensed under Bouncy Castle License
+License terms can be found at: https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk18on/1.79/bcutil-jdk18on-1.79.pom
+
+bootstrap-3.4.1.tgz
+===================
+Licensed under MIT
+Source Code can be found at: https://github.com/twbs/bootstrap.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/65674fb2-ee20-4fdc-8e5c-5193459a2296
+Copyright 2019 Twitter, Inc.
+
+bootstrap-dialog-1.34.6.tgz
+===========================
+Licensed under MIT
+Source Code can be found at: https://github.com/nakupanda/bootstrap3-dialog.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/c9cf738b-bb14-4177-b79c-d03bb06229f9
+2015 Copyright 2015 Nakupanda  (avanoob@hotmail.com)
+
+bsh-2.0b6.jar
+=============
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.pom
+Copyright 1997-2012 Patrick Niemeyer
+
+byte-buddy-1.17.7.jar
+=====================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.17.7/byte-buddy-1.17.7.pom
+Copyright 2014 Present Rafael Winterhalter
+
+caller-callsite-2.0.0.tgz
+=========================
+Licensed under MIT
+Source Code can be found at: https://github.com/sindresorhus/caller-callsite.git
+License terms can be found at: https://github.com/sindresorhus/caller-callsite
+Copyright Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+Copyright Sindre Sorhus
+
+caller-path-2.0.0.tgz
+=====================
+Licensed under MIT
+Source Code can be found at: https://github.com/sindresorhus/caller-path.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/74200c94-115f-4a2d-b4db-9cc68fba91ad
+Copyright Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+Copyright Sindre Sorhus
+
+callsites-2.0.0.tgz
+===================
+Licensed under MIT
+Source Code can be found at: https://github.com/sindresorhus/callsites.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/10a7a003-aa75-4e9d-bc32-f94ba41a923e
+Copyright Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+Copyright Sindre Sorhus
+
+cardinal-1.0.0.tgz
+==================
+Licensed under MIT
+Source Code can be found at: https://github.com/thlorenz/cardinal.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/1506cfa5-bca1-4f30-b3a1-4e99be653d37
+Copyright 2012 Thorsten Lorenz
+
+cbor-0.8.jar
+============
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/co/nstant/in/cbor/0.8/cbor-0.8.pom
+2013 Copyright 2013-2017 Constantin Rack
+
+cc-2008-08-08.jar
+=================
+Licensed under CDDL 1.0
+License terms can be found at: https://opensource.org/licenses/CDDL-1.0
+2008 Copyright (c) 2008 Sun Microsystems Inc. All Rights Reserved
+
+checker-qual-3.19.0.jar
+=======================
+Licensed under MIT
+License terms can be found at: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.19.0/checker-qual-3.19.0.pom
+Copyright 2004 by the Checker Framework developers
+
+classnames-2.2.6.tgz
+====================
+Licensed under MIT
+Source Code can be found at: https://github.com/JedWatson/classnames.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/aeb59b93-1bb2-4774-a474-33c513aeafeb
+2018 Copyright (c) 2018 Jed Watson
+
+click-extras-2.3.0.jar
+======================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache/click/click-extras/2.3.0/click-extras-2.3.0.pom
+Copyright 2008 Sebo Zoltan <iamzoli@yahoo.com>
+Copyright 2004-2007 GreyWyvern
+Copyright 2005-2008 John Resig
+Copyright 2005-2008 Sam Stephenson
+Copyright 2009 Tero Piirainen
+Copyright 2008 Fyneworks.com
+Copyright 2007 - Atlassian Software Systems Pty Ltd
+Copyright 2001-2005 The HSQL Development Group
+Copyright 2010 Brandon Aaron
+Copyright 2009 Tim Harper
+Copyright 2008 Yahoo!
+Copyright 1995-2000 by the Hypersonic SQL Group
+Copyright 1998-2004 Drew Davidson and Luke Blanshard
+Copyright 2005-2009 Matt Kruse
+Copyright 2005-2008 Thomas Fuchs
+Copyright Apache Click
+
+clockpicker-0.0.7.tgz
+=====================
+Licensed under MIT
+Source Code can be found at: https://github.com/weareoutman/clockpicker.git
+License terms can be found at: https://github.com/weareoutman/clockpicker/blob/v0.0.7/LICENSE
+Copyright 2014 Wang Shenwei
+Copyright Wang Shenwei
+
+commands-6.9.0.tgz
+==================
+Licensed under MIT
+Source Code can be found at: https://github.com/codemirror/commands.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/b4a9bef7-5131-41ce-bc73-68844fec36c9
+Copyright 2018-2021 by Marijn Haverbeke <marijn@haverbeke.berlin> and others
+
+common-1.2.3.tgz
+================
+Licensed under MIT
+Source Code can be found at: https://github.com/lezer-parser/common.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/51da3b9e-7dbd-42df-b838-04f2908d91d1
+Copyright 2018 by Marijn Haverbeke <marijn@haverbeke.berlin> and others
+
+commons-beanutils-1.11.0.jar
+============================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.11.0/commons-beanutils-1.11.0.pom
+Copyright The Apache Software Foundation
+
+commons-codec-1.14.jar
+======================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.14/commons-codec-1.14.pom
+Copyright The Apache Software Foundation
+
+commons-collections-3.2.2.jar
+=============================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.pom
+Copyright The Apache Software Foundation
+
+commons-collections4-4.5.0-M2.jar
+=================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.5.0-M2/commons-collections4-4.5.0-M2.pom
+Copyright The Apache Software Foundation
+
+commons-compress-1.27.1.jar
+===========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.pom
+Copyright The Apache Software Foundation
+
+commons-configuration-1.10.jar
+==============================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.pom
+Copyright The Apache Software Foundation
+
+commons-io-2.17.0.jar
+=====================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.17.0/commons-io-2.17.0.pom
+Copyright The Apache Software Foundation
+
+commons-lang-2.6.jar
+====================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+Copyright The Apache Software Foundation
+
+commons-lang3-3.19.0.jar
+========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.19.0/commons-lang3-3.19.0.pom
+Copyright The Apache Software Foundation
+
+commons-logging-1.3.5.jar
+=========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.3.5/commons-logging-1.3.5.pom
+Copyright The Apache Software Foundation
+
+commons-logging-api-1.1.jar
+===========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.pom
+Copyright The Apache Software Foundation
+
+commons-text-1.14.0.jar
+=======================
+Licensed under Apache 2.0
+License terms can be found at: https://nexus.opendaylight.org/content/groups/public/org/apache/commons/commons-text/1.14.0/commons-text-1.14.0.pom
+Copyright The Apache Software Foundation
+
+confusable-homoglyphs-1.0.1.jar
+===============================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/fr/spacefox/confusable-homoglyphs/1.0.1/confusable-homoglyphs-1.0.1.pom
+
+conscrypt-openjdk-uber-2.5.2.jar
+================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/conscrypt/conscrypt-openjdk-uber/2.5.2/conscrypt-openjdk-uber-2.5.2.pom
+Copyright 2017 The Android Open Source Project
+
+convert-source-map-1.6.0.tgz
+============================
+Licensed under MIT
+Source Code can be found at: https://github.com/thlorenz/convert-source-map.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/184531a0-d87e-464d-8d38-b05a14edd7dc
+Copyright 2013 Thorsten Lorenz
+
+core-js-2.6.10.tgz
+==================
+Licensed under MIT
+Source Code can be found at: https://github.com/zloirock/core-js.git
+License terms can be found at: https://github.com/zloirock/core-js
+Copyright 2014-2019 Denis Pushkarev
+
+core-js-3.2.1.tgz
+=================
+Licensed under MIT
+Source Code can be found at: https://github.com/zloirock/core-js.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/b4788a80-da8e-4e30-bac2-8f8eae1d5df7
+Copyright 2014-2019 Denis Pushkarev
+
+cosmiconfig-5.2.1.tgz
+=====================
+Licensed under MIT
+Source Code can be found at: https://github.com/davidtheclark/cosmiconfig.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/73c2521f-685e-4d5c-a4fb-54710dd910ac
+Copyright 2015 David Clark
+
+crac-1.5.0.jar
+==============
+Licensed under BSD 2
+License terms can be found at: https://repo.maven.apache.org/maven2/org/crac/crac/1.5.0/crac-1.5.0.pom
+Copyright 2017 Azul Systems, Inc.
+
+create-emotion-9.2.12.tgz
+=========================
+Licensed under MIT
+Source Code can be found at: https://github.com/emotion-js/emotion.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/026c7a23-cd44-4adf-8219-da569ee6bfc5
+Copyright 2016 Kye Hohenberger
+
+create-react-context-0.3.0.tgz
+==============================
+Licensed under MIT
+Source Code can be found at: https://github.com/thejameskyle/create-react-context.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/3251be2b-d2f1-461e-8da8-f358efe1d4f8
+Copyright 2017 James Kyle <me@thejameskyle.com>
+
+crelt-1.0.6.tgz
+===============
+Licensed under MIT
+Source Code can be found at: https://github.com/marijnh/crelt.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/e949f63c-9c53-4ad1-aa90-968c6512aeff
+Copyright 2020 by Marijn Haverbeke <marijn@haverbeke.berlin>
+
+crest-js-2.1.11.tgz
+===================
+Licensed under MIT
+Source Code can be found at: https://github.com/ForgeRock/crest-js.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/56cf3cc8-49ee-491b-a4cf-26fd3ff0c5e5
+Copyright 2017-2018 ForgeRock AS
+
+csstype-2.6.7.tgz
+=================
+Licensed under MIT
+Source Code can be found at: https://github.com/frenic/csstype.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/8f75b069-cca8-4c21-ad44-e9b77ac1bade
+Copyright 2017-2018 Fredrik Nicol
+
+csstype-3.0.10.tgz
+==================
+Licensed under MIT
+Source Code can be found at: https://github.com/frenic/csstype.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/50e545c2-9714-47f1-9320-dcf730563bdd
+Copyright 2017-2018 Fredrik Nicol
+
+csv-parse-4.11.1.tgz
+====================
+Licensed under MIT
+Source Code can be found at: https://github.com/wdavidw/node-csv-parse.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/5516593d-29dc-40d2-81a4-6f382e484b2c
+Copyright 2010 Adaltas
+
+csv-parse-4.8.5.tgz
+===================
+Licensed under MIT
+Source Code can be found at: https://github.com/wdavidw/node-csv-parse.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/8c1bed54-fa6c-464c-a8eb-3485ea6e8122
+Copyright 2010 Adaltas
+
+debug-3.2.7.tgz
+===============
+Licensed under MIT
+Source Code can be found at: https://github.com/visionmedia/debug.git
+License terms can be found at: https://github.com/visionmedia/debug#readme
+Copyright 2014 TJ Holowaychuk <tj@vision-media.ca>
+Copyright 2014-2017 TJ Holowaychuk <tj@vision-media.ca>
+Copyright 2014-2017 TJ Holowaychuk
+
+deepmerge-4.2.2.tgz
+===================
+Licensed under MIT
+Source Code can be found at: https://github.com/TehShrike/deepmerge.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/1fe129f6-34a1-408b-aee7-f9ff1a19a09a
+Copyright 2012 James Halliday, Josh Duff, and other contributors
+
+dirgra-0.3.jar
+==============
+Licensed under Eclipse 1.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/jruby/dirgra/0.3/dirgra-0.3.pom
+Unspecified Copyright
+Reviewed by the WhiteSource Research Team
+Library copyrights could not be established
+
+disposables-1.0.2.tgz
+=====================
+Licensed under Apache 2.0
+Source Code can be found at: https://github.com/gaearon/disposables.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/61d0dee9-53de-46a3-be0a-b99ed781efab
+2018 Copyright (c) Microsoft Open Technologies, Inc.  All rights reserved
+
+dnd-core-2.6.0.tgz
+==================
+Licensed under MIT
+Source Code can be found at: https://github.com/react-dnd/react-dnd.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/09f1e797-0285-4be8-85b9-eef913c52d08
+2015 Copyright (c) 2015, Facebook, Inc. All rights reserved.
+
+dom-helpers-3.4.0.tgz
+=====================
+Licensed under MIT
+Source Code can be found at: https://github.com/jquense/dom-helpers.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/fe0ab595-e3e7-4158-bc3f-8afdc5501d3d
+2015 Copyright (c) 2015 Jason Quense
+
+dom-helpers-5.2.1.tgz
+=====================
+Licensed under MIT
+Source Code can be found at: https://github.com/react-bootstrap/dom-helpers.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/c1f8f146-d077-4b75-a0c4-36a2f8dd03ad
+Copyright 2015 Jason Quense
+
+dom-serializer-1.4.1.tgz
+========================
+Licensed under MIT
+Source Code can be found at: https://github.com/cheeriojs/dom-renderer.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/be6db5a6-1cb8-4a5d-b2a6-13fe7fbe5ca0
+Copyright 2014 The cheeriojs contributors
+
+domelementtype-2.0.1.tgz
+========================
+Licensed under BSD 2
+Source Code can be found at: https://github.com/fb55/domelementtype.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/be8d8433-596a-4775-93d9-4e05510e0811
+Copyright Felix Böhm
+
+domelementtype-2.3.0.tgz
+========================
+Licensed under BSD 2
+Source Code can be found at: https://github.com/fb55/domelementtype.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/53ed32bc-0a82-4e94-aba7-04cc464d61b2
+Copyright Felix Böhm
+
+domhandler-4.3.1.tgz
+====================
+Licensed under BSD 2
+Source Code can be found at: https://github.com/fb55/domhandler.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/4377a603-d020-4ad4-8339-285d6c5163f6
+Copyright Felix Böhm
+
+domutils-2.8.0.tgz
+==================
+Licensed under BSD 2
+Source Code can be found at: https://github.com/fb55/domutils.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/4ed5f05c-ac10-4530-a156-1f87005ad05f
+Copyright Felix Böhm
+
+emotion-9.2.12.tgz
+==================
+Licensed under MIT
+Source Code can be found at: https://github.com/emotion-js/emotion.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/37fcf5c7-c5f4-47f5-b839-a07ce6cc5310
+Copyright 2016 Kye Hohenberger
+
+entities-2.0.0.tgz
+==================
+Licensed under BSD 2
+Source Code can be found at: https://github.com/fb55/entities.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/1b242310-0d78-4642-b0a9-0dcc150e3742
+Copyright Felix Böhm
+
+eonasdan-bootstrap-datetimepicker-4.17.49.tgz
+=============================================
+Licensed under MIT
+Source Code can be found at: https://github.com/eonasdan/bootstrap-datetimepicker.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/6a4d373b-1306-4629-ad3c-8c28ca6c379b
+Copyright 2015 Jonathan Peterson (@Eonasdan)
+
+error-ex-1.3.2.tgz
+==================
+Licensed under MIT
+Source Code can be found at: https://github.com/qix-/node-error-ex.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/1b66565a-3560-4674-a297-834113f9bcaf
+Copyright 2015 JD Ballard
+
+error_prone_annotations-2.3.4.jar
+=================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.pom
+Copyright 2015 The Error Prone Authors
+
+esapi-2.7.0.0-jakarta.jar
+=========================
+Licensed under CC BY SA 3.0, BSD 2
+License terms can be found at: https://repo.maven.apache.org/maven2/org/owasp/esapi/esapi/2.7.0.0/esapi-2.7.0.0.pom
+Copyright 2007-2019 The OWASP Foundation
+
+esapiport-2013-12-04.jar
+========================
+Licensed under BSD 3
+2007 Copyright - The OWASP Foundation
+
+escape-string-regexp-4.0.0.tgz
+==============================
+Licensed under MIT
+Source Code can be found at: https://github.com/sindresorhus/escape-string-regexp.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/bcf624ae-fff2-4a67-a81f-f55a97d8d97a
+Copyright Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+esprima-3.0.0.tgz
+=================
+Licensed under BSD 2
+Source Code can be found at: https://github.com/jquery/esprima.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/dd2c2c19-b2cb-4cea-bfa2-8a110279f20a
+Copyright jQuery Foundation, Inc. and Contributors, All Rights Reserved
+
+esprima-4.0.1.tgz
+=================
+Licensed under BSD 2
+Source Code can be found at: https://github.com/jquery/esprima.git
+License terms can be found at: https://github.com/jquery/esprima/tree/4.0.1
+Copyright JS Foundation and other contributors, https://js.foundation/
+
+esutils-2.0.3.tgz
+=================
+Licensed under BSD 2
+Source Code can be found at: https://github.com/estools/esutils.git
+License terms can be found at: https://github.com/estools/esutils/tree/2.0.3
+Copyright 2013 [Yusuke Suzuki](http://github.com/Constellation)
+Copyright 2013 "Yusuke Suzuki" (http://github.com/Constellation)
+
+failureaccess-1.0.2.jar
+=======================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.pom
+Copyright 2018 The Guava Authors
+
+fast-deep-equal-3.1.3.tgz
+=========================
+Licensed under MIT
+Source Code can be found at: https://github.com/epoberezkin/fast-deep-equal.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/b9d4c5b7-9bc5-4910-bcb2-8dd86c6569c1
+Copyright 2017 Evgeny Poberezkin
+
+fast-json-stable-stringify-2.0.0.tgz
+====================================
+Licensed under MIT
+Source Code can be found at: https://github.com/epoberezkin/fast-json-stable-stringify.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/d59b598e-920d-4ed3-afbf-493cc0d7d64d
+2017 Copyright 2017 James Halliday (mail@substack.net)
+
+FastInfoset-1.2.13.jar
+======================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.13/FastInfoset-1.2.13.pom
+Copyright 2012-2013 Oracle and/or its affiliates
+
+fastutil-6.5.11.jar
+===================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/it/unimi/dsi/fastutil/6.5.11/fastutil-6.5.11.pom
+2017 Copyright (C) 2002-2017 Sebastiano Vigna
+
+file-selector-0.1.12.tgz
+========================
+Licensed under MIT
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/d99cf974-ae6c-45c0-95f3-135f98cdbdf3
+Copyright 2020 Roland Groza
+
+find-cluster-break-1.0.2.tgz
+============================
+Licensed under MIT
+Source Code can be found at: https://github.com/marijnh/find-cluster-break.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/c2da6880-b34c-4238-b8e0-92fe7206784a
+Copyright 2024 by Marijn Haverbeke <marijn@haverbeke.berlin>
+
+find-root-1.1.0.tgz
+===================
+Licensed under MIT
+Source Code can be found at: https://github.com/js-n/find-root.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/2c2c37f5-ce3a-4e26-8246-1acfbf4a3d4a
+Copyright 2017 jsdnxx
+
+font-awesome-4.7.0.tgz
+======================
+Licensed under MIT
+Source Code can be found at: https://github.com/FortAwesome/Font-Awesome.git
+License terms can be found at: https://github.com/FortAwesome/Font-Awesome/blob/master/package.json
+Copyright 2016 Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+
+forgerock-guava-annotations-18.0.4.jar
+======================================
+Licensed under Apache 2.0
+License terms can be found at: https://github.com/google/guava/blob/master/pom.xml
+2013 Copyright (C) 2013 The Guava Authors
+
+forgerock-guava-base-18.0.4.jar
+===============================
+Licensed under Apache 2.0
+License terms can be found at: https://github.com/google/guava/blob/master/pom.xml
+2013 Copyright (C) 2013 The Guava Authors
+
+forgerock-guava-cache-18.0.4.jar
+================================
+Licensed under Apache 2.0
+License terms can be found at: https://github.com/google/guava/blob/master/pom.xml
+2013 Copyright (C) 2013 The Guava Authors
+
+forgerock-guava-collect-18.0.4.jar
+==================================
+Licensed under Apache 2.0
+License terms can be found at: https://github.com/google/guava/blob/master/pom.xml
+2013 Copyright (C) 2013 The Guava Authors
+
+forgerock-guava-concurrent-18.0.4.jar
+=====================================
+Licensed under Apache 2.0
+License terms can be found at: https://github.com/google/guava/blob/master/pom.xml
+2013 Copyright (C) 2013 The Guava Authors
+
+forgerock-guava-hash-18.0.3.jar
+===============================
+Licensed under Apache 2.0
+License terms can be found at: https://github.com/google/guava/blob/master/pom.xml
+2013 Copyright (C) 2013 The Guava Authors
+
+forgerock-guava-io-18.0.4.jar
+=============================
+Licensed under Apache 2.0
+License terms can be found at: https://github.com/google/guava/blob/master/pom.xml
+2013 Copyright (C) 2013 The Guava Authors
+
+forgerock-guava-math-18.0.3.jar
+===============================
+Licensed under Apache 2.0
+License terms can be found at: https://github.com/google/guava/blob/master/pom.xml
+2013 Copyright (C) 2013 The Guava Authors
+
+forgerock-guava-primitives-18.0.4.jar
+=====================================
+Licensed under Apache 2.0
+License terms can be found at: https://github.com/google/guava/blob/master/pom.xml
+2013 Copyright (C) 2013 The Guava Authors
+
+forgerock-guava-reflect-18.0.4.jar
+==================================
+Licensed under Apache 2.0
+License terms can be found at: https://github.com/google/guava/blob/master/pom.xml
+2008 Copyright (C) 2008-2016 The Guava Authors
+
+forgerock-je-7.3.7.jar
+======================
+Licensed under Apache 2.0
+License terms can be found at: https://docs.oracle.com/cd/E17277_02/html/LICENSE.txt
+2016 Copyright (C) 2002, 2016, Oracle  and/or its affiliates. All rights reserved.
+
+forgerock-persistit-core-4.3.2.jar
+==================================
+Licensed under Apache 2.0
+License terms can be found at: https://github.com/pbeaman/persistit/blob/master/pom.xml
+2012 Copyright 2012 Akiban Technologies, Inc.
+
+form2js-1.0.0.tgz
+=================
+Licensed under MIT
+Source Code can be found at: https://github.com/kirill-zhirnov/form2js.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/5ac7f0b1-f68c-4702-b2c4-96b51b1787db
+2010 Copyright (c) 2010 Maxim Vasiliev
+
+freemarker-2.3.31.jar
+=====================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.pom
+Copyright 2021 The Apache Software Foundation
+
+gax-2.54.1.jar
+==============
+Licensed under BSD 3
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/api/gax/2.54.1/gax-2.54.1.pom
+Copyright 2016 Google Inc
+
+gax-grpc-2.54.1.jar
+===================
+Licensed under BSD 3
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/api/gax-grpc/2.54.1/gax-grpc-2.54.1.pom
+Copyright 2016 Google Inc
+
+gax-httpjson-2.54.1.jar
+=======================
+Licensed under BSD 3
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/api/gax-httpjson/2.54.1/gax-httpjson-2.54.1.pom
+Copyright 2016 Google Inc
+
+geoip2-2.16.1.jar
+=================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/maxmind/geoip2/geoip2/2.16.1/geoip2-2.16.1.pom
+Copyright 2013-2021 by MaxMind, Inc
+
+get-node-dimensions-1.2.1.tgz
+=============================
+Licensed under MIT
+Source Code can be found at: https://github.com/souporserious/get-node-dimensions.git
+License terms can be found at: https://github.com/souporserious/get-node-dimensions/blob/master/LICENSE
+2015 Copyright (c) 2015 get-node-dimensions authors
+
+gmbal-api-only-3.1.0-b001.jar
+=============================
+Licensed under CDDL 1.0
+License terms can be found at: https://javaee.github.io/glassfish/LICENSE
+Copyright 1997-2007 Sun Microsystems, Inc
+Copyright 1997-2010 Oracle and/or its affiliates
+
+google-auth-library-credentials-1.27.0.jar
+==========================================
+Licensed under BSD 3
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-credentials/1.27.0/google-auth-library-credentials-1.27.0.pom
+
+google-auth-library-oauth2-http-1.27.0.jar
+==========================================
+Licensed under BSD 3
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/auth/google-auth-library-oauth2-http/1.27.0/google-auth-library-oauth2-http-1.27.0.pom
+
+google-cloud-kms-2.54.0.jar
+===========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-kms/2.54.0/google-cloud-kms-2.54.0.pom
+
+google-cloud-secretmanager-2.51.0.jar
+=====================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/cloud/google-cloud-secretmanager/2.51.0/google-cloud-secretmanager-2.51.0.pom
+
+google-http-client-1.45.0.jar
+=============================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client/1.45.0/google-http-client-1.45.0.pom
+Copyright Google
+
+google-http-client-gson-1.45.0.jar
+==================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/http-client/google-http-client-gson/1.45.0/google-http-client-gson-1.45.0.pom
+Copyright Google
+
+grizzly-framework-2.3.37-forgerock-0.jar
+========================================
+Licensed under CDDL 1.1
+License terms can be found at: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-framework/2.3.37/grizzly-framework-2.3.37.pom
+Copyright 2007 and/or its affiliates
+
+grizzly-http-2.3.37-forgerock-0.jar
+===================================
+Licensed under CDDL 1.1
+License terms can be found at: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http-server/2.3.37/grizzly-http-server-2.3.37.pom
+Copyright 2007 and/or its affiliates
+
+grizzly-http-server-2.3.37-forgerock-0.jar
+==========================================
+Licensed under CDDL 1.1
+License terms can be found at: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http-server/2.3.37/grizzly-http-server-2.3.37.pom
+Copyright 2007 and/or its affiliates
+
+groovy-2.4.21.jar
+=================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/2.4.21/groovy-2.4.21.pom
+Copyright Apache Software Foundation
+
+groovy-4.0.28.jar
+=================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache/groovy/groovy/4.0.28/groovy-4.0.28.pom
+Copyright Apache Software Foundation
+
+groovy-console-4.0.28.jar
+=========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-console/4.0.28/groovy-console-4.0.28.pom
+Copyright Apache Software Foundation
+
+groovy-groovysh-4.0.28.jar
+==========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-groovysh/4.0.28/groovy-groovysh-4.0.28.pom
+Copyright Apache Software Foundation
+
+groovy-json-2.4.21.jar
+======================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-json/2.4.21/groovy-json-2.4.21.pom
+Copyright Apache Software Foundation
+
+groovy-json-4.0.28.jar
+======================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-json/4.0.28/groovy-json-4.0.28.pom
+Copyright Apache Software Foundation
+
+groovy-jsr223-2.4.21.jar
+========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-jsr223/2.4.21/groovy-jsr223-2.4.21.pom
+Copyright Apache Software Foundation
+
+groovy-jsr223-4.0.28.jar
+========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-jsr223/4.0.28/groovy-jsr223-4.0.28.pom
+Copyright Apache Software Foundation
+
+groovy-sandbox-1.33.jar
+=======================
+Licensed under MIT
+License terms can be found at: https://repo.jenkins-ci.org/releases/org/kohsuke/groovy-sandbox/1.33/groovy-sandbox-1.33.pom
+Copyright 2020 CloudBees, Inc
+
+groovy-swing-4.0.28.jar
+=======================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-swing/4.0.28/groovy-swing-4.0.28.pom
+Copyright Apache Software Foundation
+
+groovy-templates-4.0.28.jar
+===========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-templates/4.0.28/groovy-templates-4.0.28.pom
+Copyright Apache Software Foundation
+
+groovy-xml-4.0.28.jar
+=====================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-xml/4.0.28/groovy-xml-4.0.28.pom
+Copyright Apache Software Foundation
+
+grpc-alts-1.68.0.jar
+====================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/grpc/grpc-alts/1.68.0/grpc-alts-1.68.0.pom
+
+grpc-api-1.68.0.jar
+===================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.68.0/grpc-api-1.68.0.pom
+
+grpc-auth-1.68.0.jar
+====================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/grpc/grpc-auth/1.68.0/grpc-auth-1.68.0.pom
+
+grpc-context-1.68.0.jar
+=======================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.68.0/grpc-context-1.68.0.pom
+
+grpc-core-1.68.0.jar
+====================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.68.0/grpc-core-1.68.0.pom
+
+grpc-googleapis-1.68.0.jar
+==========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/grpc/grpc-googleapis/1.68.0/grpc-googleapis-1.68.0.pom
+
+grpc-grpclb-1.68.0.jar
+======================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/grpc/grpc-grpclb/1.68.0/grpc-grpclb-1.68.0.pom
+
+grpc-inprocess-1.68.0.jar
+=========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/grpc/grpc-inprocess/1.68.0/grpc-inprocess-1.68.0.pom
+
+grpc-netty-shaded-1.68.0.jar
+============================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty-shaded/1.68.0/grpc-netty-shaded-1.68.0.pom
+Copyright 2016 The Netty Project
+
+grpc-protobuf-1.68.0.jar
+========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.68.0/grpc-protobuf-1.68.0.pom
+
+grpc-protobuf-lite-1.68.0.jar
+=============================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.68.0/grpc-protobuf-lite-1.68.0.pom
+
+grpc-services-1.68.0.jar
+========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/grpc/grpc-services/1.68.0/grpc-services-1.68.0.pom
+
+grpc-stub-1.68.0.jar
+====================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.68.0/grpc-stub-1.68.0.pom
+
+grpc-util-1.68.0.jar
+====================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/grpc/grpc-util/1.68.0/grpc-util-1.68.0.pom
+
+grpc-xds-1.68.0.jar
+===================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/grpc/grpc-xds/1.68.0/grpc-xds-1.68.0.pom
+
+gson-2.10.jar
+=============
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.10/gson-2.10.pom
+Copyright 2008 Google Inc.Licensed under the Apache License, Version 2.0 (the "License");
+
+guava-32.1.1-jre.jar
+====================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/guava/guava/32.1.1-jre/guava-32.1.1-jre.pom
+Copyright 2010 The Guava Authors
+
+gud-1.0.0.tgz
+=============
+Licensed under MIT
+Source Code can be found at: https://github.com/jamiebuilds/global-unique-id.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/96269af8-e2cb-4379-9e6f-ec2ac1c8434f
+Copyright 2018 Jamie Kyle (me@thejameskyle.com)
+
+guice-3.0-no_aop.jar
+====================
+Licensed under Apache 2.0
+Source Code can be found at: http://code.google.com/p/google-guice/source/browse/guice
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/inject/guice/3.0/guice-3.0.pom
+Copyright 2006 Google Inc
+Copyright Google, Inc.
+
+guice-6.0.0.jar
+===============
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/inject/guice/6.0.0/guice-6.0.0.pom
+Copyright 2006 Google Inc
+Copyright Google, Inc.
+
+guice-assistedinject-6.0.0.jar
+==============================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/inject/extensions/guice-assistedinject/6.0.0/guice-assistedinject-6.0.0.pom
+Copyright 2006 Google Inc
+Copyright Google, Inc.
+
+guice-multibindings-3.0.jar
+===========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/inject/extensions/guice-multibindings/3.0/guice-multibindings-3.0.pom
+Copyright 2006 Google Inc
+
+ha-api-3.1.9.jar
+================
+Licensed under CDDL 1.0
+License terms can be found at: https://javaee.github.io/uel-ri/LICENSE
+Copyright 1997-2010 Oracle and/or its affiliates
+
+hash-0.6.6.tgz
+==============
+Licensed under MIT
+Source Code can be found at: https://github.com/emotion-js/emotion.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/15ef8ada-aa71-4dfe-a8a2-cddfb2450741
+Copyright 2016 Kye Hohenberger
+
+HdrHistogram-2.1.4.jar
+======================
+Licensed under BSD 2
+License terms can be found at: https://github.com/HdrHistogram/HdrHistogram/blob/HdrHistogram-2.1.4/LICENSE.txt
+Copyright 2012 Matt Warren, Michael Barker, Gil Tene
+
+hdrhistogram-metrics-reservoir-1.1.3.jar
+========================================
+Licensed under COIL 0.5
+License terms can be found at: https://repo.maven.apache.org/maven2/org/mpierce/metrics/reservoir/hdrhistogram-metrics-reservoir/1.1.3/hdrhistogram-metrics-reservoir-1.1.3.pom
+Copyright Marshall Pierce
+
+helper-module-imports-7.0.0.tgz
+===============================
+Licensed under MIT
+Source Code can be found at: https://github.com/babel/babel.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/1553c449-7b7b-46dc-b9b0-c5ff404b5161
+Copyright 2014-2018 Sebastian McKenzie <sebmck@gmail.com>
+
+highlight-1.2.1.tgz
+===================
+Licensed under MIT
+Source Code can be found at: https://github.com/lezer-parser/highlight.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/968cf53e-fb57-432f-8bc0-8bb1db90984d
+Copyright 2018 by Marijn Haverbeke <marijn@haverbeke.berlin> and others
+
+HikariCP-5.0.1.jar
+==================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.pom
+Copyright 2013-2014 Brett Wooldridge
+
+hll-1.6.0.jar
+=============
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/net/agkn/hll/1.6.0/hll-1.6.0.pom
+2013 Copyright 2013 Aggregate Knowledge, Inc.
+
+hoist-non-react-statics-2.5.5.tgz
+=================================
+Licensed under BSD 3
+Source Code can be found at: https://github.com/mridgway/hoist-non-react-statics.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/4599ea6f-6fe5-4b95-a15b-a76de55cbf93
+2015 Copyright (c) 2015, Yahoo! Inc. All rights reserved.
+
+htmlparser2-6.1.0.tgz
+=====================
+Licensed under MIT
+Source Code can be found at: https://github.com/fb55/htmlparser2.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/cf0389ba-9f76-4a66-8843-bf28478b94be
+Copyright 2010-2011 Chris Winberry <chris@winberry.net>
+
+httpasyncclient-osgi-4.1.4.jar
+==============================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpasyncclient-osgi/4.1.4/httpasyncclient-osgi-4.1.4.pom
+Copyright The Apache Software Foundation
+
+httpclient-4.5.14.jar
+=====================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.pom
+Copyright The Apache Software Foundation
+
+httpclient-osgi-4.5.13-forgerock.jar
+====================================
+Licensed under Apache 2.0
+License terms can be found at: https://maven.forgerock.org/repo/internal-releases/org/apache/httpcomponents/httpclient-osgi/4.5.13-forgerock/httpclient-osgi-4.5.13-forgerock.pom
+Copyright 1999 The Apache Software Foundation
+
+httpclient5-5.4.4.jar
+=====================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.4.4/httpclient5-5.4.4.pom
+Copyright The Apache Software Foundation
+
+httpcore-4.4.13.jar
+===================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.pom
+Copyright The Apache Software Foundation
+
+httpcore-osgi-4.4.15.jar
+========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore-osgi/4.4.15/httpcore-osgi-4.4.15.pom
+Copyright The Apache Software Foundation
+
+httpcore5-h2-5.3.4.jar
+======================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.4/httpcore5-h2-5.3.4.pom
+Copyright The Apache Software Foundation
+
+humanize-0.0.9.tgz
+==================
+Licensed under MIT
+Source Code can be found at: https://github.com/taijinlee/humanize.git
+License terms can be found at: https://github.com/taijinlee/humanize/blob/0.0.9/LICENSE
+2012 Copyright (c) 2012 Tai-Jin Lee http://www.taijinlee.com
+
+i18next-21.6.14.tgz
+===================
+Licensed under MIT
+Source Code can be found at: https://github.com/i18next/i18next.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/2d7cc064-82a1-4f73-b8dc-83142654d9d1
+Copyright 2022 i18next
+
+i18next-browser-languagedetector-6.1.4.tgz
+==========================================
+Licensed under MIT
+Source Code can be found at: https://github.com/i18next/i18next-browser-languageDetector.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/5f1bce7a-c9c4-4eb5-8556-f8fa57e4da66
+Copyright 2022 i18next
+
+i18next-intervalplural-postprocessor-3.0.0.tgz
+==============================================
+Licensed under MIT
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/41c2c9f6-1c58-476f-a08a-bb1746f1e56c
+Copyright 2015 i18next
+
+import-fresh-2.0.0.tgz
+======================
+Licensed under MIT
+Source Code can be found at: https://github.com/sindresorhus/import-fresh.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/ee83c8d4-4c9d-44a6-ab08-8208efb005d8
+Copyright Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+Copyright Sindre Sorhus
+
+invariant-2.2.4.tgz
+===================
+Licensed under MIT
+Source Code can be found at: https://github.com/zertosh/invariant.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/35f4651a-6177-43da-8ded-8f26c93abe3b
+2013 Copyright (c) 2013-present, Facebook, Inc.
+
+invokebinder-1.13.jar
+=====================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/headius/invokebinder/1.13/invokebinder-1.13.pom
+Copyright headius
+
+is-arrayish-0.2.1.tgz
+=====================
+Licensed under MIT
+Source Code can be found at: https://github.com/qix-/node-is-arrayish.git
+License terms can be found at: https://github.com/qix-/node-is-arrayish#readme
+Copyright 2015 JD Ballard
+
+is-directory-0.3.1.tgz
+======================
+Licensed under MIT
+Source Code can be found at: https://github.com/jonschlinkert/is-directory.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/ac5087f4-f54f-4e8a-bbef-8bdc3b2522fd
+Copyright 2016 [Jon Schlinkert](https://github.com/jonschlinkert)
+Copyright 2014-2016 Jon Schlinkert
+Copyright 2016 Jon Schlinkert" (https://github.com/jonschlinkert)
+
+is-plain-object-5.0.0.tgz
+=========================
+Licensed under MIT
+Source Code can be found at: https://github.com/jonschlinkert/is-plain-object.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/c28581e6-a381-400a-8119-7597cf299d72
+Copyright 2019 "Jon Schlinkert" (https://github.com/jonschlinkert)
+Copyright 2014-2017 Jon Schlinkert
+
+isorelax-20030108.jar
+=====================
+Licensed under MIT
+License terms can be found at: https://repo.maven.apache.org/maven2/isorelax/isorelax/20030108/isorelax-20030108.pom
+Copyright 2001-2002 SourceForge ISO-RELAX Project (ASAMI Tomoharu, Daisuke Okajima, Kohsuke Kawaguch
+
+ivy-2.5.3.jar
+=============
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache/ivy/ivy/2.5.3/ivy-2.5.3.pom
+Copyright 2002-2007 Atsuhiko Yamanaka
+Copyright 2007 John Resig, http://jquery.com/
+Copyright 2005-2006 Swiss Federal Institute of Technology
+
+j2objc-annotations-3.0.0.jar
+============================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.pom
+Copyright 1995-2016 International Business Machines Corporation and others
+Copyright 1999-2007 Apple Inc
+Copyright 2006-2008 Google Inc
+
+jackson-annotations-2.20.jar
+============================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.20/jackson-annotations-2.20.pom
+Copyright FasterXML
+
+jackson-core-2.20.0.jar
+=======================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.20.0/jackson-core-2.20.0.pom
+Copyright FasterXML
+Copyright 2024 Werner Randelshofer, Switzerland
+Copyright 2020 Tim Buktu. 2-clause BSD License
+Copyright 2022 Daniel Lemire
+Copyright 2021 The fast_float authors
+
+jackson-databind-2.20.0.jar
+===========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.20.0/jackson-databind-2.20.0.pom
+Copyright FasterXML
+
+jackson-dataformat-cbor-2.20.0.jar
+==================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.20.0/jackson-dataformat-cbor-2.20.0.pom
+Copyright 2007 the original author or authors
+
+jackson-dataformat-csv-2.20.0.jar
+=================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-csv/2.20.0/jackson-dataformat-csv-2.20.0.pom
+Copyright 2007 the original author or authors
+
+jackson-dataformat-smile-2.20.0.jar
+===================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.20.0/jackson-dataformat-smile-2.20.0.pom
+Copyright 2007 the original author or authors
+
+jackson-dataformat-xml-2.20.0.jar
+=================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.20.0/jackson-dataformat-xml-2.20.0.pom
+Copyright 2007 the original author or authors
+
+jackson-dataformat-yaml-2.20.0.jar
+==================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.20.0/jackson-dataformat-yaml-2.20.0.pom
+Copyright 2007 the original author or authors
+
+jackson-datatype-jdk8-2.20.0.jar
+================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.20.0/jackson-datatype-jdk8-2.20.0.pom
+Copyright 2007 the original author or authors
+
+jackson-module-jaxb-annotations-2.20.0.jar
+==========================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.20.0/jackson-module-jaxb-annotations-2.20.0.pom
+Copyright 2007 the original author or authors
+
+jackson-module-jsonSchema-2.20.0.jar
+====================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jsonSchema/2.20.0/jackson-module-jsonSchema-2.20.0.pom
+Copyright 2013 FasterXML
+
+jakarta.activation-api-1.2.2.jar
+================================
+Licensed under BSD 3
+License terms can be found at: https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.pom
+Copyright 1997-2019 Oracle and/or its affiliates
+Copyright 2018 Oracle and/or its affiliates
+
+jakarta.inject-api-2.0.1.jar
+============================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.pom
+Copyright Eclipse Foundation
+Copyright 2018-2020 Eclipse Foundation
+
+jakarta.servlet-api-5.0.0.jar
+=============================
+Licensed under Eclipse 2.0
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/cfce4b19-8cd0-4b2f-a1ac-0e114fcc33ba
+Copyright 1997-2020 Oracle and/or its affiliates and others
+
+jato-2005-05-04.jar
+===================
+Licensed under CDDL 1.0
+License terms can be found at: https://opensource.org/licenses/CDDL-1.0
+2009 Copyright 2003-2009 Sun Microsystems, Inc. All rights reserved
+
+java-ipv6-0.14.jar
+==================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/googlecode/java-ipv6/java-ipv6/0.14/java-ipv6-0.14.pom
+Copyright 2013 Jan Van Besien
+
+java-object-diff-0.95.jar
+=========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/de/danielbechler/java-object-diff/0.95/java-object-diff-0.95.pom
+2012 Copyright 2012 Daniel Bechler
+
+java-semver-0.9.0.jar
+=====================
+Licensed under MIT
+License terms can be found at: https://repo.maven.apache.org/maven2/com/github/zafarkhaja/java-semver/0.9.0/java-semver-0.9.0.pom
+2014 Copyright 2012-2014 Zafar Khaja <zafarkhaja@gmail.com>.
+
+javaparser-core-3.27.0.jar
+==========================
+Licensed under Apache 2.0, LGPL 3.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/github/javaparser/javaparser-core/3.27.0/javaparser-core-3.27.0.pom
+
+javascript-1.5.4.tgz
+====================
+Licensed under MIT
+Source Code can be found at: https://github.com/lezer-parser/javascript.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/bfce6c9a-356a-4d77-bf0a-29661dca9b63
+Copyright 2018 by Marijn Haverbeke <marijn@haverbeke.berlin> and others
+
+javascript-sdk-2.2.0.tgz
+========================
+Licensed under MIT
+Source Code can be found at: https://github.com/ForgeRock/forgerock-javascript-sdk.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/35153267-08db-4a34-91f1-5adf6747aab1
+Copyright 2020 ForgeRock AS
+Copyright 2019 ForgeRock
+
+javassist-3.24.1-GA.jar
+=======================
+Licensed under Apache 2.0
+License terms can be found at: https://mvnrepository.com/artifact/org.javassist/javassist/3.24.1-GA
+Copyright 1999 Shigeru Chiba
+Copyright 2019 The Apache Software Foundation, Licensed under the <a class="white" href="/licen
+
+javax.activation-api-1.2.0.jar
+==============================
+Licensed under CDDL 1.1
+License terms can be found at: https://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.pom
+Copyright 2017 Oracle
+
+javax.annotation-api-1.3.2.jar
+==============================
+Licensed under CDDL 1.1
+License terms can be found at: https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.pom
+Copyright 2017 Oracle and/or its affiliates.
+
+javax.jms-api-2.0.1.jar
+=======================
+Licensed under CDDL 1.0
+License terms can be found at: https://mvnrepository.com/artifact/javax.jms/javax.jms-api/2.0.1
+Copyright the combination of files containing Original Software with files containing Modifications, in each c
+Copyright 2012-2015 Oracle and/or its affiliates
+
+javax.mail-1.6.2.jar
+====================
+Licensed under CDDL 1.1
+License terms can be found at: https://github.com/javaee/javamail/blob/JAVAMAIL-1_6_2/LICENSE.txt
+2017 Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.
+
+javax.security.auth.message-3.1.1.jar
+=====================================
+Licensed under CDDL 1.1
+License terms can be found at: https://repo.maven.apache.org/maven2/org/glassfish/javax.security.auth.message/3.1.1/javax.security.auth.message-3.1.1.pom
+Copyright 2011 Oracle
+
+javax.servlet-api-3.1.0.jar
+===========================
+Licensed under CDDL 1.0
+License terms can be found at: https://opensource.org/licenses/CDDL-1.0
+Copyright 2013 Oracle
+
+javax.xml.soap-api-1.4.0.jar
+============================
+Licensed under CDDL 1.0
+License terms can be found at: http://repo.jfrog.org/artifactory/list/repo1/javax/xml/soap/javax.xml.soap-api/1.4.0/javax.xml.soap-api-1.4.0.pom
+Copyright the combination of files containing Original Software with files containing Modifications, in each c
+Copyright 2013-2017 Oracle and/or its affiliates
+
+jaxb-api-2.3.1.jar
+==================
+Licensed under CDDL 1.1
+License terms can be found at: http://repo.jfrog.org/artifactory/list/repo1/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.pom
+Copyright 2023 Oracle
+
+jaxb-core-2.3.0.1.jar
+=====================
+Licensed under CDDL 1.1
+License terms can be found at: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.pom
+Copyright 2017 Oracle
+
+jaxb-impl-2.3.1.jar
+===================
+Licensed under CDDL 1.1
+License terms can be found at: https://github.com/javaee/jaxb-v2
+Copyright 2013-2018 Oracle and/or its affiliates
+
+jaxb-xjc-2.3.1.jar
+==================
+Licensed under CDDL 1.1
+License terms can be found at: https://github.com/javaee/jaxb-v2
+Copyright 2004 Kohsuke Kawaguchi
+Copyright 2001-2003 Thai Open Source Software Center Ltd
+Copyright 2001-2002 SourceForge ISO
+Copyright 2013-2018 Oracle and/or its affiliates
+
+jaxws-api-2.3.0.jar
+===================
+Licensed under CDDL 1.1
+License terms can be found at: https://github.com/javaee/metro-jax-ws/blob/JAXWS_2_3_0/jaxws-ri/boms/bom/pom.xml#L68-L75
+Copyright 1997-2017 Oracle and/or its affiliates
+Copyright the combination of files containing Original Software with files containing Modifications, in each c
+Copyright Oracle
+
+jaxws-rt-2.3.0.jar
+==================
+Licensed under CDDL 1.1
+License terms can be found at: https://github.com/javaee/metro-jax-ws/blob/JAXWS_2_3_0/jaxws-ri/boms/bom/pom.xml#L68-L75
+Copyright 2012-2017 Oracle and/or its affiliates
+
+jcip-annotations-1.0-1.jar
+==========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.pom
+Copyright UNSPECIFIED
+Copyright (c)  
+
+jcl-over-slf4j-1.7.36.jar
+=========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.pom
+Copyright QOS.ch
+
+jcodings-1.0.63.jar
+===================
+Licensed under MIT
+License terms can be found at: https://repo.maven.apache.org/maven2/org/jruby/jcodings/jcodings/1.0.63/jcodings-1.0.63.pom
+Copyright 2007-2011 Sonatype, Inc
+
+jcommander-1.82.jar
+===================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/beust/jcommander/1.82/jcommander-1.82.pom
+Copyright 2010 Cedric Beust "cedric@beust.com" (mailto:cedric@beust.com)
+Copyright Notices
+Copyright 2012 Cedric Beust
+
+jersey-bundle-1.1.1-ea.jar
+==========================
+Licensed under CDDL 1.0
+License terms can be found at: https://opensource.org/licenses/CDDL-1.0
+Copyright 1997-2007 Sun Microsystems, Inc
+
+jffi-1.3.13-native.jar
+======================
+Licensed under Apache 2.0
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/6859aa14-1037-426a-9871-466348d8407e
+
+jffi-1.3.13.jar
+===============
+Licensed under Apache 2.0
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/6859aa14-1037-426a-9871-466348d8407e
+Copyright 2009 Wayne Meissner
+
+jgrapht-core-1.5.2.jar
+======================
+Licensed under Eclipse 2.0
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/67cc8d70-b680-4b02-9ebd-12aedc62fdcb
+Copyright 2003 by Barak Naveh and Contributors
+
+jheaps-0.14.jar
+===============
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/jheaps/jheaps/0.14/jheaps-0.14.pom
+Copyright 2014-2020 Dimitrios Michail
+
+jitescript-0.4.1.jar
+====================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/me/qmx/jitescript/jitescript/0.4.1/jitescript-0.4.1.pom
+Copyright 2012 Douglas Campos qmx@qmx.me
+
+jline-2.14.6.jar
+================
+Licensed under BSD 2
+License terms can be found at: https://repo.maven.apache.org/maven2/jline/jline/2.14.6/jline-2.14.6.pom
+Copyright 2002-2016 the original author or authors
+
+jmespath-java-1.12.650.jar
+==========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/amazonaws/jmespath-java/1.12.650/jmespath-java-1.12.650.pom
+Copyright 2010-2024 Copyright
+
+jnr-a64asm-1.0.0.jar
+====================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/github/jnr/jnr-a64asm/1.0.0/jnr-a64asm-1.0.0.pom
+Copyright 2018 Ossdev07
+
+jnr-constants-0.10.4.jar
+========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.10.4/jnr-constants-0.10.4.pom
+Unspecified Copyright
+Reviewed by the WhiteSource Research Team
+Library copyrights could not be established
+
+jnr-enxio-0.32.18.jar
+=====================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.32.18/jnr-enxio-0.32.18.pom
+
+jnr-ffi-2.2.17.jar
+==================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.2.17/jnr-ffi-2.2.17.pom
+Copyright 2008 JNR Project
+
+jnr-netdb-1.2.0.jar
+===================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/github/jnr/jnr-netdb/1.2.0/jnr-netdb-1.2.0.pom
+Copyright 2010 Wayne Meissner
+
+jnr-posix-3.1.20.jar
+====================
+Licensed under Eclipse 2.0
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/cfce4b19-8cd0-4b2f-a1ac-0e114fcc33ba
+Unspecified Copyright
+Reviewed by the WhiteSource Research Team
+Library copyrights could not be established
+
+jnr-unixsocket-0.38.23.jar
+==========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.38.23/jnr-unixsocket-0.38.23.pom
+
+jnr-x86asm-1.0.2.jar
+====================
+Licensed under MIT
+License terms can be found at: https://repo.maven.apache.org/maven2/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.pom
+Copyright 2010 Wayne Meissner
+Copyright 2008-2009 Petr Kobalicek <kobalicek.petr@gmail.com>
+
+joda-time-2.14.0.jar
+====================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/joda-time/joda-time/2.14.0/joda-time-2.14.0.pom
+Copyright Joda.org
+
+joni-2.2.5.jar
+==============
+Licensed under MIT
+License terms can be found at: https://repo.maven.apache.org/maven2/org/jruby/joni/joni/2.2.5/joni-2.2.5.pom
+Copyright 2007-2011 Sonatype, Inc
+
+jquery-3.6.1.tgz
+================
+Licensed under MIT
+Source Code can be found at: https://github.com/jquery/jquery.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/43a7ce0b-f9c5-456f-b16e-421c2272961c
+Copyright OpenJS Foundation and other contributors, https://openjsf.org/
+
+jquery-i18next-1.2.1.tgz
+========================
+Licensed under MIT
+Source Code can be found at: https://github.com/i18next/jquery-i18next.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/69969b33-8646-4525-a556-41d66bb4ab21
+2015 Copyright (c) 2015 i18next
+
+jquery-sortable-0.9.13.tgz
+==========================
+Licensed under BSD 2
+Source Code can be found at: https://github.com/johnny/jquery-sortable.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/1eccb5fc-5a8d-4005-87d7-60efcc6fe84d
+2018 Copyright (c) 2012 Jonas von Andrian All rights reserved.
+
+jruby-9.4.13.0.jar
+==================
+Licensed under Eclipse 2.0
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/cfce4b19-8cd0-4b2f-a1ac-0e114fcc33ba
+Copyright 2000-2011 INRIA
+Copyright JRuby
+Copyright 1993-2013 Yukihiro Matsumoto
+Copyright 2003-2004 Jim Weirich
+Copyright 2009 Aaron Patterson, et al
+Copyright 2000-2011 ymnk
+Copyright 2010 Wayne Meissner
+Copyright 2007-2018 The JRuby project
+Copyright 2008-2009 Petr Kobalicek <kobalicek.petr@gmail.com>
+Copyright 2002-2012 the original author or authors
+Copyright 1995-2013 Jean-loup Gailly and Mark Adler
+Copyright 2000-2006 The Legion Of The Bouncy Castle
+
+jruby-base-9.4.13.0.jar
+=======================
+Licensed under Eclipse 2.0
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/cfce4b19-8cd0-4b2f-a1ac-0e114fcc33ba
+Copyright JRuby
+
+jruby-stdlib-9.4.13.0.jar
+=========================
+Licensed under Eclipse 2.0
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/cfce4b19-8cd0-4b2f-a1ac-0e114fcc33ba
+Copyright 1993-2013 Yukihiro Matsumoto
+Copyright 2002-2012 the original author or authors
+Copyright 2009 Aaron Patterson, et al
+Copyright 2000-2011 INRIA
+Copyright 2000-2011 ymnk
+Copyright 1995-2013 Jean-loup Gailly and Mark Adler
+Copyright JRuby
+Copyright 2003-2004 Jim Weirich
+Copyright 2007-2018 The JRuby project
+Copyright 2010 Wayne Meissner
+Copyright 2008-2009 Petr Kobalicek <kobalicek.petr@gmail.com>
+Copyright 2000-2006 The Legion Of The Bouncy Castle
+
+js-tokens-4.0.0.tgz
+===================
+Licensed under MIT
+Source Code can be found at: https://github.com/lydell/js-tokens.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/644c80d6-6343-45ae-90a0-9808d169c412
+2014 Copyright (c) 2014, 2015, 2016, 2017, 2018 Simon Lydell
+
+js-yaml-3.13.1.tgz
+==================
+Licensed under MIT
+Source Code can be found at: https://github.com/nodeca/js-yaml.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/40eb011a-d05c-4c44-81b6-2387e1c1774f
+Copyright 2011-2015 by Vitaly Puzrin
+
+json-20231013.jar
+=================
+Licensed under Public Domain
+License terms can be found at: https://repo.maven.apache.org/maven2/org/json/json/20231013/json-20231013.pom
+ Unspecified Copyright
+
+json-parse-better-errors-1.0.2.tgz
+==================================
+Licensed under MIT
+Source Code can be found at: https://github.com/zkat/json-parse-better-errors.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/98797a10-5cd6-4b8f-9447-7d66e37a1132
+Copyright 2017 Kat Marchán
+
+json-schema-traverse-0.4.1.tgz
+==============================
+Licensed under MIT
+Source Code can be found at: https://github.com/epoberezkin/json-schema-traverse.git
+License terms can be found at: https://github.com/epoberezkin/json-schema-traverse#readme
+Copyright 2017 Evgeny Poberezkin
+
+jsr181-api-1.0-MR1.jar
+======================
+Licensed under CDDL 1.1
+License terms can be found at: https://repo.maven.apache.org/maven2/javax/jws/jsr181-api/1.0-MR1/jsr181-api-1.0-MR1.pom
+Copyright Oracle
+
+jsr305-3.0.0.jar
+================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.pom
+Copyright 2005 Brian Goetz
+
+jsr311-api-1.1.1.jar
+====================
+Licensed under CDDL 1.1
+License terms can be found at: https://repo.maven.apache.org/maven2/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.pom
+Copyright Sun Microsystems, Inc.
+
+juel-api-2.2.7.jar
+==================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/de/odysseus/juel/juel-api/2.2.7/juel-api-2.2.7.pom
+Copyright 2006 Odysseus Software GmdH
+
+juel-impl-2.2.7.jar
+===================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/de/odysseus/juel/juel-impl/2.2.7/juel-impl-2.2.7.pom
+Copyright 2006 Odysseus Software GmdH
+
+jul-to-slf4j-1.7.36.jar
+=======================
+Licensed under MIT
+License terms can be found at: https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.pom
+Copyright QOS.ch
+
+just-curry-it-3.1.0.tgz
+=======================
+Licensed under MIT
+Source Code can be found at: https://github.com/angus-c/just.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/9aaf7c20-e21e-4557-9f1b-69c93cead8f9
+Copyright 2016 angus croll
+
+jzlib-1.1.5.jar
+===============
+Licensed under BSD 3
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/c87ce728-a4f0-42df-96b9-122df2838cca
+Copyright 2000-2011 ymnk
+
+keycode-2.2.0.tgz
+=================
+Licensed under MIT
+Source Code can be found at: https://github.com/timoxley/keycode.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/56497f24-8dd5-4650-bbb6-3c10d5f04d4e
+2014 Copyright (c) 2014 Tim Oxley
+
+lang-javascript-6.2.4.tgz
+=========================
+Licensed under MIT
+Source Code can be found at: https://github.com/codemirror/lang-javascript.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/268af4d4-716f-4b19-9737-b68010a6ef22
+Copyright 2018-2021 by Marijn Haverbeke <marijn@haverbeke.berlin> and others
+
+language-6.11.3.tgz
+===================
+Licensed under MIT
+Source Code can be found at: https://github.com/codemirror/language.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/32d1ca78-4a70-4728-9862-66fc8da3ed46
+Copyright 2018-2021 by Marijn Haverbeke <marijn@haverbeke.berlin> and others
+
+legacy-modes-6.5.2.tgz
+======================
+Licensed under MIT
+Source Code can be found at: https://github.com/codemirror/legacy-modes.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/bd62fcca-7659-4d79-87db-495e249da94e
+Copyright 2018-2021 by Marijn Haverbeke <marijn@haverbeke.berlin> and others
+
+lint-6.8.5.tgz
+==============
+Licensed under MIT
+Source Code can be found at: https://github.com/codemirror/lint.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/759c39dc-3bca-47ff-95ba-8905c3e90b48
+Copyright 2018-2021 by Marijn Haverbeke <marijn@haverbeke.berlin> and others
+
+listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+==============================================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
+Copyright Google Inc
+
+lodash-4.17.21.tgz
+==================
+Licensed under MIT
+Source Code can be found at: https://github.com/lodash/lodash.git
+License terms can be found at: https://github.com/lodash/lodash/blob/4.17.21/LICENSE
+Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
+
+lodash-es-4.17.21.tgz
+=====================
+Licensed under MIT
+Source Code can be found at: https://github.com/lodash/lodash.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/5e2699d7-2e1b-450a-980d-e1dfae03015c
+Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
+
+logback-classic-1.5.19.jar
+==========================
+Licensed under Eclipse 1.0
+License terms can be found at: https://github.com/qos-ch/logback/blob/v_1.5.19/LICENSE.txt
+Copyright QOS.ch
+
+logback-core-1.5.19.jar
+=======================
+Licensed under Eclipse 1.0
+License terms can be found at: https://github.com/qos-ch/logback/blob/v_1.5.19/LICENSE.txt
+Copyright QOS.ch
+
+logback-jackson-0.1.5.jar
+=========================
+Licensed under Eclipse 1.0
+License terms can be found at: https://github.com/qos-ch/logback-contrib/blob/v_0.1.5/license-template.txt
+Copyright 2016 The logback-contrib developers
+
+logback-json-classic-0.1.5.jar
+==============================
+Licensed under Eclipse 1.0
+License terms can be found at: https://github.com/qos-ch/logback-contrib/blob/v_0.1.5/license-template.txt
+Copyright 2016 The logback-contrib developers
+
+logback-json-core-0.1.5.jar
+===========================
+Licensed under Eclipse 1.0
+License terms can be found at: https://github.com/qos-ch/logback-contrib/blob/v_0.1.5/license-template.txt
+Copyright 2016 The logback-contrib developers
+
+loose-envify-1.4.0.tgz
+======================
+Licensed under MIT
+Source Code can be found at: https://github.com/zertosh/loose-envify.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/d4bed348-d4ce-4c79-bb18-742e59512995
+2015 Copyright (c) 2015 Andres Suarez (zertosh@gmail.com)
+
+lr-1.4.2.tgz
+============
+Licensed under MIT
+Source Code can be found at: https://github.com/lezer-parser/lr.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/c6f69a5b-24a4-4d4c-92ad-3941540d22f2
+Copyright 2018 by Marijn Haverbeke <marijn@haverbeke.berlin> and others
+
+lunr-0.7.2.tgz
+==============
+Licensed under MIT
+Source Code can be found at: https://github.com/olivernn/lunr.js.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/be7a7dbd-0260-48af-8a93-cb9137630a56
+2013 Copyright (C) 2013 by Oliver Nightingale
+
+management-api-3.0.0-b012.jar
+=============================
+Licensed under CDDL 1.0
+License terms can be found at: http://maven.ibiblio.org/maven2/org/glassfish/external/management-api/3.0.0-b012/management-api-3.0.0-b012.pom
+Copyright 1997-2007 Sun Microsystems, Inc
+
+management-api-3.2.1-b001.jar
+=============================
+Licensed under CDDL 1.1
+License terms can be found at: https://repo.maven.apache.org/maven2/org/glassfish/external/management-api/3.2.1-b001/management-api-3.2.1-b001.pom
+Copyright 2012 Oracle
+
+maxmind-db-2.0.0.jar
+====================
+Licensed under Apache 2.0
+License terms can be found at: http://repo.jfrog.org/artifactory/third-party-releases/com/maxmind/db/maxmind-db/2.0.0/maxmind-db-2.0.0.pom
+Copyright 2019 The Apache Software Foundation, Licensed under the Apache License, Version 2.0
+
+memoize-0.6.6.tgz
+=================
+Licensed under MIT
+Source Code can be found at: https://github.com/emotion-js/emotion.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/4b28b9e0-c047-4593-a9da-efe0c74d4b7e
+Copyright 2016 Kye Hohenberger
+
+memoize-one-5.1.1.tgz
+=====================
+Licensed under MIT
+Source Code can be found at: https://github.com/alexreardon/memoize-one.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/e0b9dc8f-ef97-4d20-9fea-dfbe79a9dd26
+Copyright 2019 Alexander Reardon
+
+metrics-core-3.2.5.jar
+======================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-core/3.2.5/metrics-core-3.2.5.pom
+2018 Copyright (c) 2010-2013 Coda Hale, Yammer.com
+
+metrics-graphite-3.2.5.jar
+==========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-graphite/3.2.5/metrics-graphite-3.2.5.pom
+2018 Copyright (c) 2010-2013 Coda Hale, Yammer.com
+
+metrics-json-3.2.5.jar
+======================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-json/3.2.5/metrics-json-3.2.5.pom
+2018 Copyright (c) 2010-2013 Coda Hale, Yammer.com
+
+microplugin-0.0.3.tgz
+=====================
+Licensed under Apache 2.0
+Source Code can be found at: https://github.com/brianreavis/microplugin.js.git
+License terms can be found at: https://github.com/brianreavis/microplugin.js/tree/v0.0.3
+2013 Copyright © 2013 Brian Reavis & Contributors
+
+mimepull-1.7.jar
+================
+Licensed under CDDL 1.1
+License terms can be found at: https://opensource.org/licenses/CDDL-1.0
+Copyright 1997 Oracle and/or its affiliates. All rights reserved.
+
+minimist-1.2.6.tgz
+==================
+Licensed under MIT
+Source Code can be found at: https://github.com/substack/minimist.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/673d65b8-886e-4a80-a072-72c6d86343f6
+Copyright James Halliday
+
+mkdirp-0.5.5.tgz
+================
+Licensed under MIT X11
+Source Code can be found at: https://github.com/substack/node-mkdirp.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/40ad7b61-e1f2-40db-a41b-9e3518909d4a
+Copyright 2010 James Halliday (mail@substack.net)
+
+moment-2.29.4.tgz
+=================
+Licensed under MIT
+Source Code can be found at: https://github.com/moment/moment.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/94eb6389-1b30-4f30-81b0-35c560885544
+Copyright JS Foundation and other contributors
+
+moment-duration-format-2.3.2.tgz
+================================
+Licensed under MIT
+Source Code can be found at: https://github.com/jsmreese/moment-duration-format.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/d0c71854-6bdf-4894-a8c7-a7270b98b404
+Copyright 2019 John Madhavan-Reese
+
+moment-timezone-0.5.37.tgz
+==========================
+Licensed under MIT
+Source Code can be found at: https://github.com/moment/moment-timezone.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/f2a30720-c021-4d31-bac3-33153a2fc631
+Copyright JS Foundation and other contributors
+
+ms-2.1.2.tgz
+============
+Licensed under MIT
+Source Code can be found at: https://github.com/zeit/ms.git
+License terms can be found at: https://github.com/vercel/ms
+Copyright 2016 Zeit, Inc
+
+nanoid-3.3.8.tgz
+================
+Licensed under MIT
+Source Code can be found at: https://github.com/ai/nanoid.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/168984ad-8430-4f35-ac0e-fc10061e5c8b
+Copyright 2017 Andrey Sitnik <andrey@sitnik.ru>
+
+neko-htmlunit-4.11.0.jar
+========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/htmlunit/neko-htmlunit/4.11.0/neko-htmlunit-4.11.0.pom
+Copyright 2002 Gargoyle Software Inc.
+
+nopt-1.0.10.tgz
+===============
+Licensed under MIT
+Source Code can be found at: https://github.com/isaacs/nopt.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/12a618c0-c08e-4c70-8eb9-df4c36d85949
+Copyright 2009-2010 2011 Isaac Z
+Copyright 2009-2011 Isaac Z. Schlueter
+
+object-assign-4.1.1.tgz
+=======================
+Licensed under MIT
+Source Code can be found at: https://github.com/sindresorhus/object-assign.git
+License terms can be found at: https://github.com/sindresorhus/object-assign/tree/v4.1.1
+Copyright Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+Copyright Sindre Sorhus
+
+ognl-3.2.10.jar
+===============
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/ognl/ognl/3.2.10/ognl-3.2.10.pom
+Copyright 1998 Drew Davidson and Luke Blanshard
+
+opencensus-api-0.31.1.jar
+=========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/opencensus/opencensus-api/0.31.1/opencensus-api-0.31.1.pom
+Copyright 2017 OpenCensus Authors
+
+opencensus-contrib-http-util-0.31.1.jar
+=======================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/opencensus/opencensus-contrib-http-util/0.31.1/opencensus-contrib-http-util-0.31.1.pom
+Copyright 2018 OpenCensus Authors
+
+opentelemetry-api-1.45.0.jar
+============================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api/1.45.0/opentelemetry-api-1.45.0.pom
+2024 Copyright The OpenTelemetry Authors
+
+opentelemetry-api-incubator-1.45.0-alpha.jar
+============================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api-incubator/1.45.0-alpha/opentelemetry-api-incubator-1.45.0-alpha.pom
+2024 Copyright The OpenTelemetry Authors
+
+opentelemetry-context-1.45.0.jar
+================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-context/1.45.0/opentelemetry-context-1.45.0.pom
+2024 Copyright The OpenTelemetry Authors
+
+opentelemetry-exporter-common-1.45.0.jar
+========================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-common/1.45.0/opentelemetry-exporter-common-1.45.0.pom
+2024 Copyright The OpenTelemetry Authors
+
+opentelemetry-exporter-otlp-1.45.0.jar
+======================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp/1.45.0/opentelemetry-exporter-otlp-1.45.0.pom
+2024 Copyright The OpenTelemetry Authors
+
+opentelemetry-exporter-otlp-common-1.45.0.jar
+=============================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp-common/1.45.0/opentelemetry-exporter-otlp-common-1.45.0.pom
+2024 Copyright The OpenTelemetry Authors
+
+opentelemetry-exporter-sender-jdk-1.45.0.jar
+============================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-sender-jdk/1.45.0/opentelemetry-exporter-sender-jdk-1.45.0.pom
+2024 Copyright The OpenTelemetry Authors
+
+opentelemetry-sdk-1.45.0.jar
+============================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk/1.45.0/opentelemetry-sdk-1.45.0.pom
+2024 Copyright The OpenTelemetry Authors
+
+opentelemetry-sdk-common-1.45.0.jar
+===================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.45.0/opentelemetry-sdk-common-1.45.0.pom
+2024 Copyright The OpenTelemetry Authors
+
+opentelemetry-sdk-extension-autoconfigure-spi-1.45.0.jar
+========================================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.45.0/opentelemetry-sdk-extension-autoconfigure-spi-1.45.0.pom
+2024 Copyright The OpenTelemetry Authors
+
+opentelemetry-sdk-logs-1.45.0.jar
+=================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.45.0/opentelemetry-sdk-logs-1.45.0.pom
+2024 Copyright The OpenTelemetry Authors
+
+opentelemetry-sdk-metrics-1.45.0.jar
+====================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.45.0/opentelemetry-sdk-metrics-1.45.0.pom
+2024 Copyright The OpenTelemetry Authors
+
+opentelemetry-sdk-trace-1.45.0.jar
+==================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.45.0/opentelemetry-sdk-trace-1.45.0.pom
+2024 Copyright The OpenTelemetry Authors
+
+opentelemetry-semconv-1.29.0-alpha.jar
+======================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/opentelemetry/semconv/opentelemetry-semconv/1.29.0-alpha/opentelemetry-semconv-1.29.0-alpha.pom
+2024 Copyright The OpenTelemetry Authors
+
+optimist-0.6.1.tgz
+==================
+Licensed under MIT X11
+Source Code can be found at: https://github.com/substack/node-optimist.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/93e62c4c-291a-45fc-a438-0b143e436794
+2010 Copyright 2010 James Halliday (mail@substack.net)
+
+options-1.6.jar
+===============
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/headius/options/1.6/options-1.6.pom
+Unspecified Copyright
+Reviewed by the WhiteSource Research Team
+Library copyrights could not be established
+
+org.abego.treelayout.core-1.0.3.jar
+===================================
+Licensed under BSD 3
+License terms can be found at: https://repo.maven.apache.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.pom
+Copyright 2006 abego Software GmbH (http://www.abego-software.de)
+
+org.apache.servicemix.bundles.javax-inject-1_3.jar
+==================================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache/servicemix/bundles/org.apache.servicemix.bundles.javax-inject/1_3/org.apache.servicemix.bundles.javax-inject-1_3.pom
+Copyright The Apache Software Foundation
+
+org.apache.servicemix.bundles.jcip-annotations-1.0_2.jar
+========================================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache/servicemix/bundles/org.apache.servicemix.bundles.jcip-annotations/1.0_2/org.apache.servicemix.bundles.jcip-annotations-1.0_2.pom
+Copyright The Apache Software Foundation
+
+org.restlet-2.3.12.jar
+======================
+Licensed under Eclipse 1.0
+Source Code can be found at: https://github.com/restlet/restlet-framework-java/org.restlet
+License terms can be found at: https://index.whitesourcesoftware.com/nexus/content/groups/public/org/restlet/jee/org.restlet/2.3.12/org.restlet-2.3.12.pom
+2005 Copyright 2005-2016 Restlet
+
+org.restlet.ext.jackson-2.3.12.jar
+==================================
+Licensed under Apache 2.0
+Source Code can be found at: https://github.com/restlet/restlet-framework-java/org.restlet.ext.jackson
+License terms can be found at: https://restlet.com/open-source/downloads/legal-terms/
+2015 Copyright 2015 Restlet
+
+org.restlet.ext.json-2.3.12.jar
+===============================
+Licensed under Apache 2.0
+Source Code can be found at: https://github.com/restlet/restlet-framework-java/org.restlet.ext.json
+License terms can be found at: https://restlet.com/open-source/downloads/legal-terms/
+2005 Copyright 2005-2016 Restlet
+2015 Copyright 2015 Restlet
+
+org.restlet.ext.servlet-2.3.12.jar
+==================================
+Licensed under Apache 2.0
+Source Code can be found at: https://github.com/restlet/restlet-framework-java/org.restlet.ext.servlet
+License terms can be found at: https://index.whitesourcesoftware.com/nexus/content/groups/public/org/restlet/jee/org.restlet.ext.servlet/2.3.12/org.restlet.ext.servlet-2.3.12.pom
+2015 Copyright 2015 Restlet
+
+org.restlet.ext.slf4j-2.3.12.jar
+================================
+Licensed under Apache 2.0
+Source Code can be found at: https://github.com/restlet/restlet-framework-java/org.restlet.ext.slf4j
+License terms can be found at: https://restlet.com/open-source/downloads/legal-terms/
+2015 Copyright 2015 Restlet
+2005 Copyright 2005-2016 Restlet
+
+org.restlet.ext.xml-2.3.12.jar
+==============================
+Licensed under Apache 2.0
+Source Code can be found at: https://github.com/restlet/restlet-framework-java/org.restlet.ext.xml
+License terms can be found at: https://restlet.com/open-source/downloads/legal-terms/
+2005 Copyright 2005-2016 Restlet
+2015 Copyright 2015 Restlet
+
+parse-json-4.0.0.tgz
+====================
+Licensed under MIT
+Source Code can be found at: https://github.com/sindresorhus/parse-json.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/59502411-1484-4054-b04e-7f101b5d16c4
+Copyright Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+Copyright Sindre Sorhus
+
+parse-srcset-1.0.2.tgz
+======================
+Licensed under MIT
+Source Code can be found at: https://github.com/albell/parse-srcset.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/c6af70fc-1744-4f58-a87c-01b1254a19c1
+Copyright 2014 Alex Bell
+
+path-parse-1.0.7.tgz
+====================
+Licensed under MIT
+Source Code can be found at: https://github.com/jbgutierrez/path-parse.git
+License terms can be found at: https://github.com/jbgutierrez/path-parse/blob/v1.0.7/LICENSE
+Copyright 2015 Javier Blanco
+
+perfmark-api-0.27.0.jar
+=======================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/perfmark/perfmark-api/0.27.0/perfmark-api-0.27.0.pom
+Copyright 2019 Google LLC
+
+performance-now-2.1.0.tgz
+=========================
+Licensed under MIT
+Source Code can be found at: https://github.com/braveg1rl/performance-now.git
+License terms can be found at: https://github.com/braveg1rl/performance-now
+Copyright 2017 Braveg1rl
+Copyright 2013 Braveg1rl
+
+picocolors-1.0.0.tgz
+====================
+Licensed under ISC
+Source Code can be found at: https://github.com/alexeyraspopov/picocolors.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/ee67b2d3-7ebd-437f-a610-fe8890d40dae
+Copyright 2021 Alexey Raspopov, Kostiantyn Denysov, Anton Verinov
+
+policy-2.7.2.jar
+================
+Licensed under CDDL 1.1
+License terms can be found at: http://central.maven.org/maven2/com/sun/xml/ws/policy/2.7.2/policy-2.7.2.pom
+Copyright 2017 Oracle
+
+popper.js-1.16.0.tgz
+====================
+Licensed under MIT
+Source Code can be found at: https://github.com/FezVrasta/popper.js.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/89406b72-e5b3-40a6-bb72-3ae0a4013b3c
+Copyright 2016 **Federico Zivolo**
+Copyright 2016 Federico Zivolo and contributors
+Copyright 2016 Federico Zivolo
+
+postcss-8.4.31.tgz
+==================
+Licensed under MIT
+Source Code can be found at: https://github.com/postcss/postcss.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/6a4f3923-e93d-467c-97e8-40676667f4f1
+Copyright 2013 Andrey Sitnik <andrey@sitnik.ru>
+
+prop-types-15.7.2.tgz
+=====================
+Licensed under MIT
+Source Code can be found at: https://github.com/facebook/prop-types.git
+License terms can be found at: https://facebook.github.io/react/
+Copyright 2013 Facebook, Inc
+
+prop-types-extra-1.1.0.tgz
+==========================
+Licensed under MIT
+Source Code can be found at: https://github.com/react-bootstrap/prop-types-extra.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/a9c65588-2ac3-4570-ae7e-049ca1bd77d4
+2015 Copyright (c) 2015 react-bootstrap
+
+proto-google-cloud-kms-v1-0.145.0.jar
+=====================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-cloud-kms-v1/0.145.0/proto-google-cloud-kms-v1-0.145.0.pom
+
+proto-google-cloud-secretmanager-v1-2.51.0.jar
+==============================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-cloud-secretmanager-v1/2.51.0/proto-google-cloud-secretmanager-v1-2.51.0.pom
+
+proto-google-cloud-secretmanager-v1beta2-2.51.0.jar
+===================================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-cloud-secretmanager-v1beta2/2.51.0/proto-google-cloud-secretmanager-v1beta2-2.51.0.pom
+
+proto-google-common-protos-2.45.1.jar
+=====================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-common-protos/2.45.1/proto-google-common-protos-2.45.1.pom
+
+proto-google-iam-v1-1.40.1.jar
+==============================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-iam-v1/1.40.1/proto-google-iam-v1-1.40.1.pom
+
+protobuf-java-3.25.5.jar
+========================
+Licensed under BSD 3
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.25.5/protobuf-java-3.25.5.pom
+Copyright 2008 Google Inc
+
+protobuf-java-util-3.25.5.jar
+=============================
+Licensed under BSD 3
+License terms can be found at: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java-util/3.25.5/protobuf-java-util-3.25.5.pom
+Copyright 2008 Google Inc
+
+punycode-2.1.1.tgz
+==================
+Licensed under MIT
+Source Code can be found at: https://github.com/bestiejs/punycode.js.git
+License terms can be found at: https://mths.be/punycode
+Copyright Mathias Bynens <https://mathiasbynens.be/>
+
+qrcode-generator-1.4.4.tgz
+==========================
+Licensed under MIT
+Source Code can be found at: https://github.com/kazuhikoarase/qrcode-generator.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/899e145e-6ea1-40c7-b7e6-2020fa91df01
+Copyright 2009 Kazuhiko Arase
+
+raf-3.4.1.tgz
+=============
+Licensed under MIT
+Source Code can be found at: https://github.com/chrisdickinson/raf.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/36cd4fd9-94d5-401b-bc4e-6de74c26f0a2
+Copyright 2013 Chris Dickinson <chris@neversaw.us>
+
+re2j-1.7.jar
+============
+Licensed under BSD 3
+License terms can be found at: https://github.com/google/re2j/blob/master/LICENSE
+Copyright 2009 The Go Authors
+
+react-16.9.0.tgz
+================
+Licensed under MIT
+Source Code can be found at: https://github.com/facebook/react.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/b2adbbcd-0cc7-4db2-9f2f-2a26edd6b8bf
+Copyright Facebook, Inc. and its affiliates
+
+react-bootstrap-0.32.1.tgz
+==========================
+Licensed under MIT
+Source Code can be found at: https://github.com/react-bootstrap/react-bootstrap.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/87287ce1-5549-40ea-9ba9-630ba6cbb6b0
+2014 Copyright (c) 2014-present Stephen J. Collings, Matthew Honnibal, Pieter Vanderwerff
+
+react-bootstrap-table-next-4.0.3.tgz
+====================================
+Licensed under MIT
+Source Code can be found at: https://github.com/react-bootstrap-table/react-bootstrap-table2.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/56f3daed-a123-4c2c-a0d6-b6150636c9ba
+Copyright 2018 react-bootstrap-table2
+
+react-bootstrap-table2-editor-1.4.0.tgz
+=======================================
+Licensed under MIT
+Source Code can be found at: https://github.com/react-bootstrap-table/react-bootstrap-table2.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/75bfc637-e30f-4506-b27b-e57fe2baafe3
+Copyright 2018 react-bootstrap-table2
+
+react-bootstrap-table2-paginator-2.1.2.tgz
+==========================================
+Licensed under MIT
+Source Code can be found at: https://github.com/react-bootstrap-table/react-bootstrap-table2.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/76ea360a-5388-4c23-b4bd-e1d26092c106
+Copyright 2018 react-bootstrap-table2
+
+react-datepicker-1.8.0.tgz
+==========================
+Licensed under MIT
+Source Code can be found at: https://github.com/Hacker0x01/react-datepicker.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/32dc765f-f915-4bd0-a5e8-9b20a6973d10
+2018 Copyright (c) 2018 HackerOne Inc and individual contributors
+
+react-dnd-2.5.4.tgz
+===================
+Licensed under MIT
+Source Code can be found at: https://github.com/react-dnd/react-dnd.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/e559f1be-711a-4899-87bc-32289792f731
+2015 Copyright (c) 2015, Facebook, Inc. All rights reserved.
+
+react-dnd-html5-backend-2.5.4.tgz
+=================================
+Licensed under MIT
+Source Code can be found at: https://github.com/react-dnd/react-dnd.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/1fede5e1-6348-48a9-a2d1-ce30500edc30
+2015 Copyright (c) 2015, Facebook, Inc. All rights reserved.
+
+react-dom-16.9.0.tgz
+====================
+Licensed under MIT
+Source Code can be found at: https://github.com/facebook/react.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/cb198dd0-0c85-4498-82a3-8de7af836fe1
+Copyright Facebook, Inc. and its affiliates
+
+react-draggable-2.2.6.tgz
+=========================
+Licensed under MIT
+Source Code can be found at: https://github.com/mzabriskie/react-draggable.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/10fe7da7-db09-4275-935a-35ea38766498
+2016 Copyright (c) 2014-2016 Matt Zabriskie. All rights reserved.
+
+react-dropzone-10.2.1.tgz
+=========================
+Licensed under MIT
+Source Code can be found at: https://github.com/react-dropzone/react-dropzone.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/aa93e7ae-7df3-4e29-a834-10e9f640d672
+Copyright 2018 Param Aggarwal
+
+react-input-autosize-2.2.2.tgz
+==============================
+Licensed under MIT
+Source Code can be found at: https://github.com/JedWatson/react-input-autosize.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/d7103a68-d8ef-4bda-9074-2227f321c4ec
+Copyright 2018 Jed Watson
+
+react-is-16.10.2.tgz
+====================
+Licensed under MIT
+Source Code can be found at: https://github.com/facebook/react.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/5078b38e-365f-43a8-842e-83a727b96288
+Copyright Facebook, Inc. and its affiliates
+
+react-jsonschema-form-1.8.1.tgz
+===============================
+Licensed under Apache 2.0
+Source Code can be found at: https://github.com/mozilla-services/react-jsonschema-form.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/7817b7de-cff9-4bb4-8fc8-ab0939dc6443
+Copyright 2021 Facebook
+
+react-lifecycles-compat-3.0.4.tgz
+=================================
+Licensed under MIT
+Source Code can be found at: https://github.com/reactjs/react-lifecycles-compat.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/acee6dc4-d78c-4bb9-a0c3-39b4a9747a01
+2013 Copyright (c) 2013-present, Facebook, Inc.
+
+react-measure-1.4.7.tgz
+=======================
+Licensed under MIT
+Source Code can be found at: https://github.com/souporserious/react-measure.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/3b911ca5-717f-44fb-b0de-047aca4f6252
+2015 Copyright (c) 2015 React Measure authors
+
+react-onclickoutside-6.9.0.tgz
+==============================
+Licensed under MIT
+Source Code can be found at: https://github.com/Pomax/react-onclickoutside.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/9b7f3233-3899-48ee-b6bf-cf7951b66709
+Copyright 2021 Facebook
+
+react-overlays-0.8.3.tgz
+========================
+Licensed under MIT
+Source Code can be found at: https://github.com/react-bootstrap/react-overlays.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/2e2c04fa-fab9-4abf-8c59-cfb7138bd502
+2015 Copyright (c) 2015 react-bootstrap
+
+react-popper-1.3.4.tgz
+======================
+Licensed under MIT
+Source Code can be found at: https://github.com/souporserious/react-popper.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/44a82a00-89d9-4a59-960f-e108c589ee8f
+Copyright 2018 React Popper authors
+
+react-prop-types-0.4.0.tgz
+==========================
+Licensed under MIT
+Source Code can be found at: https://github.com/react-bootstrap/react-prop-types.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/09fcf362-8da8-4098-a24c-8811ba65f19a
+2015 Copyright (c) 2015-present React-Bootstrap
+
+react-redux-5.0.7.tgz
+=====================
+Licensed under MIT
+Source Code can be found at: https://github.com/reactjs/react-redux.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/4051a7d2-96b1-4796-8c9d-15142ceba3a7
+2015 Copyright (c) 2015-present Dan Abramov
+
+react-scroll-into-view-if-needed-2.1.7.tgz
+==========================================
+Licensed under MIT
+Source Code can be found at: https://github.com/icd2k3/react-scroll-into-view-if-needed.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/73c59bda-b647-43f0-85f9-5842f2324982
+Copyright 2018 Justin Schrader
+
+react-select-2.4.2.tgz
+======================
+Licensed under MIT
+Source Code can be found at: https://github.com/JedWatson/react-select.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/d2bb892a-ec33-4da1-a6d2-93f5650f3a3c
+Copyright 2018 Jed Watson
+
+react-sortable-hoc-0.8.3.tgz
+============================
+Licensed under MIT
+Source Code can be found at: https://github.com/clauderic/react-sortable-hoc.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/88e2348b-7592-4abf-b1bb-1cffe4bc5e6d
+2016 Copyright (c) 2016, Claudéric Demers
+
+react-transition-group-2.9.0.tgz
+================================
+Licensed under BSD 3
+Source Code can be found at: https://github.com/reactjs/react-transition-group.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/f05679de-de9e-4248-842f-907ebf6d0a98
+Copyright 2013 Facebook, Inc
+Copyright 2018 React Community
+
+react-transition-group-4.4.2.tgz
+================================
+Licensed under BSD 3
+Source Code can be found at: https://github.com/reactjs/react-transition-group.git
+License terms can be found at: https://github.com/reactjs/react-transition-group
+Copyright 2018 React Community
+Copyright 2013 Facebook, Inc
+
+reactive-streams-1.0.4.jar
+==========================
+Licensed under MIT No Attribution
+License terms can be found at: https://plugins.gradle.org/m2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.pom
+Copyright 5000 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and as
+
+redeyed-1.0.1.tgz
+=================
+Licensed under MIT
+Source Code can be found at: https://github.com/thlorenz/redeyed.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/cb52f9b8-22dd-4c33-bfdd-a853f66efc70
+Copyright 2012 Thorsten Lorenz
+
+reduce-reducers-0.4.3.tgz
+=========================
+Licensed under MIT
+Source Code can be found at: https://github.com/redux-utilities/reduce-reducers.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/7b6fe89d-b893-476e-a679-8d3cfd5e05c6
+Copyright Andrew Clark
+
+redux-3.7.2.tgz
+===============
+Licensed under MIT
+Source Code can be found at: https://github.com/reactjs/redux.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/b5d8142a-5c71-468d-ab73-2135881ef48a
+2015 Copyright (c) 2015-present Dan Abramov
+
+redux-4.0.5.tgz
+===============
+Licensed under MIT
+Source Code can be found at: https://github.com/reduxjs/redux.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/d4283a61-85e2-4a0f-ab36-eb0074d6e845
+Copyright 2015 Dan Abramov
+
+redux-actions-2.6.5.tgz
+=======================
+Licensed under MIT
+Source Code can be found at: https://github.com/redux-utilities/redux-actions.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/1722fffb-0875-4b1d-92bd-e2e089c2373f
+Copyright Andrew Clark
+
+regenerator-runtime-0.11.1.tgz
+==============================
+Licensed under MIT
+Source Code can be found at: https://github.com/facebook/regenerator.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/0cbd6cbd-9004-4dc3-a8ec-821d6ee833c6
+2014 Copyright (c) 2014-present, Facebook, Inc.
+
+regenerator-runtime-0.13.3.tgz
+==============================
+Licensed under MIT
+Source Code can be found at: https://github.com/facebook/regenerator.git
+License terms can be found at: https://github.com/facebook/regenerator/tree/v0.13.3
+Copyright 2014 Facebook, Inc
+
+regenerator-runtime-0.14.1.tgz
+==============================
+Licensed under MIT
+Source Code can be found at: https://github.com/facebook/regenerator.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/6233b565-e40a-4fc2-8f55-2afe731562b6
+Copyright 2014 Facebook, Inc
+
+relaxngDatatype-20050407.jar
+============================
+Licensed under BSD
+License terms can be found at: https://sourceforge.net/p/relaxng/news/2001/08/license-change/
+Copyright 2001 Thai Open Source Software Center Ltd
+
+resize-observer-polyfill-1.5.1.tgz
+==================================
+Licensed under MIT
+Source Code can be found at: https://github.com/que-etc/resize-observer-polyfill.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/1a66a072-19e7-4029-b27d-197249c3d5f8
+Copyright 2016 Denis Rul
+
+resolve-1.12.0.tgz
+==================
+Licensed under MIT
+Source Code can be found at: https://github.com/browserify/resolve.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/f63e1440-7673-4a33-96f7-cde5b1e237f7
+Copyright 2012 James Halliday
+
+resolve-from-3.0.0.tgz
+======================
+Licensed under MIT
+Source Code can be found at: https://github.com/sindresorhus/resolve-from.git
+License terms can be found at: https://github.com/sindresorhus/resolve-from/tree/v3.0.0
+Copyright Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+Copyright Sindre Sorhus
+
+resolver-20050927.jar
+=====================
+Licensed under Apache 2.0
+License terms can be found at: http://central.maven.org/maven2/com/sun/org/apache/xml/internal/resolver/20050927/
+2001 Copyright 2001-2004 The Apache Software Foundation or its licensors,  * as applicable.
+
+rhino-1.7.14.jar
+================
+Licensed under Mozilla 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/mozilla/rhino/1.7.14/rhino-1.7.14.pom
+Copyright 1997-1998 Sun Microsystems, Inc
+Copyright 2010-2015 the V8 project authors
+
+runtime-7.26.10.tgz
+===================
+Licensed under MIT
+Source Code can be found at: https://github.com/babel/babel.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/9c536623-49e0-412c-b069-b9e8476c703a
+Copyright 2014 Sebastian McKenzie and other contributors
+
+runtime-corejs2-7.6.3.tgz
+=========================
+Licensed under MIT
+Source Code can be found at: https://github.com/babel/babel.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/0a19c198-6b63-494c-bd64-812321b39bae
+Copyright 2014 Sebastian McKenzie and other contributors
+
+rxjava-3.1.5.jar
+================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/reactivex/rxjava3/rxjava/3.1.5/rxjava-3.1.5.pom
+Copyright 2016 RxJava Contributors
+
+saaj-api-1.3.4.jar
+==================
+Licensed under CDDL 1.1
+License terms can be found at: https://repo.maven.apache.org/maven2/javax/xml/soap/saaj-api/1.3.4/saaj-api-1.3.4.pom
+Copyright 2010 Oracle and/or its affiliates
+
+saaj-impl-1.3.19.jar
+====================
+Licensed under CDDL 1.1
+License terms can be found at: http://index.whitesourcesoftware.com/nexus/content/groups/public/com/sun/xml/messaging/saaj/saaj-impl/1.3.19/saaj-impl-1.3.19.pom
+Copyright 1997 Oracle and/or its affiliates. All rights reserved.
+
+safe-buffer-5.1.2.tgz
+=====================
+Licensed under MIT
+Source Code can be found at: https://github.com/feross/safe-buffer.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/35854ba9-cb33-4c0e-8187-f8af9891ed9e
+Copyright Feross Aboukhadijeh
+Copyright Feross Aboukhadijeh" (http://feross.org)
+
+sanitize-html-2.12.1.tgz
+========================
+Licensed under MIT
+Source Code can be found at: https://github.com/apostrophecms/sanitize-html.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/2c27bb89-c837-4934-b0aa-ec6901134eac
+Copyright 2013-2015 P'unk Avenue LLC
+
+scheduler-0.15.0.tgz
+====================
+Licensed under MIT
+Source Code can be found at: https://github.com/facebook/react.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/08ba5d33-8e49-4ec6-bd6b-f0076295326c
+Copyright Facebook, Inc. and its affiliates
+
+selectize-0.12.6.tgz
+====================
+Licensed under Apache 2.0
+Source Code can be found at: https://github.com/selectize/selectize.js.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/7ec7337b-d01d-478b-9483-be92bfb2987f
+Copyright 2013-2016 [Brian Reavis](http://twitter.com/brianreavis) & [Contributors](https://github.c
+Copyright 2013-2015 Brian Reavis
+Copyright 2013-2016 Brian Reavis
+
+serialize-0.9.1.tgz
+===================
+Licensed under MIT
+Source Code can be found at: https://github.com/emotion-js/emotion.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/ca5d85c2-5ebd-460b-8d83-a0e82a09af0b
+Copyright 2016 Kye Hohenberger
+Copyright Emotion team and other contributors
+
+shortid-2.2.17.tgz
+==================
+Licensed under MIT
+Source Code can be found at: https://github.com/dylang/shortid.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/ea1e437d-9193-48f8-9c3d-8e459152c70e
+Copyright 2016 Dylan Greene, contributors
+Copyright Dylan Greene
+
+sifter-0.5.4.tgz
+================
+Licensed under Apache 2.0
+Source Code can be found at: https://github.com/brianreavis/sifter.js.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/d825d9be-bc1c-47f1-a852-93bad22af916
+Copyright 2013-2015 [Brian Reavis](http://twitter.com/brianreavis) & [Contributors](https://github.c
+Copyright 2013-2015 "Brian Reavis" (http://twitter.com/brianreavis) & "Contributors" (https://github
+
+simpleclient-0.0.21.jar
+=======================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient/0.0.21/simpleclient-0.0.21.pom
+2015 Copyright 2012-2015 The Prometheus Authors
+
+simpleclient_common-0.0.21.jar
+==============================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_common/0.0.21/simpleclient_common-0.0.21.pom
+2015 Copyright 2015 The Prometheus Authors
+
+simpleclient_dropwizard-0.0.21.jar
+==================================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_dropwizard/0.0.21/simpleclient_dropwizard-0.0.21.pom
+2015 Copyright 2012-2015 The Prometheus Authors
+
+slf4j-api-2.0.16.jar
+====================
+Licensed under MIT
+License terms can be found at: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.pom
+Copyright 2004-2022 QOS.ch Sarl
+Copyright QOS.ch
+
+source-map-0.5.7.tgz
+====================
+Licensed under BSD 3
+Source Code can be found at: https://github.com/mozilla/source-map.git
+License terms can be found at: https://github.com/mozilla/source-map
+Copyright 2009-2011 Mozilla Foundation and contributors
+
+source-map-0.7.3.tgz
+====================
+Licensed under BSD 3
+Source Code can be found at: https://github.com/mozilla/source-map.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/b35ad5f2-7b8d-4a90-b2d6-d65d540f3d5f
+Copyright 2009-2011 Mozilla Foundation and contributors
+
+source-map-js-1.0.2.tgz
+=======================
+Licensed under BSD 3
+Source Code can be found at: https://github.com/7rulnik/source-map-js.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/f491612c-6d66-4280-8213-1a1565505fa0
+Copyright 2009-2011 Mozilla Foundation and contributors
+
+spin.js-2.3.2.tgz
+=================
+Licensed under MIT
+Source Code can be found at: https://github.com/fgnass/spin.js.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/0cd6b6fb-6a60-4e3c-9d1f-0d7289c5d0d5
+Copyright 2011-2015 Felix Gnass [fgnass at gmail dot com]
+Copyright 2011-2015 Felix Gnass
+
+sprintf-js-1.0.3.tgz
+====================
+Licensed under BSD 3
+Source Code can be found at: https://github.com/alexei/sprintf.js.git
+License terms can be found at: https://github.com/alexei/sprintf.js
+Copyright 2014 Alexandru Marasteanu
+
+state-6.5.2.tgz
+===============
+Licensed under MIT
+Source Code can be found at: https://github.com/codemirror/state.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/cc2d2e20-4f51-4b72-b578-b369d42b1b95
+Copyright 2018-2021 by Marijn Haverbeke <marijn@haverbeke.berlin> and others
+
+stax-ex-1.7.8.jar
+=================
+Licensed under CDDL 1.0
+License terms can be found at: http://repo.jfrog.org/artifactory/list/repo1/org/jvnet/staxex/stax-ex/1.7.8/stax-ex-1.7.8.pom
+1997 Copyright (c) 1997-2015 Oracle and/or its affiliates. All rights reserved.
+
+stax2-api-4.2.jar
+=================
+Licensed under BSD 2
+License terms can be found at: https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.2/stax2-api-4.2.pom
+Copyright 2008 FasterXML LLC <info@fasterxml.com>
+
+streambuffer-1.5.4.jar
+======================
+Licensed under CDDL 1.1
+License terms can be found at: https://github.com/javaee/metro-xmlstreambuffer/blob/streambuffer-1.5.4/pom.xml
+2018 Copyright (c) YYYY Oracle and/or its affiliates. All rights reserved.
+
+style-mod-4.1.2.tgz
+===================
+Licensed under MIT
+Source Code can be found at: https://github.com/marijnh/style-mod.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/6d0bc691-5cb5-4370-8779-d3bbe6020ab4
+Copyright 2018 by Marijn Haverbeke <marijn@haverbeke.berlin> and others
+
+stylis-0.7.1.tgz
+================
+Licensed under MIT
+Source Code can be found at: https://github.com/emotion-js/emotion.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/ee846dc1-9bd9-4121-a309-f144755d62d4
+Copyright 2016 Kye Hohenberger
+
+stylis-3.5.4.tgz
+================
+Licensed under MIT
+Source Code can be found at: https://github.com/thysultan/stylis.js.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/0ced7469-6858-44cb-a0f6-7a46577d45ae
+Copyright 2016 Sultan Tarimo
+
+stylis-rule-sheet-0.0.10.tgz
+============================
+Licensed under MIT
+Source Code can be found at: https://github.com/thysultan/stylis.js.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/235ffb68-a8b3-419f-9608-dd77d56227d7
+Copyright 2020 Sultan Tarimo
+
+super-csv-2.4.0.jar
+===================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/net/sf/supercsv/super-csv/2.4.0/super-csv-2.4.0.pom
+Copyright 2007 Kasper B
+Copyright 2019 The Apache Software Foundation, Licensed under the Apache License, Version 2.0
+Copyright Super CSV
+
+swagger-models-1.5.16.jar
+=========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/swagger/swagger-models/1.5.16/swagger-models-1.5.16.pom
+2018 Copyright 2016 SmartBear Software
+
+symbol-observable-1.2.0.tgz
+===========================
+Licensed under MIT
+Source Code can be found at: https://github.com/blesh/symbol-observable.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/15ebdc16-dfba-4fa6-b07a-c6a5b5d1af42
+2016 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com) Copyright (c) Ben Lesh <ben@benlesh.com>
+
+threetenbp-1.7.0.jar
+====================
+Licensed under BSD 3
+License terms can be found at: https://repo.maven.apache.org/maven2/org/threeten/threetenbp/1.7.0/threetenbp-1.7.0.pom
+Copyright 2007 Stephen Colebourne & Michael Nascimento Santos
+Copyright ThreeTen.org
+
+to-camel-case-1.0.0.tgz
+=======================
+Licensed under MIT
+Source Code can be found at: https://github.com/ianstormtaylor/to-camel-case.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/c428f349-8576-4fcf-9652-ada5655770b1
+Copyright 2016 Ian Storm Taylor
+
+to-fast-properties-2.0.0.tgz
+============================
+Licensed under MIT
+Source Code can be found at: https://github.com/sindresorhus/to-fast-properties.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/9237a1dd-e886-4cb4-96f4-506d95e08338
+Copyright 2014 Petka Antonov
+Copyright Petka Antonov, John-David Dalton, Sindre Sorhus
+
+to-no-case-1.0.2.tgz
+====================
+Licensed under MIT
+Source Code can be found at: https://github.com/ianstormtaylor/to-no-case.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/9a08767e-0004-44c2-b72e-bc0bdd1bc4be
+Copyright 2016 Ian Storm Taylor
+
+to-space-case-1.0.0.tgz
+=======================
+Licensed under MIT
+Source Code can be found at: https://github.com/ianstormtaylor/to-space-case.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/fa3575cd-5ced-4c8e-bbe9-e6314fdde4fa
+Copyright 2016 Ian Storm Taylor
+
+touch-2.0.2.tgz
+===============
+Licensed under ISC
+Source Code can be found at: https://github.com/isaacs/node-touch.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/32a684a5-fd43-4cf6-b8be-80a82fefcdcb
+Copyright Isaac Z
+Copyright Isaac Z. Schlueter
+
+tslib-1.10.0.tgz
+================
+Licensed under Apache 2.0
+Source Code can be found at: https://github.com/Microsoft/tslib.git
+License terms can be found at: https://github.com/Microsoft/tslib/tree/1.10.0
+Copyright Microsoft Corporation
+
+typed-styles-0.0.7.tgz
+======================
+Licensed under MIT
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/bfc26713-6f7f-4298-99a3-a4730c1bef11
+Copyright 2017 Artur Kenzhaev
+
+types-7.6.3.tgz
+===============
+Licensed under MIT
+Source Code can be found at: https://github.com/babel/babel.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/8f3f7378-1f7d-4dc9-81f8-d32ba03b4870
+Copyright 2014 Sebastian McKenzie and other contributors
+
+ua-parser-js-0.7.33.tgz
+=======================
+Licensed under MIT
+Source Code can be found at: https://github.com/faisalman/ua-parser-js.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/8928a701-587c-4451-abf8-63f896a7627a
+Copyright 2012-2021 Faisal Salman <
+
+uncontrollable-4.1.0.tgz
+========================
+Licensed under MIT
+Source Code can be found at: https://github.com/jquense/uncontrollable.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/587f4ebe-a991-4112-9726-e27b718768c4
+2015 Copyright (c) 2015 Jason Quense
+
+underscore-1.12.1.tgz
+=====================
+Licensed under MIT
+Source Code can be found at: https://github.com/jashkenas/underscore.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/dc7a0c31-8a6b-4258-9f2b-239741e45ade
+Copyright 2009-2020 Jeremy Ashkenas
+
+unitless-0.6.7.tgz
+==================
+Licensed under MIT
+Source Code can be found at: https://github.com/emotion-js/emotion.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/83834259-5e2e-4185-b2ef-d1313e81a608
+Copyright 2016 Kye Hohenberger
+
+uri-js-4.2.2.tgz
+================
+Licensed under BSD 2
+Source Code can be found at: https://github.com/garycourt/uri-js.git
+License terms can be found at: https://github.com/garycourt/uri-js/tree/4.2.2
+Copyright 2011 Gary Court
+
+urijs-1.19.11.tgz
+=================
+Licensed under MIT
+Source Code can be found at: https://github.com/medialize/URI.js.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/6e9f5fd4-4b4b-458e-becb-23fab7f3b74c
+Copyright 2011 Rodney Rehm
+
+utils-0.8.2.tgz
+===============
+Licensed under MIT
+Source Code can be found at: https://github.com/emotion-js/emotion.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/e8f2778a-1eb4-47e5-9658-b1ba6cc80d11
+Copyright 2016 Kye Hohenberger
+
+uuid-3.3.3.tgz
+==============
+Licensed under MIT
+Source Code can be found at: https://github.com/kelektiv/node-uuid.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/32eb5ad9-cf6b-43f1-aa60-4f71d982a039
+Copyright 2010-2016 Robert Kieffer and other contributors
+
+validation-api-1.1.0.Final.jar
+==============================
+Licensed under Apache 2.0
+License terms can be found at: https://nexus.opendaylight.org/content/groups/public/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.pom
+2009 Copyright 2009-2013, Red Hat, Inc. and/or its affiliates, and individual contributors
+
+vavr-0.9.2.jar
+==============
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/vavr/vavr/0.9.2/vavr-0.9.2.pom
+2014 Copyright 2014-2017 Vavr, http://vavr.io
+
+vavr-match-0.9.2.jar
+====================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/io/vavr/vavr-match/0.9.2/vavr-match-0.9.2.pom
+2018 Copyright 2014-2017 Vavr, http://vavr.io
+
+velocity-1.7-p1.jar
+===================
+Licensed under Apache 2.0
+License terms can be found at: https://github.com/pingidentity/velocity-engine/blob/master/LICENSE
+Copyright 2000 The Apache Software Foundation
+
+view-6.38.4.tgz
+===============
+Licensed under MIT
+Source Code can be found at: https://github.com/codemirror/view.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/108df92e-27c3-4359-801d-c12870c7c273
+Copyright 2018-2021 by Marijn Haverbeke <marijn@haverbeke.berlin> and others
+
+w3c-keyname-2.2.8.tgz
+=====================
+Licensed under MIT
+Source Code can be found at: https://github.com/marijnh/w3c-keyname.git
+License terms can be found at: https://index.mend.io/gri/app/reader/resource/content/asString/1864dbb1-734a-45a4-ba7a-e6e7021ea230
+Copyright 2016 by Marijn Haverbeke <marijn@haverbeke.berlin> and others
+
+warning-3.0.0.tgz
+=================
+Licensed under BSD 3
+Source Code can be found at: https://github.com/BerkeleyTrue/warning.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/03511b58-7d09-4ef4-a0f6-9bc21b223fb7
+2018 Copyright (c) 2013-2015, Facebook, Inc. All rights reserved.
+
+warning-4.0.3.tgz
+=================
+Licensed under MIT
+Source Code can be found at: https://github.com/BerkeleyTrue/warning.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/a0aef260-4456-49d8-99a9-d1e973643aaf
+Copyright 2013 Facebook, Inc
+
+whatwg-fetch-3.0.0.tgz
+======================
+Licensed under MIT
+Source Code can be found at: https://github.com/github/fetch.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/e9b3ca99-3995-4344-85e2-7b0ac9e26c95
+2014 Copyright (c) 2014-2016 GitHub, Inc.
+
+woodstox-core-6.5.0.jar
+=======================
+Licensed under Apache 2.0
+License terms can be found at: https://nexus.opendaylight.org/content/groups/public/com/fasterxml/woodstox/woodstox-core/6.5.0/woodstox-core-6.5.0.pom
+Copyright 2004 Tatu Saloranta, tatu.saloranta@iki.fi
+
+woodstox-core-asl-4.3.0.jar
+===========================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/codehaus/woodstox/woodstox-core-asl/4.3.0/woodstox-core-asl-4.3.0.pom
+2004 Copyright (c) 2004- Tatu Saloranta
+
+wordwrap-0.0.3.tgz
+==================
+Licensed under MIT
+Source Code can be found at: https://github.com/substack/node-wordwrap.git
+License terms can be found at: https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/7a885be4-64bc-4184-8c3b-98a91ad222d0
+2015 Copyright 2015 James Halliday (mail@substack.net)
+
+xercesImpl-2.12.2.jar
+=====================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/xerces/xercesImpl/2.12.2/xercesImpl-2.12.2.pom
+Copyright 1999 The Apache Software Foundation
+
+xml-apis-1.4.01.jar
+===================
+Licensed under Apache 2.0
+License terms can be found at: http://maven.ibiblio.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.pom
+Copyright Status
+
+xml-apis-ext-1.3.04.jar
+=======================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/xml-apis/xml-apis-ext/1.3.04/xml-apis-ext-1.3.04.pom
+of any redistributed or derivative code: "Copyright © 2002
+Copyright (c) World Wide Web Consortium, (Massachusetts Institute of Technology, European Research Consortium for Informatics and Mathematics, Keio University)
+Copyright 1994-2002 World Wide Web
+Copyright 2002 World Wide Web Consortium, (Massachusetts Institute of
+
+xmlsec-4.0.3.jar
+================
+Licensed under Apache 2.0
+License terms can be found at: https://repo.maven.apache.org/maven2/org/apache/santuario/xmlsec/4.0.3/xmlsec-4.0.3.pom
+Copyright The Apache Software Foundation
+
+xom-1.3.9.jar
+=============
+Licensed under LGPL 2.1
+License terms can be found at: https://repo.maven.apache.org/maven2/xom/xom/1.3.9/xom-1.3.9.pom
+Copyright 2004-2023 XOM is Copyright
+Copyright 2004-2020 Elliotte Rusty Harold
+
+xsdlib-20060615.jar
+===================
+Licensed under CDDL 1.0
+2001 Copyright (c) 2001-2013 Oracle and/or its affiliates. All rights reserved.

@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "Scripts",
+    "entityId" : "8862ca8f-7770-4af5-a888-ac0df0947f36",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "8862ca8f-7770-4af5-a888-ac0df0947f36",
+    "name" : "LinkedIn Profile Normalization (Legacy)",
+    "description" : "Normalizes raw profile data from LinkedIn (Legacy)",
+    "script" : "LyoKICogQ29weXJpZ2h0IDIwMjAtMjAyNSBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uLiBBbGwgUmlnaHRzIFJlc2VydmVkCiAqCiAqIFRoaXMgY29kZSBpcyB0byBiZSB1c2VkIGV4Y2x1c2l2ZWx5IGluIGNvbm5lY3Rpb24gd2l0aCBQaW5nIElkZW50aXR5CiAqIENvcnBvcmF0aW9uIHNvZnR3YXJlIG9yIHNlcnZpY2VzLiBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uIG9ubHkgb2ZmZXJzCiAqIHN1Y2ggc29mdHdhcmUgb3Igc2VydmljZXMgdG8gbGVnYWwgZW50aXRpZXMgd2hvIGhhdmUgZW50ZXJlZCBpbnRvIGEKICogYmluZGluZyBsaWNlbnNlIGFncmVlbWVudCB3aXRoIFBpbmcgSWRlbnRpdHkgQ29ycG9yYXRpb24uCiAqLwoKaW1wb3J0IHN0YXRpYyBvcmcuZm9yZ2Vyb2NrLmpzb24uSnNvblZhbHVlLmZpZWxkCmltcG9ydCBzdGF0aWMgb3JnLmZvcmdlcm9jay5qc29uLkpzb25WYWx1ZS5qc29uCmltcG9ydCBzdGF0aWMgb3JnLmZvcmdlcm9jay5qc29uLkpzb25WYWx1ZS5vYmplY3QKCnJldHVybiBqc29uKG9iamVjdCgKICAgICAgICBmaWVsZCgiaWQiLCByYXdQcm9maWxlLmlkKSwKICAgICAgICBmaWVsZCgiZ2l2ZW5OYW1lIiwgcmF3UHJvZmlsZS5maXJzdE5hbWUubG9jYWxpemVkLmdldCgwKSksCiAgICAgICAgZmllbGQoImZhbWlseU5hbWUiLCByYXdQcm9maWxlLmxhc3ROYW1lLmxvY2FsaXplZC5nZXQoMCkpLAogICAgICAgIGZpZWxkKCJwaG90b1VybCIsIHJhd1Byb2ZpbGUucHJvZmlsZVBpY3R1cmUuZGlzcGxheUltYWdlKSwKICAgICAgICBmaWVsZCgiZW1haWwiLCByYXdQcm9maWxlLmVsZW1lbnRzLmdldCgwKS5nZXQoImhhbmRsZX4iKS5lbWFpbEFkZHJlc3MpLAogICAgICAgIGZpZWxkKCJ1c2VybmFtZSIsIHJhd1Byb2ZpbGUuZWxlbWVudHMuZ2V0KDApLmdldCgiaGFuZGxlfiIpLmVtYWlsQWRkcmVzcykpKQ==",
+    "default" : true,
+    "language" : "GROOVY",
+    "context" : "SOCIAL_IDP_PROFILE_TRANSFORMATION",
+    "createdBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
+    "creationDate" : 1433147666269,
+    "lastModifiedBy" : "id=amAdmin,ou=user,ou=am-config",
+    "lastModifiedDate" : 1769884360251,
+    "evaluatorVersion" : "1.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "UsernameCollector",
+    "entityId" : "fc52376b-5313-487c-9922-5ca7c58042c6",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "fc52376b-5313-487c-9922-5ca7c58042c6",
+    "_type" : {
+      "_id" : "UsernameCollectorNode",
+      "name" : "Username Collector",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

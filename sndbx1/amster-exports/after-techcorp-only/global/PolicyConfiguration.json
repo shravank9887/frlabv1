@@ -1,0 +1,40 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "PolicyConfiguration",
+    "entityId" : "PolicyConfiguration",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "resourceComparators" : [ "serviceType=iPlanetAMWebAgentService|class=com.sun.identity.policy.plugins.HttpURLResourceName|wildcard=*|oneLevelWildcard=-*-|delimiter=/|caseSensitive=false" ],
+    "continueEvaluationOnDeny" : false,
+    "realmAliasReferrals" : false,
+    "defaults" : {
+      "userAliasEnabled" : false,
+      "connectionPoolMinimumSize" : 1,
+      "maximumSearchResults" : 100,
+      "policyHeartbeatTimeUnit" : "SECONDS",
+      "searchTimeout" : 5,
+      "usersSearchAttribute" : "uid",
+      "policyHeartbeatInterval" : 10,
+      "usersSearchScope" : "SCOPE_SUB",
+      "subjectsResultTTL" : 10,
+      "checkIfResourceTypeExists" : true,
+      "connectionPoolMaximumSize" : 10,
+      "sslEnabled" : true,
+      "ldapServer" : [ "pingds:1636" ],
+      "bindDn" : "uid=am-identity-bind-account,ou=admins,ou=identities",
+      "mtlsEnabled" : false,
+      "realmSearchFilter" : "(objectclass=sunismanagedorganization)",
+      "usersSearchFilter" : "(objectclass=inetorgperson)",
+      "usersBaseDn" : "ou=identities"
+    },
+    "_type" : {
+      "_id" : "policyconfiguration",
+      "name" : "Policy Configuration",
+      "collection" : false
+    }
+  }
+}

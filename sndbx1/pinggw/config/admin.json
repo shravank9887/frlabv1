@@ -1,0 +1,4 @@
+{
+  "prefix": "openig",
+  "allowedHosts": ["localhost", "pinggw", "ig.example.com", "host.docker.internal"]
+}

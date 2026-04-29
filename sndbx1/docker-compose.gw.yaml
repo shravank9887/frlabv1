@@ -1,0 +1,54 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json
+
+services:
+  pinggw:
+    build:
+      context: ./pinggw
+      dockerfile: Dockerfile
+    image: pinggw:latest
+    container_name: pinggw
+    hostname: pinggw
+    networks:
+      fr-net:
+        aliases:
+          - pinggw
+          - ig.example.com
+    ports:
+      - "8083:8080"   # HTTP (app/routes + admin API at /openig/api/)
+    volumes:
+      # Mount config directory for live route editing (no rebuild needed)
+      - ./pinggw/config:/var/ig/config
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/headers"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+
+  sample-app:
+    image: eclipse-temurin:21-jre-jammy
+    container_name: sample-app
+    hostname: sample-app
+    networks:
+      fr-net:
+        aliases:
+          - sample-app
+    ports:
+      - "8084:8081"
+    volumes:
+      - ./pinggw/software/PingGateway-sample-application-2025.11.1.jar:/opt/app/sample-app.jar:ro
+    command: ["java", "-jar", "/opt/app/sample-app.jar"]
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c 'echo > /dev/tcp/localhost/8081' 2>/dev/null"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+
+# External network (shared with AM/DS stack)
+networks:
+  fr-net:
+    external: true
+    name: fr-net

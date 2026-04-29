@@ -1,0 +1,28 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "ScriptingEngineConfiguration",
+    "entityId" : "engineConfiguration",
+    "pathParams" : {
+      "contexts" : "SAML2_NAMEID_MAPPER"
+    }
+  },
+  "data" : {
+    "_id" : "engineConfiguration",
+    "propertyNamePrefix" : "script",
+    "serverTimeout" : 0,
+    "useSecurityManager" : true,
+    "maxThreads" : 50,
+    "coreThreads" : 10,
+    "whiteList" : [ "org.forgerock.util.promise.PromiseImpl", "org.forgerock.util.promise.Promises$*", "java.lang.Object", "java.lang.Byte", "java.lang.Character", "java.lang.Character$Subset", "java.lang.Character$UnicodeBlock", "java.lang.Float", "java.lang.Long", "java.lang.Math", "java.lang.Number", "java.lang.Short", "java.lang.StrictMath", "java.lang.Void", "java.util.AbstractMap$SimpleImmutableEntry", "java.util.ArrayList", "java.util.ArrayList$Itr", "java.util.Collections$Collections$1", "java.util.Collections$EmptyList", "java.util.Collections$EmptyMap", "java.util.Collections$SingletonList", "java.util.Collections$UnmodifiableRandomAccessList", "java.util.Collections$UnmodifiableCollection$1", "java.util.HashMap", "java.util.HashMap$Entry", "java.util.HashMap$KeyIterator", "java.util.HashMap$KeySet", "java.util.HashMap$Node", "java.util.HashSet", "java.util.LinkedHashMap", "java.util.LinkedHashMap$Entry", "java.util.LinkedHashMap$LinkedEntryIterator", "java.util.LinkedHashMap$LinkedEntrySet", "java.util.LinkedHashSet", "java.util.LinkedList", "java.util.TreeMap", "java.util.TreeSet", "java.net.URI", "com.sun.identity.common.CaseInsensitiveHashMap", "org.forgerock.json.JsonValue", "org.mozilla.javascript.JavaScriptException", "javax.servlet.http.Cookie", "org.xml.sax.InputSource", "java.security.cert.CertificateFactory", "com.iplanet.am.sdk.AMHashMap", "com.iplanet.sso.providers.dpro.SessionSsoToken", "org.forgerock.openam.scripting.api.http.JavaScriptHttpClient", "org.forgerock.openam.scripting.api.PrefixedScriptPropertyResolver", "java.io.PrintWriter", "javax.security.auth.Subject", "jakarta.servlet.http.HttpServletRequestWrapper", "jakarta.servlet.http.HttpServletResponseWrapper", "sun.security.ec.ECPrivateKeyImpl" ],
+    "idleTimeout" : 60,
+    "queueSize" : 10,
+    "blackList" : [ "java.security.AccessController", "java.lang.Class", "java.lang.reflect.*" ],
+    "_type" : {
+      "_id" : "engineConfiguration",
+      "name" : "Scripting engine configuration",
+      "collection" : false
+    }
+  }
+}

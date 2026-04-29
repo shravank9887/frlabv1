@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "HttpClientService",
+    "entityId" : "HttpClientService",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "core" : {
+      "enabled" : false
+    },
+    "defaults" : {
+      "core" : {
+        "enabled" : false
+      }
+    },
+    "_type" : {
+      "_id" : "httpclient",
+      "name" : "Http Client Service",
+      "collection" : false
+    }
+  }
+}

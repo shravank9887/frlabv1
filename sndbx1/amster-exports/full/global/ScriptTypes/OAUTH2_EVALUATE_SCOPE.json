@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "ScriptTypes",
+    "entityId" : "OAUTH2_EVALUATE_SCOPE",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "OAUTH2_EVALUATE_SCOPE",
+    "isHidden" : false,
+    "languages" : [ "JAVASCRIPT", "GROOVY" ],
+    "defaultScript" : "da56fe60-8b38-4c46-a405-d6b306d4b336",
+    "_type" : {
+      "_id" : "contexts",
+      "name" : "scriptContext",
+      "collection" : true
+    }
+  }
+}

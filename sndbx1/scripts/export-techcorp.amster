@@ -1,0 +1,11 @@
+/*
+ * Export techcorp realm configuration
+ * Usage: amster scripts/export-techcorp.amster
+ *
+ * Connects to AM, exports /techcorp realm config to amster-exports/techcorp-latest/
+ * Designed for CI/CD: export after dev changes, commit JSON diff to Git
+ */
+
+connect -i http://pingam:8081/am
+export-config --path amster-exports/techcorp-latest --realm /techcorp
+:exit

@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "ScriptTypes",
+    "entityId" : "OAUTH2_DYNAMIC_CLIENT_REGISTRATION",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "OAUTH2_DYNAMIC_CLIENT_REGISTRATION",
+    "isHidden" : false,
+    "languages" : [ "JAVASCRIPT" ],
+    "defaultScript" : "4b6b7e8e-cf03-46c8-949f-c5742dbd6bc5",
+    "_type" : {
+      "_id" : "contexts",
+      "name" : "scriptContext",
+      "collection" : true
+    }
+  }
+}

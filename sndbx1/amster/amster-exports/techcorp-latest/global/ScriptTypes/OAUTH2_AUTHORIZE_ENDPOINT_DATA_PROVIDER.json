@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "ScriptTypes",
+    "entityId" : "OAUTH2_AUTHORIZE_ENDPOINT_DATA_PROVIDER",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "OAUTH2_AUTHORIZE_ENDPOINT_DATA_PROVIDER",
+    "isHidden" : false,
+    "languages" : [ "JAVASCRIPT", "GROOVY" ],
+    "defaultScript" : "3f93ef6e-e54a-4393-aba1-f322656db28a",
+    "_type" : {
+      "_id" : "contexts",
+      "name" : "scriptContext",
+      "collection" : true
+    }
+  }
+}

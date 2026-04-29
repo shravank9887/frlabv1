@@ -1,0 +1,19 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "SelfServiceTreeConfig",
+    "entityId" : "SelfServiceTreeConfig",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "treeMapping" : { },
+    "enabled" : true,
+    "_type" : {
+      "_id" : "selfServiceTrees",
+      "name" : "Self Service Trees",
+      "collection" : false
+    }
+  }
+}

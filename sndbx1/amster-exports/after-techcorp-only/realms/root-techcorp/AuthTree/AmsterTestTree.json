@@ -1,0 +1,53 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "AuthTree",
+    "entityId" : "AmsterTestTree",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "AmsterTestTree",
+    "entryNodeId" : "1a676268-d15e-4650-9ac8-2125534d6993",
+    "innerTreeOnly" : false,
+    "noSession" : false,
+    "mustRun" : false,
+    "enabled" : true,
+    "uiConfig" : { },
+    "nodes" : {
+      "1a676268-d15e-4650-9ac8-2125534d6993" : {
+        "displayName" : "Page Node",
+        "nodeType" : "PageNode",
+        "x" : 257,
+        "y" : 197.59375,
+        "connections" : {
+          "outcome" : "62981389-73b7-464c-8373-4c4f61a0e377"
+        }
+      },
+      "62981389-73b7-464c-8373-4c4f61a0e377" : {
+        "displayName" : "Data Store Decision",
+        "nodeType" : "DataStoreDecisionNode",
+        "x" : 633,
+        "y" : 277.96875,
+        "connections" : {
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a",
+          "true" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      }
+    },
+    "staticNodes" : {
+      "startNode" : {
+        "x" : 50,
+        "y" : 25
+      },
+      "70e691a5-1e33-4ac3-a356-e7b6d60d92e0" : {
+        "x" : 1285,
+        "y" : 298
+      },
+      "e301438c-0bd0-429c-ab0c-66126501069a" : {
+        "x" : 935,
+        "y" : 149
+      }
+    }
+  }
+}

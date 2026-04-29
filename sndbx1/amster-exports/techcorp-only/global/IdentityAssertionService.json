@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "IdentityAssertionService",
+    "entityId" : "IdentityAssertionService",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "cacheDuration" : 120,
+    "enable" : true,
+    "defaults" : {
+      "cacheDuration" : 120,
+      "enable" : true
+    },
+    "_type" : {
+      "_id" : "IdentityAssertionService",
+      "name" : "Identity Assertion Service",
+      "collection" : false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "Scripts",
+    "entityId" : "4a171d3a-056b-4ab7-a19f-d7e93ddf7ae5",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "4a171d3a-056b-4ab7-a19f-d7e93ddf7ae5",
+    "name" : "SAML2 NameID Mapper Script",
+    "description" : "Default global script for SAML2 NameID Mapper",
+    "script" : "LyoKICogQ29weXJpZ2h0IDIwMjQtMjAyNSBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uLiBBbGwgUmlnaHRzIFJlc2VydmVkCiAqCiAqIFRoaXMgY29kZSBpcyB0byBiZSB1c2VkIGV4Y2x1c2l2ZWx5IGluIGNvbm5lY3Rpb24gd2l0aCBQaW5nIElkZW50aXR5CiAqIENvcnBvcmF0aW9uIHNvZnR3YXJlIG9yIHNlcnZpY2VzLiBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uIG9ubHkgb2ZmZXJzCiAqIHN1Y2ggc29mdHdhcmUgb3Igc2VydmljZXMgdG8gbGVnYWwgZW50aXRpZXMgd2hvIGhhdmUgZW50ZXJlZCBpbnRvIGEKICogYmluZGluZyBsaWNlbnNlIGFncmVlbWVudCB3aXRoIFBpbmcgSWRlbnRpdHkgQ29ycG9yYXRpb24uCiAqLwoKLyoKICogVGhpcyBpcyBhbiBleGFtcGxlIFNBTUwyIE5hbWVJRCBNYXBwZXIgc2NyaXB0LgogKiBUaGlzIHNjcmlwdCBzaG91bGQgcmV0dXJuIGEgc3RyaW5nIHZhbHVlIHJlcHJlc2VudGluZyB0aGUgU0FNTDIgTmFtZUlEIGlkZW50aWZpZXIuCiAqIFRoZSBleGFtcGxlIHNjcmlwdCBkZWxlZ2F0ZXMgdG8gdGhlIGNvbmZpZ3VyZWQgamF2YSBwbHVnaW4gdmlhIHRoZSBuYW1lSURTY3JpcHRIZWxwZXIgYmluZGluZy4KICovCm5hbWVJRFNjcmlwdEhlbHBlci5nZXROYW1lSURWYWx1ZSgpOw==",
+    "default" : true,
+    "language" : "JAVASCRIPT",
+    "context" : "SAML2_NAMEID_MAPPER",
+    "createdBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
+    "creationDate" : 1433147666269,
+    "lastModifiedBy" : "id=amAdmin,ou=user,ou=am-config",
+    "lastModifiedDate" : 1769884360131,
+    "evaluatorVersion" : "2.0"
+  }
+}

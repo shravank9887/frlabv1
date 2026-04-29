@@ -1,0 +1,20 @@
+services:
+  sample-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: sample-app:latest
+    container_name: sample-app
+    hostname: sample-app
+    networks:
+      fr-net:
+        aliases:
+          - sample-app
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+
+networks:
+  fr-net:
+    external: true
+    name: fr-net

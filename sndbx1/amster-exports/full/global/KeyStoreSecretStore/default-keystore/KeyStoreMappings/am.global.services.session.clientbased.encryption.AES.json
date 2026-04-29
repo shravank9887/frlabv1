@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "KeyStoreMappings",
+    "entityId" : "am.global.services.session.clientbased.encryption.AES",
+    "pathParams" : {
+      "KeyStoreSecretStore" : "default-keystore"
+    }
+  },
+  "data" : {
+    "_id" : "am.global.services.session.clientbased.encryption.AES",
+    "secretId" : "am.global.services.session.clientbased.encryption.AES",
+    "aliases" : [ "aestest" ],
+    "_type" : {
+      "_id" : "mappings",
+      "name" : "Mappings",
+      "collection" : true
+    }
+  }
+}

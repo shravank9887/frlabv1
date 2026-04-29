@@ -1,0 +1,44 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "SocialAuthOAuth2Module",
+    "entityId" : "SocialAuthOAuth2Module",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "defaults" : {
+      "accountProvisioning" : {
+        "accountMapperConfiguration" : [ ],
+        "saveAttributesInSession" : true,
+        "anonymousUserName" : "anonymous",
+        "enableRegistrationService" : false,
+        "attributeMapperConfiguration" : [ ],
+        "attributeMappingClasses" : [ ],
+        "promptPasswordFlag" : false,
+        "accountProviderClass" : "org.forgerock.openam.authentication.modules.common.mapping.DefaultAccountProvider",
+        "mapToAnonymousUser" : false,
+        "createAccount" : true
+      },
+      "core" : {
+        "scope" : [ ],
+        "authenticationLevel" : 0,
+        "mixUpMitigation" : false,
+        "ssoProxyUrl" : "http://pingam:8081/am/oauth2c/OAuthProxy.jsp",
+        "logoutBehaviour" : "prompt",
+        "usesBasicAuth" : true
+      },
+      "emailSettings" : {
+        "smtpPort" : "25",
+        "smtpHost" : "localhost",
+        "emailGateway" : "org.forgerock.openam.authentication.modules.oauth2.DefaultEmailGatewayImpl"
+      }
+    },
+    "_type" : {
+      "_id" : "authSocialOAuth2",
+      "name" : "Social Auth OAuth2",
+      "collection" : false
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "SocialIdentityProvidersConfig",
+    "entityId" : "SocialIdentityProvidersConfig",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "enabled" : true,
+    "_type" : {
+      "_id" : "SocialIdentityProviders",
+      "name" : "Social Identity Provider Service",
+      "collection" : false
+    }
+  }
+}

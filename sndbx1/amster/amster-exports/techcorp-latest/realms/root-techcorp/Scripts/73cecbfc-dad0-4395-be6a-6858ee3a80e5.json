@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "Scripts",
+    "entityId" : "73cecbfc-dad0-4395-be6a-6858ee3a80e5",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "73cecbfc-dad0-4395-be6a-6858ee3a80e5",
+    "name" : "Microsoft Profile Normalization",
+    "description" : "Normalizes raw profile data from Microsoft",
+    "script" : "LyoKICogQ29weXJpZ2h0IDIwMjAtMjAyNSBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uLiBBbGwgUmlnaHRzIFJlc2VydmVkCiAqCiAqIFRoaXMgY29kZSBpcyB0byBiZSB1c2VkIGV4Y2x1c2l2ZWx5IGluIGNvbm5lY3Rpb24gd2l0aCBQaW5nIElkZW50aXR5CiAqIENvcnBvcmF0aW9uIHNvZnR3YXJlIG9yIHNlcnZpY2VzLiBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uIG9ubHkgb2ZmZXJzCiAqIHN1Y2ggc29mdHdhcmUgb3Igc2VydmljZXMgdG8gbGVnYWwgZW50aXRpZXMgd2hvIGhhdmUgZW50ZXJlZCBpbnRvIGEKICogYmluZGluZyBsaWNlbnNlIGFncmVlbWVudCB3aXRoIFBpbmcgSWRlbnRpdHkgQ29ycG9yYXRpb24uCiAqLwoKaW1wb3J0IHN0YXRpYyBvcmcuZm9yZ2Vyb2NrLmpzb24uSnNvblZhbHVlLmZpZWxkCmltcG9ydCBzdGF0aWMgb3JnLmZvcmdlcm9jay5qc29uLkpzb25WYWx1ZS5qc29uCmltcG9ydCBzdGF0aWMgb3JnLmZvcmdlcm9jay5qc29uLkpzb25WYWx1ZS5vYmplY3QKCnJldHVybiBqc29uKG9iamVjdCgKICAgICAgICBmaWVsZCgiaWQiLCByYXdQcm9maWxlLmlkKSwKICAgICAgICBmaWVsZCgiZGlzcGxheU5hbWUiLCByYXdQcm9maWxlLmRpc3BsYXlOYW1lKSwKICAgICAgICBmaWVsZCgiZ2l2ZW5OYW1lIiwgcmF3UHJvZmlsZS5naXZlbk5hbWUpLAogICAgICAgIGZpZWxkKCJmYW1pbHlOYW1lIiwgcmF3UHJvZmlsZS5zdXJuYW1lKSwKICAgICAgICBmaWVsZCgiZW1haWwiLCByYXdQcm9maWxlLnVzZXJQcmluY2lwYWxOYW1lKSwKICAgICAgICBmaWVsZCgidXNlcm5hbWUiLCByYXdQcm9maWxlLnVzZXJQcmluY2lwYWxOYW1lKSkp",
+    "default" : true,
+    "language" : "GROOVY",
+    "context" : "SOCIAL_IDP_PROFILE_TRANSFORMATION",
+    "createdBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
+    "creationDate" : 1433147666269,
+    "lastModifiedBy" : "id=amAdmin,ou=user,ou=am-config",
+    "lastModifiedDate" : 1769884360231,
+    "evaluatorVersion" : "1.0"
+  }
+}

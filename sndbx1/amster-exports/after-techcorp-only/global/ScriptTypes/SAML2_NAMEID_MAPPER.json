@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "ScriptTypes",
+    "entityId" : "SAML2_NAMEID_MAPPER",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "SAML2_NAMEID_MAPPER",
+    "isHidden" : false,
+    "languages" : [ "JAVASCRIPT" ],
+    "defaultScript" : "4a171d3a-056b-4ab7-a19f-d7e93ddf7ae5",
+    "_type" : {
+      "_id" : "contexts",
+      "name" : "scriptContext",
+      "collection" : true
+    }
+  }
+}

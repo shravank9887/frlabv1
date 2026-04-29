@@ -1,0 +1,34 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "OATHTokenVerifier",
+    "entityId" : "daafa9c8-af4c-411e-99ba-612f579df98d",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "daafa9c8-af4c-411e-99ba-612f579df98d",
+    "totpTimeInterval" : 30,
+    "totpTimeSteps" : 2,
+    "maximumAllowedClockDrift" : 5,
+    "totpHashAlgorithm" : "HMAC_SHA1",
+    "isRecoveryCodeAllowed" : false,
+    "algorithm" : "TOTP",
+    "hotpWindowSize" : 100,
+    "_type" : {
+      "_id" : "OathTokenVerifierNode",
+      "name" : "OATH Token Verifier",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "successOutcome",
+      "displayName" : "Success"
+    }, {
+      "id" : "failureOutcome",
+      "displayName" : "Failure"
+    }, {
+      "id" : "notRegisteredOutcome",
+      "displayName" : "Not registered"
+    } ]
+  }
+}

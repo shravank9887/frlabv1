@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "AndroidKeyAttestation",
+    "entityId" : "AndroidKeyAttestation",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "cacheDuration" : 24,
+    "defaults" : {
+      "crlUrl" : "https://android.googleapis.com/attestation/status"
+    },
+    "_type" : {
+      "_id" : "androidKeyAttestation",
+      "name" : "Android Key Attestation",
+      "collection" : false
+    }
+  }
+}

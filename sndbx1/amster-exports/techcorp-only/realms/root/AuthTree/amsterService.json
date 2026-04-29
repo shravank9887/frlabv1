@@ -1,0 +1,30 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "AuthTree",
+    "entityId" : "amsterService",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "amsterService",
+    "identityResource" : "null",
+    "innerTreeOnly" : false,
+    "entryNodeId" : "cfcd2084-95d5-35ef-a6e7-d7f9f98764db",
+    "description" : "null",
+    "noSession" : false,
+    "mustRun" : false,
+    "enabled" : true,
+    "uiConfig" : { },
+    "nodes" : {
+      "cfcd2084-95d5-35ef-a6e7-d7f9f98764db" : {
+        "displayName" : "Amster Jwt Decision Node",
+        "nodeType" : "AmsterJwtDecisionNode",
+        "connections" : {
+          "true" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0",
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      }
+    }
+  }
+}

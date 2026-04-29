@@ -1,0 +1,27 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "GlobalScripts",
+    "entityId" : "4a171d3a-056b-4ab7-a19f-d7e93ddf7ae5",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "4a171d3a-056b-4ab7-a19f-d7e93ddf7ae5",
+    "createdBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
+    "evaluatorVersion" : "V2_0",
+    "creationDate" : "1433147666269",
+    "language" : "JAVASCRIPT",
+    "script" : "LyoKICogQ29weXJpZ2h0IDIwMjQtMjAyNSBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uLiBBbGwgUmlnaHRzIFJlc2VydmVkCiAqCiAqIFRoaXMgY29kZSBpcyB0byBiZSB1c2VkIGV4Y2x1c2l2ZWx5IGluIGNvbm5lY3Rpb24gd2l0aCBQaW5nIElkZW50aXR5CiAqIENvcnBvcmF0aW9uIHNvZnR3YXJlIG9yIHNlcnZpY2VzLiBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uIG9ubHkgb2ZmZXJzCiAqIHN1Y2ggc29mdHdhcmUgb3Igc2VydmljZXMgdG8gbGVnYWwgZW50aXRpZXMgd2hvIGhhdmUgZW50ZXJlZCBpbnRvIGEKICogYmluZGluZyBsaWNlbnNlIGFncmVlbWVudCB3aXRoIFBpbmcgSWRlbnRpdHkgQ29ycG9yYXRpb24uCiAqLwoKLyoKICogVGhpcyBpcyBhbiBleGFtcGxlIFNBTUwyIE5hbWVJRCBNYXBwZXIgc2NyaXB0LgogKiBUaGlzIHNjcmlwdCBzaG91bGQgcmV0dXJuIGEgc3RyaW5nIHZhbHVlIHJlcHJlc2VudGluZyB0aGUgU0FNTDIgTmFtZUlEIGlkZW50aWZpZXIuCiAqIFRoZSBleGFtcGxlIHNjcmlwdCBkZWxlZ2F0ZXMgdG8gdGhlIGNvbmZpZ3VyZWQgamF2YSBwbHVnaW4gdmlhIHRoZSBuYW1lSURTY3JpcHRIZWxwZXIgYmluZGluZy4KICovCm5hbWVJRFNjcmlwdEhlbHBlci5nZXROYW1lSURWYWx1ZSgpOw==",
+    "description" : "Default global script for SAML2 NameID Mapper",
+    "lastModifiedBy" : "id=amAdmin,ou=user,ou=am-config",
+    "context" : "SAML2_NAMEID_MAPPER",
+    "lastModifiedDate" : "1769884360131",
+    "name" : "SAML2 NameID Mapper Script",
+    "_type" : {
+      "_id" : "globalScript",
+      "name" : "globalScript",
+      "collection" : true
+    }
+  }
+}

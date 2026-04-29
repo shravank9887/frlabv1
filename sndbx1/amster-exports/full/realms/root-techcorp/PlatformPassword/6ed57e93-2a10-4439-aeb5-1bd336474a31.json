@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "PlatformPassword",
+    "entityId" : "6ed57e93-2a10-4439-aeb5-1bd336474a31",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "6ed57e93-2a10-4439-aeb5-1bd336474a31",
+    "validateInput" : false,
+    "passwordAttribute" : "password",
+    "_type" : {
+      "_id" : "ValidatedPasswordNode",
+      "name" : "Platform Password",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "04-headers",
+  "comment": "Lab 9: Header inspection — shows what PingGateway can inject into backend requests",
+  "condition": "${find(request.uri.path, '^/headers')}",
+  "handler": {
+    "type": "StaticResponseHandler",
+    "config": {
+      "status": 200,
+      "headers": {
+        "Content-Type": ["application/json"]
+      },
+      "entity": "{\"message\": \"PingGateway Header Demo\", \"client_ip\": \"${contexts.client.remoteAddress}\", \"request_path\": \"${request.uri.path}\", \"request_method\": \"${request.method}\", \"user_agent\": \"${request.headers['User-Agent'][0]}\"}"
+    }
+  }
+}

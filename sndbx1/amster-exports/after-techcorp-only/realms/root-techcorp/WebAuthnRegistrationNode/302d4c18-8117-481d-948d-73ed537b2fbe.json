@@ -1,0 +1,48 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "WebAuthnRegistrationNode",
+    "entityId" : "302d4c18-8117-481d-948d-73ed537b2fbe",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "302d4c18-8117-481d-948d-73ed537b2fbe",
+    "trustStoreAlias" : "trustalias",
+    "fidoCertificationLevel" : "OFF",
+    "relyingPartyName" : "ForgeRock",
+    "maxSavedDevices" : 0,
+    "generateRecoveryCodes" : true,
+    "storeAttestationDataInTransientState" : false,
+    "origins" : [ ],
+    "userVerificationRequirement" : "PREFERRED",
+    "postponeDeviceProfileStorage" : false,
+    "excludeCredentials" : false,
+    "requiresResidentKey" : false,
+    "authenticatorAttachment" : "UNSPECIFIED",
+    "asScript" : true,
+    "validateFidoU2fAaguid" : true,
+    "acceptedSigningAlgorithms" : [ "ES256", "RS256" ],
+    "attestationPreference" : "NONE",
+    "enforceRevocationCheck" : false,
+    "timeout" : 60,
+    "_type" : {
+      "_id" : "WebAuthnRegistrationNode",
+      "name" : "WebAuthn Registration Node",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "unsupported",
+      "displayName" : "Unsupported"
+    }, {
+      "id" : "success",
+      "displayName" : "Success"
+    }, {
+      "id" : "failure",
+      "displayName" : "Failure"
+    }, {
+      "id" : "error",
+      "displayName" : "Client Error"
+    } ]
+  }
+}

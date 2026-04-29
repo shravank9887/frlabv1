@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "IoTService",
+    "entityId" : "IoTService",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "defaults" : {
+      "oauthJwtIssuerName" : "forgerock-iot-jwt-issuer",
+      "createOAuthJwtIssuer" : false,
+      "attributeAllowlist" : [ "thingConfig" ],
+      "createOAuthClient" : false,
+      "oauthClientName" : "forgerock-iot-oauth2-client"
+    },
+    "_type" : {
+      "_id" : "iot",
+      "name" : "IoT Service",
+      "collection" : false
+    }
+  }
+}

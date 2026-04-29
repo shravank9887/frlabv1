@@ -1,7 +1,36 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:docs.pingidentity.com)"
+      "WebFetch(domain:docs.pingidentity.com)",
+      "Bash(docker exec:*)",
+      "Bash(docker logs:*)",
+      "Bash(curl:*)",
+      "Bash(python3:*)",
+      "Bash(docker.exe exec:*)",
+      "Bash(curl.exe:*)",
+      "Bash(MSYS_NO_PATHCONV=1 docker.exe exec:*)",
+      "Bash(docker.exe logs:*)",
+      "Bash(python:*)",
+      "Bash(TOKEN=\"Za3DjV7gzYgh4oSpp7XcjK4fRDo.*AAJTSQACMDEAAlNLABxaeHpGeUlYR2R2LzVZdUk5Vm44d01ZOEdJZkE9AAR0eXBlAANDVFMAAlMxAAA.*\")",
+      "Bash(docker.exe restart:*)",
+      "Bash(docker.exe ps:*)",
+      "WebSearch",
+      "Bash(java:*)",
+      "Bash(mvn:*)",
+      "Bash(where:*)",
+      "Bash(jar tf:*)",
+      "Bash(MSYS_NO_PATHCONV=1 docker.exe cp:*)",
+      "Bash(\"/c/Program Files/maven/bin/mvn.cmd\" install:install-file -Dfile=\"C:\\\\PCFolders\\\\Main\\\\Learning\\\\Docker\\\\fr\\\\sndbx1\\\\custom-nodes\\\\lib\\\\openam-shared-8.0.2.jar\" -DgroupId=org.forgerock.am -DartifactId=openam-shared -Dversion=8.0.2 -Dpackaging=jar -DgeneratePom=true -DcreateChecksum=true)",
+      "Bash(\"/c/Program Files/maven/bin/mvn.cmd\" clean package -U)",
+      "Bash(for f in C:/PCFolders/Main/Learning/Docker/fr/sndbx1/custom-nodes/lib/*.jar)",
+      "Bash(do jar tf \"$f\")",
+      "Bash(echo:*)",
+      "Bash(done)",
+      "Bash(\"/c/Program Files/maven/bin/mvn.cmd\" clean package)",
+      "Bash(tree:*)",
+      "Bash(unzip:*)",
+      "Bash(findstr:*)",
+      "Bash(ping:*)"
     ],
     "deny": [],
     "ask": []

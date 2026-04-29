@@ -1,0 +1,27 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "GlobalScripts",
+    "entityId" : "6c49bebe-3a62-11ed-a261-0242ac120002",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "6c49bebe-3a62-11ed-a261-0242ac120002",
+    "createdBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
+    "evaluatorVersion" : "V2_0",
+    "creationDate" : "1433147666269",
+    "language" : "JAVASCRIPT",
+    "script" : "LyoKICogQ29weXJpZ2h0IDIwMjItMjAyNSBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uLiBBbGwgUmlnaHRzIFJlc2VydmVkCiAqCiAqIFRoaXMgY29kZSBpcyB0byBiZSB1c2VkIGV4Y2x1c2l2ZWx5IGluIGNvbm5lY3Rpb24gd2l0aCBQaW5nIElkZW50aXR5CiAqIENvcnBvcmF0aW9uIHNvZnR3YXJlIG9yIHNlcnZpY2VzLiBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uIG9ubHkgb2ZmZXJzCiAqIHN1Y2ggc29mdHdhcmUgb3Igc2VydmljZXMgdG8gbGVnYWwgZW50aXRpZXMgd2hvIGhhdmUgZW50ZXJlZCBpbnRvIGEKICogYmluZGluZyBsaWNlbnNlIGFncmVlbWVudCB3aXRoIFBpbmcgSWRlbnRpdHkgQ29ycG9yYXRpb24uCiAqLwoKLyoKICogVGhpcyBpcyBhbiBleGFtcGxlIGxpYnJhcnkgc2NyaXB0IHdpdGggbWV0aG9kcyB0aGF0IGNhbiBiZSB1c2VkIGluIG90aGVyIHNjcmlwdHMuCiAqIFRvIHJlZmVyZW5jZSBpdCwgdXNlIHRoZSBmb2xsb3dpbmc6CiAqCiAqIHZhciBsaWJyYXJ5ID0gcmVxdWlyZSgiTGlicmFyeSBTY3JpcHQiKTsKICoKICogbGlicmFyeS5sb2dFcnJvcihsb2dnZXIsICJFcnJvciBtZXNzYWdlIik7CiAqIGxpYnJhcnkubG9nRGVidWcobG9nZ2VyLCAiRGVidWcgbWVzc2FnZSIpOwogKi8KCmZ1bmN0aW9uIGxvZ0Vycm9yKGxvZywgZXJyb3JNZXNzYWdlKSB7CiAgbG9nLmVycm9yKGVycm9yTWVzc2FnZSk7Cn0KCmZ1bmN0aW9uIGxvZ1dhcm5pbmcobG9nLCB3YXJuaW5nTWVzc2FnZSkgewogIGxvZy53YXJuKHdhcm5pbmdNZXNzYWdlKTsKfQoKZXhwb3J0cy5sb2dFcnJvciA9IGxvZ0Vycm9yOwpleHBvcnRzLmxvZ1dhcm5pbmcgPSBsb2dXYXJuaW5nOwoKLy8gQWx0ZXJuYXRpdmVseSwgZXhwb3J0cyBjYW4gYmUgZGVjbGFyZWQgdXNpbmcgYW4gaW5saW5lIGFycm93IGZ1bmN0aW9uCgpleHBvcnRzLmxvZ0luZm8gPSAobG9nLCBpbmZvTWVzc2FnZSkgPT4gbG9nLmluZm8oaW5mb01lc3NhZ2UpOwpleHBvcnRzLmxvZ0RlYnVnID0gKGxvZywgZGVidWdNZXNzYWdlKSA9PiBsb2cuZGVidWcoZGVidWdNZXNzYWdlKTs=",
+    "description" : "Default global library script to be referenced from other scripts",
+    "lastModifiedBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
+    "context" : "LIBRARY",
+    "lastModifiedDate" : "1433147666269",
+    "name" : "Library Script",
+    "_type" : {
+      "_id" : "globalScript",
+      "name" : "globalScript",
+      "collection" : true
+    }
+  }
+}

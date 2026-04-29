@@ -1,0 +1,31 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "IDMProvisioning",
+    "entityId" : "IDMProvisioning",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "provisioningClientScopes" : [ "fr:idm:*" ],
+    "provisioningEncryptionMethod" : "A128CBC_HS256",
+    "idmProvisioningClient" : "idm-provisioning",
+    "provisioningEncryptionAlgorithm" : " RSAES_PKCS1_V1_5",
+    "useInternalOAuth2Provider" : true,
+    "jwtSigningCompatibilityMode" : false,
+    "provisioningEncryptionKeyAlias" : "openidm-selfservice-key",
+    "enabled" : true,
+    "idmDeploymentPath" : "openidm",
+    "provisioningSigningAlgorithm" : "HS256",
+    "idmDeploymentUrl" : "http://pingidm:8082",
+    "provisioningSigningKeyAlias" : "selfservice",
+    "configurationCacheDuration" : 0,
+    "provisioningClientSecret" : null,
+    "_type" : {
+      "_id" : "idm-integration",
+      "name" : "IDM Provisioning",
+      "collection" : false
+    }
+  }
+}

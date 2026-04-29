@@ -1,0 +1,104 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "serialNumber" : "urn:uuid:772efa3a-ea10-4567-bf4c-ff309f7ee4b3",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-12-02T13:44:51Z",
+    "tools" : [ {
+      "vendor" : "Mend.io",
+      "name" : "CycloneDX report generator",
+      "version" : "1.1.0"
+    } ],
+    "authors" : [ {
+      "name" : "Organization: ForgeRock"
+    }, {
+      "name" : "Person: ci (ci@pingidentity.com)"
+    } ],
+    "component" : {
+      "type" : "application",
+      "bom-ref" : "bda3a715-26f8-4dc3-9395-c7788dd74877",
+      "name" : "openam-radius-cli - sustaining/8.0.x"
+    },
+    "properties" : [ {
+      "name" : "reportName",
+      "value" : "Product SBOM Report"
+    } ]
+  },
+  "components" : [ {
+    "type" : "library",
+    "bom-ref" : "slf4j-api-2.0.16.jar",
+    "group" : "org.slf4j",
+    "name" : "slf4j-api-2.0.16.jar",
+    "version" : "2.0.16",
+    "description" : "The slf4j API",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "0172931663a09a1fa515567af5fbef00897d3c04"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "QOS.ch,Copyright 2004-2022 QOS.ch Sarl",
+    "purl" : "pkg:maven/org.slf4j/slf4j-api@2.0.16",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://www.slf4j.org"
+    }, {
+      "type" : "distribution",
+      "url" : "http://www.slf4j.org"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "e98b1211-09c0-47ac-9bef-1506f8fa159f"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "openam-radius-common-8.0.2-SNAPSHOT.jar",
+    "group" : "org.forgerock.am",
+    "name" : "openam-radius-common-8.0.2-SNAPSHOT.jar",
+    "version" : "8.0.2-SNAPSHOT",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "29fffedb46060bb99868de9cf39f20b287509f00"
+    } ],
+    "licenses" : [ {
+      "expression" : "NONE"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "5c60f298-a16d-49f4-9841-085235f5b097"
+    }, {
+      "name" : "isProprietary",
+      "value" : "true"
+    } ]
+  } ],
+  "dependencies" : [ {
+    "ref" : "slf4j-api-2.0.16.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "openam-radius-common-8.0.2-SNAPSHOT.jar",
+    "dependsOn" : [ "slf4j-api-2.0.16.jar" ]
+  }, {
+    "ref" : "bda3a715-26f8-4dc3-9395-c7788dd74877",
+    "dependsOn" : [ "openam-radius-common-8.0.2-SNAPSHOT.jar" ]
+  } ]
+}

@@ -1,0 +1,30 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "AuthenticatorOathModule",
+    "entityId" : "AuthenticatorOathModule",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "defaults" : {
+      "totpTimeStepInterval" : 30,
+      "minimumSecretKeyLength" : 32,
+      "frOathOtpMaxRetry" : 3,
+      "totpTimeStepsInWindow" : 2,
+      "hotpWindowSize" : 100,
+      "totpMaximumClockDrift" : 5,
+      "passwordLength" : "6",
+      "truncationOffset" : -1,
+      "addChecksumToOtpEnabled" : "False",
+      "authenticationLevel" : 0,
+      "oathAlgorithm" : "HOTP"
+    },
+    "_type" : {
+      "_id" : "authenticatoroath",
+      "name" : "ForgeRock Authenticator (OATH)",
+      "collection" : false
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "Policies",
+    "entityId" : "DenyWriteOutsideBusinessHours",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "DenyWriteOutsideBusinessHours",
+    "name" : "DenyWriteOutsideBusinessHours",
+    "active" : true,
+    "description" : "",
+    "resources" : [ "http://api.techcorp.com:80/*" ],
+    "actionValues" : {
+      "DELETE" : false,
+      "POST" : false,
+      "PUT" : false
+    },
+    "applicationName" : "TechCorpAPI",
+    "subject" : {
+      "type" : "AuthenticatedUsers"
+    },
+    "condition" : {
+      "type" : "SimpleTime",
+      "startTime" : "18:00",
+      "endTime" : "08:00",
+      "startDay" : "",
+      "endDay" : "",
+      "enforcementTimeZone" : "IST"
+    },
+    "resourceTypeUuid" : "76656a38-5f8e-401b-83aa-4ccb74ce88d2",
+    "lastModifiedBy" : "id=amAdmin,ou=user,ou=am-config",
+    "lastModifiedDate" : "2026-01-31T18:32:38.740Z",
+    "createdBy" : "id=amAdmin,ou=user,ou=am-config",
+    "creationDate" : "2026-01-30T11:19:27.449Z"
+  }
+}

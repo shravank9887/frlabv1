@@ -1,0 +1,32 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "DirectoryConfiguration",
+    "entityId" : "http://pingam:8081/am",
+    "pathParams" : {
+      "serverName" : "http://pingam:8081/am"
+    }
+  },
+  "data" : {
+    "_id" : "01/properties/directoryConfiguration",
+    "directoryConfiguration" : {
+      "minConnectionPool" : 1,
+      "maxConnectionPool" : 10,
+      "mtlsEnabled" : false,
+      "mtlsAlias" : "",
+      "mtlsKeyStoreFile" : "",
+      "mtlsKeyStoreType" : null,
+      "mtlsKeyStorePasswordFile" : "",
+      "mtlsKeyPasswordFile" : "",
+      "bindDn" : "uid=am-config,ou=admins,ou=am-config",
+      "bindPassword" : null
+    },
+    "directoryServers" : [ {
+      "hostName" : "pingds",
+      "serverName" : "Server1",
+      "connectionType" : "SSL",
+      "portNumber" : "1636"
+    } ]
+  }
+}

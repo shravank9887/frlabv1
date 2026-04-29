@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "ScriptTypes",
+    "entityId" : "SCRIPTED_DECISION_NODE",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "SCRIPTED_DECISION_NODE",
+    "isHidden" : false,
+    "languages" : [ "JAVASCRIPT" ],
+    "defaultScript" : "11e1a3c0-038b-4c16-956a-6c9d89328cff",
+    "_type" : {
+      "_id" : "contexts",
+      "name" : "scriptContext",
+      "collection" : true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "01-simple-proxy",
+  "comment": "Lab 5: Basic reverse proxy to sample app — simplest possible route. Rewrites /sample/* to /* on backend.",
+  "condition": "${find(request.uri.path, '^/sample')}",
+  "handler": {
+    "type": "Chain",
+    "config": {
+      "filters": [
+        {
+          "type": "UriPathRewriteFilter",
+          "config": {
+            "mappings": {
+              "/sample": "/"
+            }
+          }
+        }
+      ],
+      "handler": {
+        "type": "ReverseProxyHandler",
+        "config": {
+          "connectionTimeout": "10 seconds",
+          "soTimeout": "10 seconds"
+        },
+        "baseURI": "http://sample-app:8081"
+      }
+    }
+  }
+}

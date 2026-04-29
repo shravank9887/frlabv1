@@ -1,0 +1,32 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "serialNumber" : "urn:uuid:7584cd54-406f-40dd-bb4d-518f444eadd7",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-12-02T13:44:43Z",
+    "tools" : [ {
+      "vendor" : "Mend.io",
+      "name" : "CycloneDX report generator",
+      "version" : "1.1.0"
+    } ],
+    "authors" : [ {
+      "name" : "Organization: ForgeRock"
+    }, {
+      "name" : "Person: ci (ci@pingidentity.com)"
+    } ],
+    "component" : {
+      "type" : "application",
+      "bom-ref" : "2fb410e6-145e-47d9-9e91-dc62dd4f0f31",
+      "name" : "SAST"
+    },
+    "properties" : [ {
+      "name" : "reportName",
+      "value" : "Product SBOM Report"
+    } ]
+  },
+  "dependencies" : [ {
+    "ref" : "2fb410e6-145e-47d9-9e91-dc62dd4f0f31",
+    "dependsOn" : [ ]
+  } ]
+}

@@ -1,0 +1,38 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "UmaProvider",
+    "entityId" : "UmaProvider",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "umaPolicyUpgradeCompatibilityMode" : false,
+    "defaults" : {
+      "generalSettings" : {
+        "pendingRequestsEnabled" : true,
+        "permissionTicketLifetime" : 120,
+        "grantRptConditions" : [ "REQUEST_PARTIAL", "REQUEST_NONE", "TICKET_PARTIAL" ],
+        "deleteResourceSetsOnDeleteRS" : true,
+        "grantResourceOwnerImplicitConsent" : true,
+        "emailRequestingPartyOnPendingRequestApproval" : true,
+        "userProfileLocaleAttribute" : "inetOrgPerson",
+        "resharingMode" : "IMPLICIT",
+        "deletePoliciesOnDeleteRS" : true,
+        "emailResourceOwnerOnPendingRequestCreation" : true,
+        "warnIfConfusablesInUsername" : false
+      },
+      "claimsGathering" : {
+        "pctLifetime" : 604800,
+        "claimsGatheringService" : "[Empty]",
+        "interactiveClaimsGatheringEnabled" : false
+      }
+    },
+    "_type" : {
+      "_id" : "uma",
+      "name" : "UMA Provider",
+      "collection" : false
+    }
+  }
+}

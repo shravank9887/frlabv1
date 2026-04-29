@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "ScriptTypes",
+    "entityId" : "PINGONE_VERIFY_COMPLETION_DECISION_NODE",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "PINGONE_VERIFY_COMPLETION_DECISION_NODE",
+    "isHidden" : false,
+    "languages" : [ "JAVASCRIPT" ],
+    "defaultScript" : "[Empty]",
+    "_type" : {
+      "_id" : "contexts",
+      "name" : "scriptContext",
+      "collection" : true
+    }
+  }
+}

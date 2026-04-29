@@ -1,0 +1,19 @@
+{
+  "metadata" : {
+    "realm" : "/partner",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "CircleOfTrust",
+    "entityId" : "partner-cot",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "partner-cot",
+    "trustedProviders" : [ "partner-sp|saml2", "techcorp-idp|saml2" ],
+    "status" : "active",
+    "_type" : {
+      "_id" : "circlesoftrust",
+      "name" : "Circle of Trust",
+      "collection" : true
+    }
+  }
+}

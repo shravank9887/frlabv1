@@ -1,0 +1,56 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "Session",
+    "entityId" : "Session",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "quotas" : {
+      "denyLoginWhenRepoDown" : "NO",
+      "iplanet-am-session-enable-session-constraint" : "OFF",
+      "behaviourWhenQuotaExhausted" : "org.forgerock.openam.session.service.DestroyNextExpiringAction",
+      "quotaConstraintMaxWaitTime" : 6000
+    },
+    "stateless" : {
+      "openam-session-stateless-blacklist-cache-size" : 10000,
+      "statelessLogoutByUser" : false,
+      "statelessEncryptionType" : "DIRECT",
+      "openam-session-stateless-logout-poll-interval" : 60,
+      "statelessEncryptionAesKey" : null,
+      "statelessSigningType" : "HS256",
+      "openam-session-stateless-blacklist-poll-interval" : 10,
+      "statelessCompressionType" : "NONE",
+      "statelessSigningHmacSecret" : null,
+      "openam-session-stateless-blacklist-purge-delay" : 1,
+      "openam-session-stateless-enable-session-blacklisting" : false
+    },
+    "general" : {
+      "latestAccessTimeUpdateFrequency" : 60,
+      "timeoutHandlers" : [ ],
+      "dnRestrictionOnly" : false,
+      "crossUpgradeReferenceFlag" : false
+    },
+    "notifications" : {
+      "notificationPropertyList" : [ ],
+      "propertyChangeNotifications" : "OFF"
+    },
+    "search" : {
+      "sessionListRetrievalTimeout" : 5,
+      "maxSessionListSize" : 120
+    },
+    "dynamic" : {
+      "maxIdleTime" : 30,
+      "maxSessionTime" : 120,
+      "quotaLimit" : 5,
+      "maxCachingTime" : 3
+    },
+    "_type" : {
+      "_id" : "session",
+      "name" : "Session",
+      "collection" : false
+    }
+  }
+}

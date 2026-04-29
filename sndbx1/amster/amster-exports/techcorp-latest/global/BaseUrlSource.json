@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "BaseUrlSource",
+    "entityId" : "BaseUrlSource",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "defaults" : {
+      "source" : "FIXED_VALUE",
+      "fixedValue" : "http://pingam:8081/am",
+      "contextPath" : "/am"
+    },
+    "_type" : {
+      "_id" : "baseurl",
+      "name" : "Base URL Source",
+      "collection" : false
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "SaeModule",
+    "entityId" : "SAE",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "SAE",
+    "authenticationLevel" : 0,
+    "_type" : {
+      "_id" : "sae",
+      "name" : "SAE",
+      "collection" : true
+    }
+  }
+}

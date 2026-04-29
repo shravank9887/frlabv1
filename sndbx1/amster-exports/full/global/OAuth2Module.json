@@ -1,0 +1,42 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "OAuth2Module",
+    "entityId" : "OAuth2Module",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "defaults" : {
+      "mailGatewayClass" : "org.forgerock.openam.authentication.modules.oauth2.DefaultEmailGatewayImpl",
+      "mapToAnonymousUser" : false,
+      "scope" : "email,read_stream",
+      "userProfileServiceUrl" : "https://graph.facebook.com/me",
+      "ssoProxyUrl" : "http://pingam:8081/am/oauth2c/OAuthProxy.jsp",
+      "authenticationEndpointUrl" : "https://www.facebook.com/dialog/oauth",
+      "createAccount" : true,
+      "attributeMapperConfiguration" : [ "first_name=givenname", "id=facebook-id", "email=facebook-email", "last_name=facebook-lname", "first_name=facebook-fname", "name=cn", "email=mail", "last_name=sn" ],
+      "accountMapperConfiguration" : [ "id=facebook-id", "email=mail" ],
+      "saveAttributesInSession" : true,
+      "logoutBehaviour" : "prompt",
+      "anonymousUserName" : "anonymous",
+      "mixUpMitigation" : false,
+      "smtpHostName" : "localhost",
+      "promptForPassword" : true,
+      "accountMapperClass" : "org.forgerock.openam.authentication.modules.common.mapping.JsonAttributeMapper",
+      "accountProviderClass" : "org.forgerock.openam.authentication.modules.common.mapping.DefaultAccountProvider",
+      "authenticationLevel" : 0,
+      "accessTokenParameterName" : "access_token",
+      "accessTokenEndpointUrl" : "https://graph.facebook.com/oauth/access_token",
+      "attributeMappingClasses" : [ "org.forgerock.openam.authentication.modules.common.mapping.JsonAttributeMapper" ],
+      "smtpHostPort" : "25",
+      "smtpFromAddress" : "info@forgerock.com"
+    },
+    "_type" : {
+      "_id" : "oauth2",
+      "name" : "Legacy OAuth 2.0 / OpenID Connect",
+      "collection" : false
+    }
+  }
+}

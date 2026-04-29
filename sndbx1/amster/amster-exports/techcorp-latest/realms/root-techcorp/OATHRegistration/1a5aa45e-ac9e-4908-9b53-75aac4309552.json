@@ -1,0 +1,37 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "OATHRegistration",
+    "entityId" : "1a5aa45e-ac9e-4908-9b53-75aac4309552",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "1a5aa45e-ac9e-4908-9b53-75aac4309552",
+    "addChecksum" : false,
+    "bgColor" : "032b75",
+    "generateRecoveryCodes" : true,
+    "truncationOffset" : -1,
+    "algorithm" : "TOTP",
+    "postponeDeviceProfileStorage" : false,
+    "totpTimeInterval" : 30,
+    "passwordLength" : "SIX_DIGITS",
+    "scanQRCodeMessage" : { },
+    "accountName" : "USERNAME",
+    "issuer" : "TechCorp",
+    "minSharedSecretLength" : 32,
+    "totpHashAlgorithm" : "HMAC_SHA1",
+    "_type" : {
+      "_id" : "OathRegistrationNode",
+      "name" : "OATH Registration",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "successOutcome",
+      "displayName" : "Success"
+    }, {
+      "id" : "failureOutcome",
+      "displayName" : "Failure"
+    } ]
+  }
+}

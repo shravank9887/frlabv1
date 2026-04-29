@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "ScriptTypes",
+    "entityId" : "SAML2_IDP_ADAPTER",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "SAML2_IDP_ADAPTER",
+    "isHidden" : false,
+    "languages" : [ "JAVASCRIPT", "GROOVY" ],
+    "defaultScript" : "248b8a56-df81-4b1b-b4ba-45d994f6504c",
+    "_type" : {
+      "_id" : "contexts",
+      "name" : "scriptContext",
+      "collection" : true
+    }
+  }
+}

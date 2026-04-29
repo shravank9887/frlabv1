@@ -1,0 +1,29 @@
+{
+  "metadata" : {
+    "realm" : "/partner",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "Applications",
+    "entityId" : "oauth2Scopes",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "oauth2Scopes",
+    "resourceTypeUuids" : [ "d60b7a71-1dc6-44a5-8e48-e4b9d92dee8b" ],
+    "conditions" : [ "Script", "AMIdentityMembership", "IPv6", "SimpleTime", "IPv4", "LEAuthLevel", "LDAPFilter", "AuthScheme", "Session", "AND", "AuthenticateToRealm", "ResourceEnvIP", "SessionProperty", "OAuth2Scope", "OR", "Transaction", "NOT", "AuthLevel", "AuthenticateToService" ],
+    "creationDate" : 1578580064992,
+    "name" : "oauth2Scopes",
+    "displayName" : "Default OAuth2 Scopes Policy Set",
+    "description" : "The built-in Application used by the OAuth2 scope authorization process.",
+    "attributeNames" : [ ],
+    "createdBy" : "id=dsameuser,ou=user,ou=am-config",
+    "editable" : true,
+    "resourceComparator" : null,
+    "lastModifiedBy" : "id=dsameuser,ou=user,ou=am-config",
+    "lastModifiedDate" : 1595479030629,
+    "applicationType" : "iPlanetAMWebAgentService",
+    "entitlementCombiner" : "DenyOverride",
+    "subjects" : [ "AuthenticatedUsers", "NOT", "Identity", "OR", "AND", "NONE", "JwtClaim" ],
+    "saveIndex" : null,
+    "searchIndex" : null
+  }
+}

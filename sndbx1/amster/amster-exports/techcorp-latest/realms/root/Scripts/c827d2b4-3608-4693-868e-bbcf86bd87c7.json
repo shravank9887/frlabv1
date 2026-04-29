@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "Scripts",
+    "entityId" : "c827d2b4-3608-4693-868e-bbcf86bd87c7",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "c827d2b4-3608-4693-868e-bbcf86bd87c7",
+    "name" : "Scripted Module - Client Side",
+    "description" : "Default global script for client side Scripted Authentication Module",
+    "script" : "LyoKICogQ29weXJpZ2h0IDIwMTYtMjAyNSBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uLiBBbGwgUmlnaHRzIFJlc2VydmVkCiAqCiAqIFRoaXMgY29kZSBpcyB0byBiZSB1c2VkIGV4Y2x1c2l2ZWx5IGluIGNvbm5lY3Rpb24gd2l0aCBQaW5nIElkZW50aXR5CiAqIENvcnBvcmF0aW9uIHNvZnR3YXJlIG9yIHNlcnZpY2VzLiBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uIG9ubHkgb2ZmZXJzCiAqIHN1Y2ggc29mdHdhcmUgb3Igc2VydmljZXMgdG8gbGVnYWwgZW50aXRpZXMgd2hvIGhhdmUgZW50ZXJlZCBpbnRvIGEKICogYmluZGluZyBsaWNlbnNlIGFncmVlbWVudCB3aXRoIFBpbmcgSWRlbnRpdHkgQ29ycG9yYXRpb24uCiAqLwovKiBEZWZhdWx0IEF1dGhlbnRpY2F0aW9uIGNsaWVudCBzaWRlIHNjcmlwdCB0byB1c2UgYXMgYSB0ZW1wbGF0ZSBmb3IgbmV3IHNjcmlwdHMgKi8=",
+    "default" : true,
+    "language" : "JAVASCRIPT",
+    "context" : "AUTHENTICATION_CLIENT_SIDE",
+    "createdBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
+    "creationDate" : 1433147666269,
+    "lastModifiedBy" : "id=amAdmin,ou=user,ou=am-config",
+    "lastModifiedDate" : 1769884360335,
+    "evaluatorVersion" : "1.0"
+  }
+}

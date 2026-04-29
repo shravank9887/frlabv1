@@ -1,0 +1,89 @@
+{
+  "name": "03-oauth2-rs",
+  "comment": "Lab 8: OAuth2 Resource Server — validates bearer tokens via AM introspection",
+  "condition": "${find(request.uri.path, '^/api')}",
+  "heap": [
+    {
+      "name": "AmService-1",
+      "type": "AmService",
+      "config": {
+        "url": "http://pingam:8080/am",
+        "realm": "/techcorp",
+        "agent": {
+          "username": "ig_agent",
+          "passwordSecretId": "agent.password"
+        },
+        "secretsProvider": {
+          "type": "Base64EncodedSecretStore",
+          "config": {
+            "secrets": {
+              "agent.password": "Y2hhbmdlaXQ="
+            }
+          }
+        }
+      }
+    }
+  ],
+  "handler": {
+    "type": "Chain",
+    "config": {
+      "filters": [
+        {
+          "type": "OAuth2ResourceServerFilter",
+          "config": {
+            "scopes": ["profile"],
+            "requireHttps": false,
+            "accessTokenResolver": {
+              "type": "TokenIntrospectionAccessTokenResolver",
+              "config": {
+                "amService": "AmService-1",
+                "providerHandler": {
+                  "type": "Chain",
+                  "config": {
+                    "filters": [
+                      {
+                        "type": "HttpBasicAuthenticationClientFilter",
+                        "config": {
+                          "username": "ig_agent",
+                          "passwordSecretId": "agent.password",
+                          "secretsProvider": {
+                            "type": "Base64EncodedSecretStore",
+                            "config": {
+                              "secrets": {
+                                "agent.password": "Y2hhbmdlaXQ="
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "handler": "ForgeRockClientHandler"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "HeaderFilter",
+          "config": {
+            "messageType": "REQUEST",
+            "add": {
+              "X-OAuth2-Subject": ["${contexts.oauth2.accessToken.info.sub}"],
+              "X-OAuth2-Scopes": ["${contexts.oauth2.accessToken.scopes}"],
+              "X-OAuth2-Client": ["${contexts.oauth2.accessToken.info.client_id}"]
+            }
+          }
+        }
+      ],
+      "handler": {
+        "type": "ReverseProxyHandler",
+        "config": {
+          "connectionTimeout": "10 seconds",
+          "soTimeout": "10 seconds"
+        },
+        "baseURI": "http://sample-app:8081"
+      }
+    }
+  }
+}

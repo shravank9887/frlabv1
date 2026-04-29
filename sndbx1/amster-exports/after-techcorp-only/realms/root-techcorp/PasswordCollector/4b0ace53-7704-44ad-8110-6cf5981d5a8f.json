@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "PasswordCollector",
+    "entityId" : "4b0ace53-7704-44ad-8110-6cf5981d5a8f",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "4b0ace53-7704-44ad-8110-6cf5981d5a8f",
+    "_type" : {
+      "_id" : "PasswordCollectorNode",
+      "name" : "Password Collector",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

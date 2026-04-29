@@ -1,0 +1,21 @@
+# Mailpit - lightweight SMTP mock for testing AM email flows
+# Usage: docker compose -f docker-compose.mailpit.yaml up -d
+
+services:
+  mailpit:
+    image: axllent/mailpit:latest
+    container_name: mailpit
+    hostname: mailpit
+    networks:
+      fr-net:
+        aliases:
+          - mailpit
+    ports:
+      - "8025:8025"   # Web UI - http://localhost:8025
+      - "1025:1025"   # SMTP
+    restart: unless-stopped
+
+networks:
+  fr-net:
+    external: true
+    name: fr-net

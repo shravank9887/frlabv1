@@ -1,0 +1,42 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "SocialAuthTwitterModule",
+    "entityId" : "SocialAuthTwitterModule",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "defaults" : {
+      "accountProvisioning" : {
+        "accountMapperConfiguration" : [ "id_str=uid" ],
+        "accountProviderClass" : "org.forgerock.openam.authentication.modules.common.mapping.DefaultAccountProvider",
+        "saveAttributesInSession" : true,
+        "anonymousUserName" : "anonymous",
+        "enableRegistrationService" : false,
+        "mapToAnonymousUser" : false,
+        "attributeMapperConfiguration" : [ "full_name=sn", "username=cn", "id_str=uid", "username=givenName" ],
+        "createAccount" : true,
+        "attributeMappingClasses" : [ "org.forgerock.openam.authentication.modules.common.mapping.JsonAttributeMapper|uid|twitter-" ],
+        "accountMapperClass" : "org.forgerock.openam.authentication.modules.common.mapping.JsonAttributeMapper|*|twitter-"
+      },
+      "core" : {
+        "ssoProxyUrl" : "http://pingam:8081/am/oauth2c/OAuthProxy.jsp",
+        "subjectProperty" : "id_str",
+        "authorizeEndpoint" : "https://api.twitter.com/oauth/authenticate",
+        "authenticationLevel" : 0,
+        "requestTokenEndpoint" : "https://api.twitter.com/oauth/request_token",
+        "userInfoEndpoint" : "https://api.twitter.com/1.1/account/verify_credentials.json",
+        "provider" : "Twitter",
+        "tokenEndpoint" : "https://api.twitter.com/oauth/access_token",
+        "usesBasicAuth" : false
+      }
+    },
+    "_type" : {
+      "_id" : "authSocialTwitter",
+      "name" : "Social Auth Twitter",
+      "collection" : false
+    }
+  }
+}

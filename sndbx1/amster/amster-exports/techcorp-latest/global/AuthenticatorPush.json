@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "AuthenticatorPush",
+    "entityId" : "AuthenticatorPush",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "defaults" : {
+      "authenticatorPushDeviceSettingsEncryptionKeystorePassword" : null,
+      "authenticatorPushDeviceSettingsEncryptionScheme" : "NONE",
+      "authenticatorPushDeviceSettingsEncryptionKeystoreType" : "JKS",
+      "pushAttrName" : "pushDeviceProfiles",
+      "authenticatorPushSkippableName" : "push2faEnabled"
+    },
+    "_type" : {
+      "_id" : "authenticatorPushService",
+      "name" : "ForgeRock Authenticator (Push) Service",
+      "collection" : false
+    }
+  }
+}

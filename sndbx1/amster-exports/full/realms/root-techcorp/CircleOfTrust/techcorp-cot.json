@@ -1,0 +1,19 @@
+{
+  "metadata" : {
+    "realm" : "/techcorp",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "CircleOfTrust",
+    "entityId" : "techcorp-cot",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "techcorp-cot",
+    "trustedProviders" : [ "partner-sp|saml2", "techcorp-idp|saml2" ],
+    "status" : "active",
+    "_type" : {
+      "_id" : "circlesoftrust",
+      "name" : "Circle of Trust",
+      "collection" : true
+    }
+  }
+}

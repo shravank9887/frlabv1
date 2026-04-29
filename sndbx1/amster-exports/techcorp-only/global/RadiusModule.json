@@ -1,0 +1,26 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "RadiusModule",
+    "entityId" : "RadiusModule",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "defaults" : {
+      "serverPortNumber" : 1645,
+      "secondaryRadiusServers" : [ "127.0.0.1" ],
+      "stopRadiusbindAfterInmemoryLockedEnabled" : false,
+      "authenticationLevel" : 0,
+      "serverTimeout" : 3,
+      "primaryRadiusServers" : [ "127.0.0.1" ],
+      "healthCheckInterval" : 5
+    },
+    "_type" : {
+      "_id" : "radius",
+      "name" : "RADIUS",
+      "collection" : false
+    }
+  }
+}

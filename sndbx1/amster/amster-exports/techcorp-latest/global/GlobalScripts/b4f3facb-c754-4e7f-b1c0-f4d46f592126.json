@@ -1,0 +1,27 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "GlobalScripts",
+    "entityId" : "b4f3facb-c754-4e7f-b1c0-f4d46f592126",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "b4f3facb-c754-4e7f-b1c0-f4d46f592126",
+    "createdBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
+    "evaluatorVersion" : "V1_0",
+    "creationDate" : "1433147666269",
+    "language" : "GROOVY",
+    "script" : "LyoKICogQ29weXJpZ2h0IDIwMjQtMjAyNSBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uLiBBbGwgUmlnaHRzIFJlc2VydmVkCiAqCiAqIFRoaXMgY29kZSBpcyB0byBiZSB1c2VkIGV4Y2x1c2l2ZWx5IGluIGNvbm5lY3Rpb24gd2l0aCBQaW5nIElkZW50aXR5CiAqIENvcnBvcmF0aW9uIHNvZnR3YXJlIG9yIHNlcnZpY2VzLiBQaW5nIElkZW50aXR5IENvcnBvcmF0aW9uIG9ubHkgb2ZmZXJzCiAqIHN1Y2ggc29mdHdhcmUgb3Igc2VydmljZXMgdG8gbGVnYWwgZW50aXRpZXMgd2hvIGhhdmUgZW50ZXJlZCBpbnRvIGEKICogYmluZGluZyBsaWNlbnNlIGFncmVlbWVudCB3aXRoIFBpbmcgSWRlbnRpdHkgQ29ycG9yYXRpb24uCiAqLwoKCmltcG9ydCBzdGF0aWMgb3JnLmZvcmdlcm9jay5qc29uLkpzb25WYWx1ZS5maWVsZAppbXBvcnQgc3RhdGljIG9yZy5mb3JnZXJvY2suanNvbi5Kc29uVmFsdWUuanNvbgppbXBvcnQgc3RhdGljIG9yZy5mb3JnZXJvY2suanNvbi5Kc29uVmFsdWUub2JqZWN0CgpyZXR1cm4ganNvbihvYmplY3QoCiAgICAgICAgZmllbGQoImlkIiwgcmF3UHJvZmlsZS5zdWIpLAogICAgICAgIGZpZWxkKCJkaXNwbGF5TmFtZSIsIHJhd1Byb2ZpbGUubmFtZSksCiAgICAgICAgZmllbGQoImdpdmVuTmFtZSIsIHJhd1Byb2ZpbGUuZ2l2ZW5fbmFtZSksCiAgICAgICAgZmllbGQoImZhbWlseU5hbWUiLCByYXdQcm9maWxlLmZhbWlseV9uYW1lKSwKICAgICAgICBmaWVsZCgicGhvdG9VcmwiLCByYXdQcm9maWxlLnBpY3R1cmUpLAogICAgICAgIGZpZWxkKCJlbWFpbCIsIHJhd1Byb2ZpbGUuZW1haWwpLAogICAgICAgIGZpZWxkKCJlbWFpbFZlcmlmaWVkIiwgcmF3UHJvZmlsZS5lbWFpbF92ZXJpZmllZCksCiAgICAgICAgZmllbGQoInVzZXJuYW1lIiwgcmF3UHJvZmlsZS5lbWFpbCkpKQ==",
+    "description" : "Normalizes raw profile data from LinkedIn",
+    "lastModifiedBy" : "id=amAdmin,ou=user,ou=am-config",
+    "context" : "SOCIAL_IDP_PROFILE_TRANSFORMATION",
+    "lastModifiedDate" : "1769884360298",
+    "name" : "LinkedIn Profile Normalization",
+    "_type" : {
+      "_id" : "globalScript",
+      "name" : "globalScript",
+      "collection" : true
+    }
+  }
+}

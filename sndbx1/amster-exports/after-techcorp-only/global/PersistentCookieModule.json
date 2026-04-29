@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "PersistentCookieModule",
+    "entityId" : "PersistentCookieModule",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "defaults" : {
+      "useSecureCookie" : true,
+      "cookieName" : "session-jwt",
+      "enforceClientIP" : false,
+      "idleTimeout" : 5,
+      "maxLife" : 5,
+      "useHttpOnlyCookie" : true
+    },
+    "_type" : {
+      "_id" : "persistentcookie",
+      "name" : "Persistent Cookie",
+      "collection" : false
+    }
+  }
+}

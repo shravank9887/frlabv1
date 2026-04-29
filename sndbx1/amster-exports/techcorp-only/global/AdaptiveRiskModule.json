@@ -1,0 +1,76 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "AdaptiveRiskModule",
+    "entityId" : "AdaptiveRiskModule",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "defaults" : {
+      "iprange" : {
+        "ipRangeScore" : 1,
+        "ipRangeCheckEnabled" : false,
+        "ipRange" : [ "10.0.0.0/24" ],
+        "invertIPRangeScoreEnabled" : false
+      },
+      "knowncookie" : {
+        "invertKnownCookieScore" : false,
+        "knownCookieScore" : 1,
+        "createKnownCookieOnSuccessfulLogin" : false,
+        "knownCookieCheckEnabled" : false
+      },
+      "iphistory" : {
+        "ipHistoryCheckEnabled" : false,
+        "ipHistoryCount" : 5,
+        "ipHistoryScore" : 1,
+        "ipHistoryProfileAttribute" : "iphistory",
+        "saveSuccessfulIP" : false,
+        "invertIPHistoryScore" : false
+      },
+      "geolocation" : {
+        "geolocationScore" : 1,
+        "geolocationCheckEnabled" : false,
+        "invertGeolocationScore" : false
+      },
+      "authfailed" : {
+        "failureScore" : 1,
+        "failedAuthenticationCheckEnabled" : false,
+        "invertFailureScore" : false
+      },
+      "attributecheck" : {
+        "profileRiskAttributeScore" : 1,
+        "invertProfileRiskAttributeScore" : false,
+        "profileRiskAttributeCheckEnabled" : false
+      },
+      "lastlogin" : {
+        "saveLastLoginTimeOnSuccessfulLogin" : false,
+        "invertTimeSinceLastLoginScore" : false,
+        "timeSinceLastLoginScore" : 1,
+        "timeSinceLastLoginCheckEnabled" : false
+      },
+      "general" : {
+        "authenticationLevel" : 0,
+        "riskThreshold" : 1
+      },
+      "devicecookie" : {
+        "deviceCookieName" : "Device",
+        "deviceCookieScore" : 1,
+        "invertDeviceCookieScore" : false,
+        "deviceCookieCheckEnabled" : false,
+        "saveDeviceCookieValueOnSuccessfulLogin" : false
+      },
+      "requestheader" : {
+        "requestHeaderCheckEnabled" : false,
+        "invertRequestHeaderScore" : false,
+        "requestHeaderScore" : 1
+      }
+    },
+    "_type" : {
+      "_id" : "adaptiverisk",
+      "name" : "Adaptive Risk ",
+      "collection" : false
+    }
+  }
+}
